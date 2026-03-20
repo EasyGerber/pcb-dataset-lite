@@ -1,0 +1,1144 @@
+{
+  "egb": 1,
+  "name": "DiscoDanceFloorV1_BusTerminator__raw",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 18.605500000000006,
+      "height": 17.017999999999986,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 147.701,
+          "y": 83.2485
+        },
+        {
+          "x": 147.828,
+          "y": 83.2485
+        },
+        {
+          "x": 166.3065,
+          "y": 83.2485
+        },
+        {
+          "x": 166.3065,
+          "y": 100.2665
+        },
+        {
+          "x": 147.701,
+          "y": 100.2665
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/DiscoDanceFloorV1_BusTerminator__raw/C1",
+        "type": "capacitor",
+        "designator": "C1",
+        "value": "1.0uF",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 161.4805,
+        "y": 94.5515,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "VCC",
+            "x": -1,
+            "y": 0,
+            "width": 1,
+            "height": 1.25,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 1,
+            "y": 0,
+            "width": 1,
+            "height": 1.25,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3,
+        "bodyHeight": 1.25,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/DiscoDanceFloorV1_BusTerminator__raw/C2",
+        "type": "capacitor",
+        "designator": "C2",
+        "value": "2.2uF",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 161.417,
+        "y": 89.027,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+5V",
+            "x": -1,
+            "y": 0,
+            "width": 1,
+            "height": 1.25,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 1,
+            "y": 0,
+            "width": 1,
+            "height": 1.25,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3,
+        "bodyHeight": 1.25,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/DiscoDanceFloorV1_BusTerminator__raw/R1",
+        "type": "resistor",
+        "designator": "R1",
+        "value": "120",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 149.7965,
+        "y": 85.2805,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J1-Pad2)",
+            "x": -0.95,
+            "y": 0,
+            "width": 0.7,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J1-Pad1)",
+            "x": 0.95,
+            "y": 0,
+            "width": 0.7,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.6,
+        "bodyHeight": 1.3,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/DiscoDanceFloorV1_BusTerminator__raw/R2",
+        "type": "resistor",
+        "designator": "R2",
+        "value": "20k",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 164.9095,
+        "y": 91.7575,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+5V",
+            "x": -0.95,
+            "y": 0,
+            "width": 0.7,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J1-Pad4)",
+            "x": 0.95,
+            "y": 0,
+            "width": 0.7,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.6,
+        "bodyHeight": 1.3,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/DiscoDanceFloorV1_BusTerminator__raw/U1",
+        "type": "ic",
+        "designator": "U1",
+        "value": "AP2204K-5.0TRG1",
+        "package": "SOT-23",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 161.4805,
+        "y": 91.7575,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "VCC",
+            "x": -1.1,
+            "y": -0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": -1.1,
+            "y": 0,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "VCC",
+            "x": -1.1,
+            "y": 0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(U1-Pad4)",
+            "x": 1.1,
+            "y": 0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "+5V",
+            "x": 1.1,
+            "y": -0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.26,
+        "bodyHeight": 2.55,
+        "bodyHeight3D": 1.1
+      },
+      {
+        "id": "PCBench/PCBench/DiscoDanceFloorV1_BusTerminator__raw/J1",
+        "type": "connector",
+        "designator": "J1",
+        "value": "RJ45",
+        "package": "RJ45_8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 158.1785,
+        "y": 91.7575,
+        "rotation": 270,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "Hole",
+            "signalName": "Hole",
+            "netName": "",
+            "x": 5.93852,
+            "y": 0,
+            "width": 3.64998,
+            "height": 3.64998,
+            "shape": "circle",
+            "type": "npth",
+            "layer": "top",
+            "drillSize": 3.2512
+          },
+          {
+            "id": "Hole",
+            "signalName": "Hole",
+            "netName": "",
+            "x": -5.9309,
+            "y": 0,
+            "width": 3.64998,
+            "height": 3.64998,
+            "shape": "circle",
+            "type": "npth",
+            "layer": "top",
+            "drillSize": 3.2512
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J1-Pad1)",
+            "x": -4.445,
+            "y": 6.35,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.89916
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J1-Pad2)",
+            "x": -3.175,
+            "y": 8.89,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.89916
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J1-Pad3)",
+            "x": -1.905,
+            "y": 6.35,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.89916
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(J1-Pad4)",
+            "x": -0.635,
+            "y": 8.89,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.89916
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "GND",
+            "x": 0.635,
+            "y": 6.35,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.89916
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "GND",
+            "x": 1.905,
+            "y": 8.89,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.89916
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "VCC",
+            "x": 3.175,
+            "y": 6.35,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.89916
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "VCC",
+            "x": 4.445,
+            "y": 8.89,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.89916
+          }
+        ],
+        "bodyWidth": 15.527,
+        "bodyHeight": 19.281,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/DiscoDanceFloorV1_BusTerminator__raw/D1",
+        "type": "diode",
+        "designator": "D1",
+        "value": "LED",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 155.3845,
+        "y": 90.6145,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(D1-Pad2)",
+            "x": 1.04902,
+            "y": 0,
+            "width": 1.19888,
+            "height": 1.19888,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -1.04902,
+            "y": 0,
+            "width": 1.19888,
+            "height": 1.19888,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.297,
+        "bodyHeight": 1.199,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/DiscoDanceFloorV1_BusTerminator__raw/R3",
+        "type": "resistor",
+        "designator": "R3",
+        "value": "200",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 155.5115,
+        "y": 92.6465,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+5V",
+            "x": -0.95,
+            "y": 0,
+            "width": 0.7,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(D1-Pad2)",
+            "x": 0.95,
+            "y": 0,
+            "width": 0.7,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.6,
+        "bodyHeight": 1.3,
+        "bodyHeight3D": 0.5
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 160.3805,
+            "y": 92.7075
+          },
+          {
+            "x": 161.0385,
+            "y": 92.7075
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 160.975,
+            "y": 90.8075
+          },
+          {
+            "x": 160.3805,
+            "y": 90.8075
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 161.417,
+            "y": 91.2495
+          },
+          {
+            "x": 160.975,
+            "y": 90.8075
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 161.417,
+            "y": 92.329
+          },
+          {
+            "x": 161.417,
+            "y": 91.2495
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 161.0385,
+            "y": 92.7075
+          },
+          {
+            "x": 161.417,
+            "y": 92.329
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 160.4805,
+            "y": 94.5515
+          },
+          {
+            "x": 160.4805,
+            "y": 92.8075
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 160.4805,
+            "y": 92.8075
+          },
+          {
+            "x": 160.3805,
+            "y": 92.7075
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 149.2885,
+            "y": 96.2025
+          },
+          {
+            "x": 150.5585,
+            "y": 96.2025
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 150.5585,
+            "y": 96.2025
+          },
+          {
+            "x": 151.8285,
+            "y": 94.9325
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 151.8285,
+            "y": 94.9325
+          },
+          {
+            "x": 160.0995,
+            "y": 94.9325
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 160.0995,
+            "y": 94.9325
+          },
+          {
+            "x": 160.4805,
+            "y": 94.5515
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 154.5615,
+            "y": 93.9775
+          },
+          {
+            "x": 154.559,
+            "y": 93.98
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 154.5615,
+            "y": 92.6465
+          },
+          {
+            "x": 154.5615,
+            "y": 93.9775
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 162.5805,
+            "y": 90.8075
+          },
+          {
+            "x": 162.6845,
+            "y": 90.8075
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 162.6845,
+            "y": 90.8075
+          },
+          {
+            "x": 163.576,
+            "y": 89.916
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 162.5805,
+            "y": 90.8075
+          },
+          {
+            "x": 164.9095,
+            "y": 90.8075
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 162.5805,
+            "y": 90.8075
+          },
+          {
+            "x": 162.5805,
+            "y": 89.1905
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 162.5805,
+            "y": 89.1905
+          },
+          {
+            "x": 162.417,
+            "y": 89.027
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "Net-(J1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 149.2885,
+            "y": 88.5825
+          },
+          {
+            "x": 149.2885,
+            "y": 85.7225
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "Net-(J1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 149.2885,
+            "y": 85.7225
+          },
+          {
+            "x": 148.8465,
+            "y": 85.2805
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "Net-(J1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 150.7465,
+            "y": 85.2805
+          },
+          {
+            "x": 150.7465,
+            "y": 86.2305
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "Net-(J1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 150.7465,
+            "y": 86.2305
+          },
+          {
+            "x": 151.8285,
+            "y": 87.3125
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "Net-(J1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 164.0205,
+            "y": 93.472
+          },
+          {
+            "x": 155.194,
+            "y": 93.472
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "Net-(J1-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 164.785,
+            "y": 92.7075
+          },
+          {
+            "x": 164.0205,
+            "y": 93.472
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "Net-(J1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 152.8445,
+            "y": 91.1225
+          },
+          {
+            "x": 149.2885,
+            "y": 91.1225
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "Net-(J1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 155.194,
+            "y": 93.472
+          },
+          {
+            "x": 152.8445,
+            "y": 91.1225
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "Net-(J1-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 164.9095,
+            "y": 92.7075
+          },
+          {
+            "x": 164.785,
+            "y": 92.7075
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "Net-(D1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.4615,
+            "y": 92.6465
+          },
+          {
+            "x": 156.4615,
+            "y": 90.64248
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "Net-(D1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.4615,
+            "y": 90.64248
+          },
+          {
+            "x": 156.43352,
+            "y": 90.6145
+          }
+        ]
+      }
+    ],
+    "vias": [
+      {
+        "id": "via-0",
+        "net": "+5V",
+        "x": 154.559,
+        "y": 93.98,
+        "outerDiameter": 0.6,
+        "drillDiameter": 0.4,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-1",
+        "net": "+5V",
+        "x": 163.576,
+        "y": 89.916,
+        "outerDiameter": 0.6,
+        "drillDiameter": 0.4,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-2",
+        "net": "Net-(J1-Pad4)",
+        "x": 164.0205,
+        "y": 93.472,
+        "outerDiameter": 0.6,
+        "drillDiameter": 0.4,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "id": "zone-0",
+        "net": "GND",
+        "layer": "F.Cu",
+        "points": [
+          {
+            "x": 166.116,
+            "y": 100.076
+          },
+          {
+            "x": 147.828,
+            "y": 100.1395
+          },
+          {
+            "x": 147.8915,
+            "y": 83.439
+          },
+          {
+            "x": 166.116,
+            "y": 83.439
+          },
+          {
+            "x": 166.116,
+            "y": 100.076
+          }
+        ],
+        "priority": 0
+      },
+      {
+        "id": "zone-1",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "points": [
+          {
+            "x": 166.116,
+            "y": 100.076
+          },
+          {
+            "x": 147.828,
+            "y": 100.1395
+          },
+          {
+            "x": 147.8915,
+            "y": 83.439
+          },
+          {
+            "x": 166.116,
+            "y": 83.439
+          },
+          {
+            "x": 166.116,
+            "y": 100.076
+          }
+        ],
+        "priority": 0
+      }
+    ],
+    "nets": [
+      {
+        "name": "VCC",
+        "class": "power"
+      },
+      {
+        "name": "GND",
+        "class": "ground"
+      },
+      {
+        "name": "+5V",
+        "class": "power"
+      },
+      {
+        "name": "Net-(J1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J1-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J1-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(D1-Pad2)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "DiscoDanceFloorV1_BusTerminator__raw",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.533Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666533,
+  "updatedAt": 1773996666533
+}

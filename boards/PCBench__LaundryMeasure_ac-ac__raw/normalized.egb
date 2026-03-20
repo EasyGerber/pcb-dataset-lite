@@ -1,0 +1,718 @@
+{
+  "egb": 1,
+  "name": "LaundryMeasure_ac-ac__raw",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 42.164,
+      "height": 24.384,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 153.924,
+          "y": 90.932
+        },
+        {
+          "x": 153.924,
+          "y": 93.98
+        },
+        {
+          "x": 153.924,
+          "y": 115.316
+        },
+        {
+          "x": 111.76,
+          "y": 115.316
+        },
+        {
+          "x": 111.76,
+          "y": 93.98
+        },
+        {
+          "x": 111.76,
+          "y": 90.932
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/LaundryMeasure_ac-ac__raw/C1",
+        "type": "capacitor",
+        "designator": "C1",
+        "value": "10u",
+        "package": "C_Radial_D5_L11_P2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 134.08,
+        "y": 96.52,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.3,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C1-Pad2)",
+            "x": 2,
+            "y": 0,
+            "width": 1.3,
+            "height": 1.3,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 5.3,
+        "bodyHeight": 1.3,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LaundryMeasure_ac-ac__raw/J1",
+        "type": "connector",
+        "designator": "J1",
+        "value": "CONN_01X03",
+        "package": "Pin_Header_Angled_1x03",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 121.92,
+        "y": 107.95,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J1-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(C1-Pad2)",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 11.887,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LaundryMeasure_ac-ac__raw/R0",
+        "type": "resistor",
+        "designator": "R0",
+        "value": "150",
+        "package": "Resistor_Horizontal_RM7mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 136.144,
+        "y": 113.284,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C1-Pad1)",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 17.239,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LaundryMeasure_ac-ac__raw/R1",
+        "type": "resistor",
+        "designator": "R1",
+        "value": "10k",
+        "package": "Resistor_Horizontal_RM7mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 124.46,
+        "y": 105.41,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J1-Pad2)",
+            "x": 0,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C1-Pad1)",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 17.239,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LaundryMeasure_ac-ac__raw/R2",
+        "type": "resistor",
+        "designator": "R2",
+        "value": "10k",
+        "package": "Resistor_Horizontal_RM7mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 132.08,
+        "y": 101.6,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C1-Pad2)",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 17.239,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LaundryMeasure_ac-ac__raw/REF**",
+        "type": "resistor",
+        "designator": "REF**",
+        "value": "TRS_3.5",
+        "package": "TRS_3.5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 146.812,
+        "y": 105.156,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 5.588,
+            "y": 0,
+            "width": 1.8,
+            "height": 2.54,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": 1.085,
+            "y": -4.75,
+            "width": 1.8,
+            "height": 2.54,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "",
+            "x": -5.515,
+            "y": -4.342,
+            "width": 1.8,
+            "height": 2.54,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "",
+            "x": -2.7,
+            "y": 4.75,
+            "width": 1.8,
+            "height": 2.54,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "",
+            "x": -1.315,
+            "y": 2.05,
+            "width": 1.8,
+            "height": 2.54,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 12.976,
+        "bodyHeight": 12.04,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "Net-(J1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 136.144,
+            "y": 113.284
+          },
+          {
+            "x": 130.81,
+            "y": 107.95
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "Net-(J1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 130.81,
+            "y": 107.95
+          },
+          {
+            "x": 121.92,
+            "y": 107.95
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "Net-(J1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 152.383489,
+            "y": 114.283489
+          },
+          {
+            "x": 152.4,
+            "y": 114.266978
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "Net-(J1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 152.4,
+            "y": 114.266978
+          },
+          {
+            "x": 152.4,
+            "y": 105.41
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "Net-(J1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 136.144,
+            "y": 113.284
+          },
+          {
+            "x": 137.143489,
+            "y": 114.283489
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "Net-(J1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 137.143489,
+            "y": 114.283489
+          },
+          {
+            "x": 152.383489,
+            "y": 114.283489
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "Net-(J1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 121.92,
+            "y": 105.41
+          },
+          {
+            "x": 124.46,
+            "y": 105.41
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.748,
+            "y": 105.664
+          },
+          {
+            "x": 142.748,
+            "y": 105.439
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.748,
+            "y": 105.439
+          },
+          {
+            "x": 147.527,
+            "y": 100.66
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 147.527,
+            "y": 100.66
+          },
+          {
+            "x": 147.897,
+            "y": 100.66
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 136.144,
+            "y": 105.664
+          },
+          {
+            "x": 142.748,
+            "y": 105.664
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 132.08,
+            "y": 105.41
+          },
+          {
+            "x": 132.08,
+            "y": 101.6
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 132.08,
+            "y": 105.41
+          },
+          {
+            "x": 135.89,
+            "y": 105.41
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 135.89,
+            "y": 105.41
+          },
+          {
+            "x": 136.144,
+            "y": 105.664
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 134.08,
+            "y": 96.52
+          },
+          {
+            "x": 134.08,
+            "y": 99.6
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "Net-(C1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 134.08,
+            "y": 99.6
+          },
+          {
+            "x": 132.08,
+            "y": 101.6
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 124.46,
+            "y": 101.6
+          },
+          {
+            "x": 129.54,
+            "y": 96.52
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 129.54,
+            "y": 96.52
+          },
+          {
+            "x": 132.08,
+            "y": 96.52
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 121.92,
+            "y": 102.87
+          },
+          {
+            "x": 123.19,
+            "y": 102.87
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 123.19,
+            "y": 102.87
+          },
+          {
+            "x": 124.46,
+            "y": 101.6
+          }
+        ]
+      }
+    ],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "Net-(J1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(C1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(C1-Pad2)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "LaundryMeasure_ac-ac__raw",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.973Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666973,
+  "updatedAt": 1773996666973
+}

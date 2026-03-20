@@ -1,0 +1,851 @@
+{
+  "egb": 1,
+  "name": "Blink-Eras_AVR_ISP_Pogo__raw",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 17.78,
+      "height": 22.86,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 139.6111,
+          "y": 116.4336
+        },
+        {
+          "x": 157.3911,
+          "y": 116.4336
+        },
+        {
+          "x": 157.3911,
+          "y": 93.5736
+        },
+        {
+          "x": 139.6111,
+          "y": 93.5736
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/Blink-Eras_AVR_ISP_Pogo__raw/JP1",
+        "type": "connector",
+        "designator": "JP1",
+        "value": "AVR-ISP-6VERT",
+        "package": "AVR-ISP-6",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 148.5011,
+        "y": 112.6236,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N$4",
+            "x": -2.54,
+            "y": 1.27,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N$1",
+            "x": -2.54,
+            "y": -1.27,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N$5",
+            "x": 0,
+            "y": 1.27,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "N$2",
+            "x": 0,
+            "y": -1.27,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "N$6",
+            "x": 2.54,
+            "y": 1.27,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "N$3",
+            "x": 2.54,
+            "y": -1.27,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 6.604,
+        "bodyHeight": 4.064,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Blink-Eras_AVR_ISP_Pogo__raw/JP2",
+        "type": "connector",
+        "designator": "JP2",
+        "value": "POGO-PIN-ISP46MIL",
+        "package": "AVR-PPINS-46-6ISP",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 148.5011,
+        "y": 97.3836,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N$4",
+            "x": -2.54,
+            "y": 1.27,
+            "width": 1.7526,
+            "height": 1.7526,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1684
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N$1",
+            "x": -2.54,
+            "y": -1.27,
+            "width": 1.7526,
+            "height": 1.7526,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1684
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N$5",
+            "x": 0,
+            "y": 1.27,
+            "width": 1.7526,
+            "height": 1.7526,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1684
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "N$2",
+            "x": 0,
+            "y": -1.27,
+            "width": 1.7526,
+            "height": 1.7526,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1684
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "N$6",
+            "x": 2.54,
+            "y": 1.27,
+            "width": 1.7526,
+            "height": 1.7526,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1684
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "N$3",
+            "x": 2.54,
+            "y": -1.27,
+            "width": 1.7526,
+            "height": 1.7526,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1684
+          }
+        ],
+        "bodyWidth": 6.833,
+        "bodyHeight": 4.293,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Blink-Eras_AVR_ISP_Pogo__raw/U$1",
+        "type": "ic",
+        "designator": "U$1",
+        "value": "",
+        "package": "STAND-OFF",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 142.7861,
+        "y": 104.3686,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 3.302,
+            "height": 3.302,
+            "shape": "circle",
+            "type": "npth",
+            "layer": "top",
+            "drillSize": 3.302
+          }
+        ],
+        "bodyWidth": 3.302,
+        "bodyHeight": 3.302,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Blink-Eras_AVR_ISP_Pogo__raw/U$2",
+        "type": "ic",
+        "designator": "U$2",
+        "value": "",
+        "package": "STAND-OFF",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 154.2161,
+        "y": 104.3686,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 3.302,
+            "height": 3.302,
+            "shape": "circle",
+            "type": "npth",
+            "layer": "top",
+            "drillSize": 3.302
+          }
+        ],
+        "bodyWidth": 3.302,
+        "bodyHeight": 3.302,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "N$1",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 145.9611,
+            "y": 111.3536
+          },
+          {
+            "x": 145.9611,
+            "y": 108.8136
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "N$1",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 145.9611,
+            "y": 108.8136
+          },
+          {
+            "x": 146.5961,
+            "y": 108.1786
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "N$1",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 146.5961,
+            "y": 108.1786
+          },
+          {
+            "x": 146.5961,
+            "y": 101.8286
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "N$1",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 146.5961,
+            "y": 101.8286
+          },
+          {
+            "x": 144.6911,
+            "y": 99.9236
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "N$1",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 144.6911,
+            "y": 99.9236
+          },
+          {
+            "x": 144.6911,
+            "y": 97.3836
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "N$1",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 144.6911,
+            "y": 97.3836
+          },
+          {
+            "x": 145.9611,
+            "y": 96.1136
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "N$2",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 148.5011,
+            "y": 96.1136
+          },
+          {
+            "x": 149.7711,
+            "y": 97.3836
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "N$2",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 149.7711,
+            "y": 97.3836
+          },
+          {
+            "x": 149.7711,
+            "y": 100.5586
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "N$2",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 149.7711,
+            "y": 100.5586
+          },
+          {
+            "x": 148.5011,
+            "y": 101.8286
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "N$2",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 148.5011,
+            "y": 101.8286
+          },
+          {
+            "x": 148.5011,
+            "y": 111.3536
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "N$3",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 151.0411,
+            "y": 96.1136
+          },
+          {
+            "x": 152.3111,
+            "y": 97.3836
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "N$3",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 152.3111,
+            "y": 97.3836
+          },
+          {
+            "x": 152.3111,
+            "y": 99.9236
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "N$3",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 152.3111,
+            "y": 99.9236
+          },
+          {
+            "x": 150.4061,
+            "y": 101.8286
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "N$3",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 150.4061,
+            "y": 101.8286
+          },
+          {
+            "x": 150.4061,
+            "y": 109.4486
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "N$3",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 150.4061,
+            "y": 109.4486
+          },
+          {
+            "x": 151.0411,
+            "y": 110.0836
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "N$3",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 151.0411,
+            "y": 110.0836
+          },
+          {
+            "x": 151.0411,
+            "y": 111.3536
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "N$4",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 145.9611,
+            "y": 113.8936
+          },
+          {
+            "x": 144.0561,
+            "y": 111.9886
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "N$4",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 144.0561,
+            "y": 111.9886
+          },
+          {
+            "x": 144.0561,
+            "y": 110.7186
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "N$4",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 144.0561,
+            "y": 110.7186
+          },
+          {
+            "x": 146.5961,
+            "y": 108.1786
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "N$4",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 146.5961,
+            "y": 108.1786
+          },
+          {
+            "x": 146.5961,
+            "y": 101.8286
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "N$4",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 146.5961,
+            "y": 101.8286
+          },
+          {
+            "x": 145.9611,
+            "y": 101.1936
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "N$4",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 145.9611,
+            "y": 101.1936
+          },
+          {
+            "x": 145.9611,
+            "y": 98.6536
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "N$5",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 148.5011,
+            "y": 108.1786
+          },
+          {
+            "x": 148.5011,
+            "y": 98.6536
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "N$5",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 148.5011,
+            "y": 113.8936
+          },
+          {
+            "x": 149.7711,
+            "y": 112.6236
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "N$5",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 149.7711,
+            "y": 112.6236
+          },
+          {
+            "x": 149.7711,
+            "y": 109.4486
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "N$5",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 149.7711,
+            "y": 109.4486
+          },
+          {
+            "x": 148.5011,
+            "y": 108.1786
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "N$6",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 151.0411,
+            "y": 113.8936
+          },
+          {
+            "x": 152.9461,
+            "y": 111.9886
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "N$6",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 152.9461,
+            "y": 111.9886
+          },
+          {
+            "x": 152.9461,
+            "y": 108.8136
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "N$6",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 152.9461,
+            "y": 108.8136
+          },
+          {
+            "x": 150.4061,
+            "y": 106.2736
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "N$6",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 150.4061,
+            "y": 106.2736
+          },
+          {
+            "x": 150.4061,
+            "y": 101.8286
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "N$6",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 150.4061,
+            "y": 101.8286
+          },
+          {
+            "x": 151.0411,
+            "y": 101.1936
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "N$6",
+        "layer": "F.Cu",
+        "width": 0.4064,
+        "points": [
+          {
+            "x": 151.0411,
+            "y": 101.1936
+          },
+          {
+            "x": 151.0411,
+            "y": 98.6536
+          }
+        ]
+      }
+    ],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "N$1",
+        "class": "signal"
+      },
+      {
+        "name": "N$2",
+        "class": "signal"
+      },
+      {
+        "name": "N$3",
+        "class": "signal"
+      },
+      {
+        "name": "N$4",
+        "class": "signal"
+      },
+      {
+        "name": "N$5",
+        "class": "signal"
+      },
+      {
+        "name": "N$6",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "Blink-Eras_AVR_ISP_Pogo__raw",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.431Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666431,
+  "updatedAt": 1773996666431
+}

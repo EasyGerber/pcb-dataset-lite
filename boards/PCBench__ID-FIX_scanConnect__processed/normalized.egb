@@ -1,0 +1,905 @@
+{
+  "egb": 1,
+  "name": "ID-FIX_scanConnect__processed",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 35.389999999999986,
+      "height": 31.22,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 140.0175,
+          "y": 77.6825
+        },
+        {
+          "x": 175.4075,
+          "y": 77.6825
+        },
+        {
+          "x": 175.4075,
+          "y": 108.9025
+        },
+        {
+          "x": 140.0175,
+          "y": 108.9025
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/ID-FIX_scanConnect__processed/P4",
+        "type": "connector",
+        "designator": "P4",
+        "value": "RJ9",
+        "package": "RJ9",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 151.511,
+        "y": 100.838,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/VCC",
+            "x": 1.905,
+            "y": -8.89,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/GND",
+            "x": 0.635,
+            "y": -6.35,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P4-Pad3)",
+            "x": -0.635,
+            "y": -8.89,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(P4-Pad4)",
+            "x": -1.905,
+            "y": -6.35,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -3.81,
+            "y": 0,
+            "width": 3.6,
+            "height": 3.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 3.81,
+            "y": 0,
+            "width": 3.6,
+            "height": 3.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          }
+        ],
+        "bodyWidth": 11.22,
+        "bodyHeight": 19.304,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ID-FIX_scanConnect__processed/P1",
+        "type": "connector",
+        "designator": "P1",
+        "value": "CONN_01X04",
+        "package": "Pin_Header_Straight_1x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 167.767,
+        "y": 86.995,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/COILA_A",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/COILA_B",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/COILB_A",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/COILB_B",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ID-FIX_scanConnect__processed/P2",
+        "type": "connector",
+        "designator": "P2",
+        "value": "CONN_01X04",
+        "package": "Pin_Header_Straight_1x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 155.321,
+        "y": 86.995,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/VCC",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/GND",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/VCC",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ID-FIX_scanConnect__processed/P3",
+        "type": "connector",
+        "designator": "P3",
+        "value": "RJ9",
+        "package": "RJ9",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 163.957,
+        "y": 100.838,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/COILA_A",
+            "x": 1.905,
+            "y": -8.89,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/COILA_B",
+            "x": 0.635,
+            "y": -6.35,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/COILB_A",
+            "x": -0.635,
+            "y": -8.89,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/COILB_B",
+            "x": -1.905,
+            "y": -6.35,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -3.81,
+            "y": 0,
+            "width": 3.6,
+            "height": 3.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 3.81,
+            "y": 0,
+            "width": 3.6,
+            "height": 3.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          }
+        ],
+        "bodyWidth": 11.22,
+        "bodyHeight": 19.304,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ID-FIX_scanConnect__processed/REF**_4",
+        "type": "resistor",
+        "designator": "REF**_4",
+        "value": "SolderWirePad_single_1mmDrill",
+        "package": "SolderWirePad_single_1mmDrill",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 142.494,
+        "y": 80.137,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 2.49936,
+            "height": 2.49936,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 2.499,
+        "bodyHeight": 2.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ID-FIX_scanConnect__processed/REF**_3",
+        "type": "resistor",
+        "designator": "REF**_3",
+        "value": "SolderWirePad_single_1mmDrill",
+        "package": "SolderWirePad_single_1mmDrill",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 172.974,
+        "y": 80.137,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 2.49936,
+            "height": 2.49936,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 2.499,
+        "bodyHeight": 2.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ID-FIX_scanConnect__processed/REF**_2",
+        "type": "resistor",
+        "designator": "REF**_2",
+        "value": "SolderWirePad_single_1mmDrill",
+        "package": "SolderWirePad_single_1mmDrill",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 172.974,
+        "y": 106.426,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 2.49936,
+            "height": 2.49936,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 2.499,
+        "bodyHeight": 2.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ID-FIX_scanConnect__processed/REF**",
+        "type": "resistor",
+        "designator": "REF**",
+        "value": "SolderWirePad_single_1mmDrill",
+        "package": "SolderWirePad_single_1mmDrill",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 142.494,
+        "y": 106.426,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 2.49936,
+            "height": 2.49936,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 2.499,
+        "bodyHeight": 2.499,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "/COILA_A",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 167.767,
+            "y": 86.995
+          },
+          {
+            "x": 167.767,
+            "y": 89.916
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "/COILA_A",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 167.767,
+            "y": 89.916
+          },
+          {
+            "x": 165.862,
+            "y": 91.821
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "/COILA_A",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 165.862,
+            "y": 91.821
+          },
+          {
+            "x": 165.862,
+            "y": 91.948
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "/COILA_B",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 164.592,
+            "y": 94.488
+          },
+          {
+            "x": 164.592,
+            "y": 88.138
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "/COILA_B",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 164.592,
+            "y": 88.138
+          },
+          {
+            "x": 165.227,
+            "y": 87.503
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "/COILA_B",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 165.227,
+            "y": 87.503
+          },
+          {
+            "x": 165.227,
+            "y": 86.995
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "/COILB_A",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 162.687,
+            "y": 86.995
+          },
+          {
+            "x": 162.687,
+            "y": 91.313
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "/COILB_A",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 162.687,
+            "y": 91.313
+          },
+          {
+            "x": 163.322,
+            "y": 91.948
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "/COILB_B",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 160.147,
+            "y": 86.995
+          },
+          {
+            "x": 160.147,
+            "y": 92.583
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "/COILB_B",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 160.147,
+            "y": 92.583
+          },
+          {
+            "x": 162.052,
+            "y": 94.488
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "/VCC",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 147.701,
+            "y": 86.995
+          },
+          {
+            "x": 147.701,
+            "y": 85.852
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "/VCC",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 147.701,
+            "y": 85.852
+          },
+          {
+            "x": 148.59,
+            "y": 84.963
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "/VCC",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 148.59,
+            "y": 84.963
+          },
+          {
+            "x": 154.432,
+            "y": 84.963
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "/VCC",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 154.432,
+            "y": 84.963
+          },
+          {
+            "x": 155.321,
+            "y": 85.852
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "/VCC",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 155.321,
+            "y": 85.852
+          },
+          {
+            "x": 155.321,
+            "y": 86.995
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "/VCC",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 153.416,
+            "y": 91.948
+          },
+          {
+            "x": 154.686,
+            "y": 91.948
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "/VCC",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 154.686,
+            "y": 91.948
+          },
+          {
+            "x": 155.321,
+            "y": 91.313
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "/VCC",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 155.321,
+            "y": 91.313
+          },
+          {
+            "x": 155.321,
+            "y": 86.995
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "/GND",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 152.781,
+            "y": 86.995
+          },
+          {
+            "x": 152.781,
+            "y": 88.611
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "/GND",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 152.781,
+            "y": 88.611
+          },
+          {
+            "x": 152.146,
+            "y": 89.246
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "/GND",
+        "layer": "B.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 152.146,
+            "y": 89.246
+          },
+          {
+            "x": 152.146,
+            "y": 94.488
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "/GND",
+        "layer": "F.Cu",
+        "width": 0.6,
+        "points": [
+          {
+            "x": 150.241,
+            "y": 86.995
+          },
+          {
+            "x": 152.781,
+            "y": 86.995
+          }
+        ]
+      }
+    ],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "/COILA_A",
+        "class": "signal"
+      },
+      {
+        "name": "/COILA_B",
+        "class": "signal"
+      },
+      {
+        "name": "/COILB_A",
+        "class": "signal"
+      },
+      {
+        "name": "/COILB_B",
+        "class": "signal"
+      },
+      {
+        "name": "/VCC",
+        "class": "signal"
+      },
+      {
+        "name": "/GND",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad4)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "ID-FIX_scanConnect__processed",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.827Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666827,
+  "updatedAt": 1773996666827
+}

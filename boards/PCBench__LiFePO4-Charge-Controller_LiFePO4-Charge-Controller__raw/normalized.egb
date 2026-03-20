@@ -1,0 +1,8787 @@
+{
+  "egb": 1,
+  "name": "LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 66.22288,
+      "height": 60.975240000000014,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 182.81396,
+          "y": 167.70096
+        },
+        {
+          "x": 182.87492,
+          "y": 106.72572
+        },
+        {
+          "x": 249.03684,
+          "y": 106.74096
+        },
+        {
+          "x": 248.92508,
+          "y": 167.70096
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/UI2",
+        "type": "ic",
+        "designator": "UI2",
+        "value": "SI8400",
+        "package": "SO8E",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 223.52,
+        "y": 160.02,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "5v",
+            "x": -1.905,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000039",
+            "x": -1.905,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "N-0000053",
+            "x": -0.635,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "N-0000057",
+            "x": 0.635,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Gnd",
+            "x": 1.905,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000006",
+            "x": -0.635,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000012",
+            "x": 0.635,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "I2C2_GND",
+            "x": 1.905,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.409,
+        "bodyHeight": 6.734,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/UI1",
+        "type": "ic",
+        "designator": "UI1",
+        "value": "SI8400",
+        "package": "SO8E",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 207.01,
+        "y": 160.02,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "5v",
+            "x": -1.905,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000040",
+            "x": -1.905,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "N-0000053",
+            "x": -0.635,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "N-0000057",
+            "x": 0.635,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Gnd",
+            "x": 1.905,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000005",
+            "x": -0.635,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-000004",
+            "x": 0.635,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "I2C1_GND",
+            "x": 1.905,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.409,
+        "bodyHeight": 6.734,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/UIR1",
+        "type": "ic",
+        "designator": "UIR1",
+        "value": "SI8400",
+        "package": "SO8E",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 223.52,
+        "y": 116.205,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "N-0000010",
+            "x": -1.905,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -1.905,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "N-000009",
+            "x": -0.635,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "N-000008",
+            "x": 0.635,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "RS232_GND",
+            "x": 1.905,
+            "y": -2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000001",
+            "x": -0.635,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-000002",
+            "x": 0.635,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Gnd",
+            "x": 1.905,
+            "y": 2.667,
+            "width": 0.59944,
+            "height": 1.39954,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.409,
+        "bodyHeight": 6.734,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI2d1",
+        "type": "capacitor",
+        "designator": "CI2d1",
+        "value": "1uF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 242.57,
+        "y": 160.655,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000039",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "I2C2_GND",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CINA1",
+        "type": "capacitor",
+        "designator": "CINA1",
+        "value": "100nF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 201.93,
+        "y": 152.4,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI3b1",
+        "type": "capacitor",
+        "designator": "CI3b1",
+        "value": "1uF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 223.52,
+        "y": 122.555,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Gnd",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "5v",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI3a1",
+        "type": "capacitor",
+        "designator": "CI3a1",
+        "value": "100nF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 223.52,
+        "y": 125.095,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Gnd",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "5v",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI1d1",
+        "type": "capacitor",
+        "designator": "CI1d1",
+        "value": "1uF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 190.5,
+        "y": 160.02,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000040",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "I2C1_GND",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI1c1",
+        "type": "capacitor",
+        "designator": "CI1c1",
+        "value": "100nF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 187.96,
+        "y": 160.02,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000040",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "I2C1_GND",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI2c1",
+        "type": "capacitor",
+        "designator": "CI2c1",
+        "value": "100nF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 240.03,
+        "y": 160.655,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000039",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "I2C2_GND",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI2b1",
+        "type": "capacitor",
+        "designator": "CI2b1",
+        "value": "1uF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 216.535,
+        "y": 160.02,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI2a1",
+        "type": "capacitor",
+        "designator": "CI2a1",
+        "value": "100nF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 213.995,
+        "y": 160.02,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI1b1",
+        "type": "capacitor",
+        "designator": "CI1b1",
+        "value": "1uF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 213.995,
+        "y": 160.02,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CI1a1",
+        "type": "capacitor",
+        "designator": "CI1a1",
+        "value": "100nF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 216.535,
+        "y": 160.02,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/UuC1",
+        "type": "ic",
+        "designator": "UuC1",
+        "value": "ARDUINO_Nano",
+        "package": "arduino_mini",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 208.28,
+        "y": 137.16,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": -19.05,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "",
+            "x": -16.51,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": -13.97,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "N-000007",
+            "x": -11.43,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "N-0000034",
+            "x": -8.89,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "",
+            "x": -6.35,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "",
+            "x": -3.81,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "N-0000053",
+            "x": -1.27,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "N-0000057",
+            "x": 1.27,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "",
+            "x": 3.81,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "",
+            "x": 6.35,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "5v",
+            "x": 8.89,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "",
+            "x": 11.43,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "Gnd",
+            "x": 13.97,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "N-0000038",
+            "x": 16.51,
+            "y": 7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "N-000002",
+            "x": 16.51,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "17",
+            "signalName": "17",
+            "netName": "N-000001",
+            "x": 13.97,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "18",
+            "signalName": "18",
+            "netName": "",
+            "x": 11.43,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "19",
+            "signalName": "19",
+            "netName": "Gnd",
+            "x": 8.89,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "20",
+            "signalName": "20",
+            "netName": "",
+            "x": 6.35,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "21",
+            "signalName": "21",
+            "netName": "D3",
+            "x": 3.81,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "22",
+            "signalName": "22",
+            "netName": "",
+            "x": 1.27,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "23",
+            "signalName": "23",
+            "netName": "D5",
+            "x": -1.27,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "24",
+            "signalName": "24",
+            "netName": "D6",
+            "x": -3.81,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "25",
+            "signalName": "25",
+            "netName": "",
+            "x": -6.35,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "26",
+            "signalName": "26",
+            "netName": "",
+            "x": -8.89,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "27",
+            "signalName": "27",
+            "netName": "N-0000027",
+            "x": -11.43,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "28",
+            "signalName": "28",
+            "netName": "",
+            "x": -13.97,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "29",
+            "signalName": "29",
+            "netName": "N-0000029",
+            "x": -16.51,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "30",
+            "signalName": "30",
+            "netName": "N-0000028",
+            "x": -19.05,
+            "y": -7.62,
+            "width": 1.5748,
+            "height": 2.286,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 39.675,
+        "bodyHeight": 17.526,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/OC1",
+        "type": "other",
+        "designator": "OC1",
+        "value": "PC817",
+        "package": "DIP-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 213.995,
+        "y": 121.285,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000021",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 2.54,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000019",
+            "x": 2.54,
+            "y": -7.62,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "N-0000013",
+            "x": 0,
+            "y": -7.62,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          }
+        ],
+        "bodyWidth": 7.112,
+        "bodyHeight": 17.272,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/OC2",
+        "type": "other",
+        "designator": "OC2",
+        "value": "PC817",
+        "package": "DIP-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 207.01,
+        "y": 121.285,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000018",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 2.54,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000016",
+            "x": 2.54,
+            "y": -7.62,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "N-0000017",
+            "x": 0,
+            "y": -7.62,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          }
+        ],
+        "bodyWidth": 7.112,
+        "bodyHeight": 17.272,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/OC3",
+        "type": "other",
+        "designator": "OC3",
+        "value": "PC817",
+        "package": "DIP-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 200.025,
+        "y": 121.285,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000015",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 2.54,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000020",
+            "x": 2.54,
+            "y": -7.62,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "N-0000014",
+            "x": 0,
+            "y": -7.62,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          }
+        ],
+        "bodyWidth": 7.112,
+        "bodyHeight": 17.272,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Qpnp1",
+        "type": "transistor",
+        "designator": "Qpnp1",
+        "value": "NPN",
+        "package": "SOT23",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 204.47,
+        "y": 136.525,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000022",
+            "x": 0,
+            "y": 1.09982,
+            "width": 0.8001,
+            "height": 1.00076,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000023",
+            "x": 0.9525,
+            "y": -1.09982,
+            "width": 0.8001,
+            "height": 1.00076,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Gnd",
+            "x": -0.9525,
+            "y": -1.09982,
+            "width": 0.8001,
+            "height": 1.00076,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 2.705,
+        "bodyHeight": 3.2,
+        "bodyHeight3D": 1.1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Rg1",
+        "type": "resistor",
+        "designator": "Rg1",
+        "value": "5k",
+        "package": "SOT23",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 190.5,
+        "y": 152.4,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000037",
+            "x": 0,
+            "y": -1.09982,
+            "width": 0.8001,
+            "height": 1.00076,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000033",
+            "x": 0.9525,
+            "y": 1.09982,
+            "width": 0.8001,
+            "height": 1.00076,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000033",
+            "x": -0.9525,
+            "y": 1.09982,
+            "width": 0.8001,
+            "height": 1.00076,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.705,
+        "bodyHeight": 3.2,
+        "bodyHeight3D": 1.1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Ropto3",
+        "type": "resistor",
+        "designator": "Ropto3",
+        "value": "1k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 200.66,
+        "y": 125.73,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "D6",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000015",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Ropto2",
+        "type": "resistor",
+        "designator": "Ropto2",
+        "value": "1k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 208.28,
+        "y": 125.73,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "D5",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000018",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Ropto1",
+        "type": "resistor",
+        "designator": "Ropto1",
+        "value": "1k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 215.265,
+        "y": 125.73,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "D3",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000021",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RpwmDrv1",
+        "type": "resistor",
+        "designator": "RpwmDrv1",
+        "value": "560",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 198.755,
+        "y": 135.89,
+        "rotation": 0,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000027",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000023",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/CV1",
+        "type": "capacitor",
+        "designator": "CV1",
+        "value": "10pF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 233.045,
+        "y": 142.875,
+        "rotation": 270,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-000007",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RI2Csda1",
+        "type": "resistor",
+        "designator": "RI2Csda1",
+        "value": "1.8k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 209.55,
+        "y": 154.94,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000053",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Cpwm1",
+        "type": "capacitor",
+        "designator": "Cpwm1",
+        "value": "300nF",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 215.265,
+        "y": 139.065,
+        "rotation": 270,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000022",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Rpwm1",
+        "type": "resistor",
+        "designator": "Rpwm1",
+        "value": "120",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 218.44,
+        "y": 139.065,
+        "rotation": 270,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000022",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "5v",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Rled1",
+        "type": "resistor",
+        "designator": "Rled1",
+        "value": "1k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 191.77,
+        "y": 124.46,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000029",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000025",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Rled2",
+        "type": "resistor",
+        "designator": "Rled2",
+        "value": "1K",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 187.96,
+        "y": 124.46,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000028",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000026",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RI2scl1",
+        "type": "resistor",
+        "designator": "RI2scl1",
+        "value": "5k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 229.87,
+        "y": 160.655,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000039",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000012",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RI2sda1",
+        "type": "resistor",
+        "designator": "RI2sda1",
+        "value": "5k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 233.045,
+        "y": 162.56,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000039",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000006",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RI1scl1",
+        "type": "resistor",
+        "designator": "RI1scl1",
+        "value": "5k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 200.66,
+        "y": 160.655,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000040",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000004",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RI1sda1",
+        "type": "resistor",
+        "designator": "RI1sda1",
+        "value": "5k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 197.485,
+        "y": 162.56,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000040",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000005",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RI2Cscl1",
+        "type": "resistor",
+        "designator": "RI2Cscl1",
+        "value": "1.8k",
+        "package": "SM1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 210.82,
+        "y": 147.955,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000057",
+            "x": 1.651,
+            "y": 0,
+            "width": 1.524,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.826,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/PIRS232",
+        "type": "connector",
+        "designator": "PIRS232",
+        "value": "RS232",
+        "package": "SIL-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 224.79,
+        "y": 109.22,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000010",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000009",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-000008",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "RS232_GND",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Pvolt1",
+        "type": "connector",
+        "designator": "Pvolt1",
+        "value": "Gnd PWM 12V B+",
+        "package": "SIL-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 242.57,
+        "y": 145.415,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000058",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000038",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000022",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Gnd",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/PI1",
+        "type": "connector",
+        "designator": "PI1",
+        "value": "I2C",
+        "package": "SIL-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 193.675,
+        "y": 161.29,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000040",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000005",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-000004",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "I2C1_GND",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/PI2",
+        "type": "connector",
+        "designator": "PI2",
+        "value": "I2C",
+        "package": "SIL-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 236.855,
+        "y": 161.29,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000039",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000006",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000012",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "I2C2_GND",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/PI2C1",
+        "type": "connector",
+        "designator": "PI2C1",
+        "value": "I2C",
+        "package": "SIL-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 209.55,
+        "y": 151.13,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5v",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000057",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000053",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Gnd",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Popto3",
+        "type": "connector",
+        "designator": "Popto3",
+        "value": "opto",
+        "package": "SIL-2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 201.295,
+        "y": 109.22,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000014",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000020",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 3.937,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Pshunt1",
+        "type": "connector",
+        "designator": "Pshunt1",
+        "value": "differential",
+        "package": "SIL-2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 186.69,
+        "y": 152.4,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000036",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000035",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 3.937,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Popto2",
+        "type": "connector",
+        "designator": "Popto2",
+        "value": "opto",
+        "package": "SIL-2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 208.28,
+        "y": 109.22,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000017",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000016",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 3.937,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Popto1",
+        "type": "connector",
+        "designator": "Popto1",
+        "value": "opto",
+        "package": "SIL-2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 215.265,
+        "y": 109.22,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000013",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000019",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 3.937,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RVR2b1",
+        "type": "resistor",
+        "designator": "RVR2b1",
+        "value": "1k",
+        "package": "R4-5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 237.49,
+        "y": 143.51,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-000007",
+            "x": -5.715,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 5.715,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 12.954,
+        "bodyHeight": 1.524,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RVR2a1",
+        "type": "resistor",
+        "designator": "RVR2a1",
+        "value": "1k",
+        "package": "R4-5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 233.045,
+        "y": 143.51,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-000007",
+            "x": -5.715,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 5.715,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 12.954,
+        "bodyHeight": 1.524,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RVR1b1",
+        "type": "resistor",
+        "designator": "RVR1b1",
+        "value": "99k",
+        "package": "R4-5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 233.045,
+        "y": 125.73,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000058",
+            "x": -5.715,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000007",
+            "x": 5.715,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 12.954,
+        "bodyHeight": 1.524,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/RVR1a1",
+        "type": "resistor",
+        "designator": "RVR1a1",
+        "value": "99k",
+        "package": "R4-5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 237.49,
+        "y": 125.73,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000058",
+            "x": -5.715,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000007",
+            "x": 5.715,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 12.954,
+        "bodyHeight": 1.524,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Dled2",
+        "type": "diode",
+        "designator": "Dled2",
+        "value": "LED",
+        "package": "1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 187.96,
+        "y": 118.745,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000026",
+            "x": -1.41986,
+            "y": 0,
+            "width": 1.59766,
+            "height": 1.80086,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.41986,
+            "y": 0,
+            "width": 1.59766,
+            "height": 1.80086,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.437,
+        "bodyHeight": 1.801,
+        "bodyHeight3D": 0.55
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/Dled1",
+        "type": "diode",
+        "designator": "Dled1",
+        "value": "LED",
+        "package": "1206",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 191.77,
+        "y": 118.745,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000025",
+            "x": -1.41986,
+            "y": 0,
+            "width": 1.59766,
+            "height": 1.80086,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Gnd",
+            "x": 1.41986,
+            "y": 0,
+            "width": 1.59766,
+            "height": 1.80086,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.437,
+        "bodyHeight": 1.801,
+        "bodyHeight3D": 0.55
+      },
+      {
+        "id": "PCBench/PCBench/LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw/UINA1",
+        "type": "ic",
+        "designator": "UINA1",
+        "value": "AD8236",
+        "package": "MSOP_8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 196.215,
+        "y": 152.4,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000036",
+            "x": -0.97536,
+            "y": 2.159,
+            "width": 0.381,
+            "height": 1.27,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000033",
+            "x": -0.32512,
+            "y": 2.159,
+            "width": 0.381,
+            "height": 1.27,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000037",
+            "x": 0.32512,
+            "y": 2.159,
+            "width": 0.381,
+            "height": 1.27,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "N-0000035",
+            "x": 0.97536,
+            "y": 2.159,
+            "width": 0.381,
+            "height": 1.27,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Gnd",
+            "x": 0.97536,
+            "y": -2.159,
+            "width": 0.381,
+            "height": 1.27,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Gnd",
+            "x": 0.32512,
+            "y": -2.159,
+            "width": 0.381,
+            "height": 1.27,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "N-0000034",
+            "x": -0.32512,
+            "y": -2.159,
+            "width": 0.381,
+            "height": 1.27,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "5v",
+            "x": -0.97536,
+            "y": -2.159,
+            "width": 0.381,
+            "height": 1.27,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.332,
+        "bodyHeight": 5.588,
+        "bodyHeight3D": 1.75
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 201.93,
+            "y": 150.749
+          },
+          {
+            "x": 201.93,
+            "y": 149.098
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 198.374,
+            "y": 150.749
+          },
+          {
+            "x": 198.374,
+            "y": 151.42464
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.025,
+            "y": 149.098
+          },
+          {
+            "x": 198.374,
+            "y": 150.749
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.121,
+            "y": 149.098
+          },
+          {
+            "x": 201.93,
+            "y": 149.098
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 201.93,
+            "y": 149.098
+          },
+          {
+            "x": 200.025,
+            "y": 149.098
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.4957,
+            "y": 149.4727
+          },
+          {
+            "x": 206.121,
+            "y": 149.098
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.6353,
+            "y": 149.4727
+          },
+          {
+            "x": 206.4957,
+            "y": 149.4727
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.6353,
+            "y": 149.4727
+          },
+          {
+            "x": 207.01,
+            "y": 149.8474
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 220.853,
+            "y": 161.925
+          },
+          {
+            "x": 219.6585,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 218.2997,
+            "y": 161.925
+          },
+          {
+            "x": 219.6585,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 218.0457,
+            "y": 161.671
+          },
+          {
+            "x": 218.2997,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 161.671
+          },
+          {
+            "x": 218.0457,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.869,
+            "y": 122.555
+          },
+          {
+            "x": 221.869,
+            "y": 121.0443
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 211.201,
+            "y": 154.94
+          },
+          {
+            "x": 212.4577,
+            "y": 154.94
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.869,
+            "y": 122.555
+          },
+          {
+            "x": 221.869,
+            "y": 125.095
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.615,
+            "y": 120.7903
+          },
+          {
+            "x": 221.615,
+            "y": 118.872
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.869,
+            "y": 121.0443
+          },
+          {
+            "x": 221.615,
+            "y": 120.7903
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.615,
+            "y": 118.872
+          },
+          {
+            "x": 221.615,
+            "y": 117.6775
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.36,
+            "y": 154.0377
+          },
+          {
+            "x": 213.36,
+            "y": 151.13
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.4577,
+            "y": 154.94
+          },
+          {
+            "x": 213.36,
+            "y": 154.0377
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.9421,
+            "y": 149.9368
+          },
+          {
+            "x": 212.471,
+            "y": 149.4657
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.36,
+            "y": 149.9368
+          },
+          {
+            "x": 212.9421,
+            "y": 149.9368
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.471,
+            "y": 147.955
+          },
+          {
+            "x": 212.471,
+            "y": 149.4657
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.36,
+            "y": 151.13
+          },
+          {
+            "x": 213.36,
+            "y": 149.9368
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.2182,
+            "y": 140.7318
+          },
+          {
+            "x": 217.17,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 231.8856,
+            "y": 140.7318
+          },
+          {
+            "x": 221.2182,
+            "y": 140.7318
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 234.3048,
+            "y": 138.3126
+          },
+          {
+            "x": 231.8856,
+            "y": 140.7318
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 234.3048,
+            "y": 134.8602
+          },
+          {
+            "x": 234.3048,
+            "y": 138.3126
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 227.5242,
+            "y": 128.0796
+          },
+          {
+            "x": 234.3048,
+            "y": 134.8602
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 227.5242,
+            "y": 119.2287
+          },
+          {
+            "x": 227.5242,
+            "y": 128.0796
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.973,
+            "y": 117.6775
+          },
+          {
+            "x": 227.5242,
+            "y": 119.2287
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.615,
+            "y": 117.6775
+          },
+          {
+            "x": 225.973,
+            "y": 117.6775
+          }
+        ]
+      },
+      {
+        "id": "trace-32",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.995,
+            "y": 147.955
+          },
+          {
+            "x": 212.471,
+            "y": 147.955
+          }
+        ]
+      },
+      {
+        "id": "trace-33",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.17,
+            "y": 144.78
+          },
+          {
+            "x": 213.995,
+            "y": 147.955
+          }
+        ]
+      },
+      {
+        "id": "trace-34",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 161.671
+          },
+          {
+            "x": 213.995,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-35",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 151.6246
+          },
+          {
+            "x": 207.01,
+            "y": 149.8474
+          }
+        ]
+      },
+      {
+        "id": "trace-36",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.6288,
+            "y": 152.0058
+          },
+          {
+            "x": 207.01,
+            "y": 151.6246
+          }
+        ]
+      },
+      {
+        "id": "trace-37",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.6288,
+            "y": 156.2528
+          },
+          {
+            "x": 206.6288,
+            "y": 152.0058
+          }
+        ]
+      },
+      {
+        "id": "trace-38",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.047,
+            "y": 161.671
+          },
+          {
+            "x": 206.6288,
+            "y": 156.2528
+          }
+        ]
+      },
+      {
+        "id": "trace-39",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.995,
+            "y": 161.671
+          },
+          {
+            "x": 212.047,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-40",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.6097,
+            "y": 149.4471
+          },
+          {
+            "x": 206.6353,
+            "y": 149.4727
+          }
+        ]
+      },
+      {
+        "id": "trace-41",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.0893,
+            "y": 149.8474
+          },
+          {
+            "x": 212.471,
+            "y": 149.4657
+          }
+        ]
+      },
+      {
+        "id": "trace-42",
+        "net": "5v",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 149.8474
+          },
+          {
+            "x": 212.0893,
+            "y": 149.8474
+          }
+        ]
+      },
+      {
+        "id": "trace-43",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.2704,
+            "y": 143.1423
+          },
+          {
+            "x": 218.44,
+            "y": 141.9727
+          }
+        ]
+      },
+      {
+        "id": "trace-44",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.17,
+            "y": 143.1423
+          },
+          {
+            "x": 217.2704,
+            "y": 143.1423
+          }
+        ]
+      },
+      {
+        "id": "trace-45",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 218.44,
+            "y": 140.716
+          },
+          {
+            "x": 218.44,
+            "y": 141.9727
+          }
+        ]
+      },
+      {
+        "id": "trace-46",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.17,
+            "y": 144.78
+          },
+          {
+            "x": 217.17,
+            "y": 143.1423
+          }
+        ]
+      },
+      {
+        "id": "trace-47",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.36,
+            "y": 151.13
+          },
+          {
+            "x": 213.36,
+            "y": 152.3232
+          }
+        ]
+      },
+      {
+        "id": "trace-48",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.995,
+            "y": 161.671
+          },
+          {
+            "x": 212.4843,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-49",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 161.671
+          },
+          {
+            "x": 213.995,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-50",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.4843,
+            "y": 153.1989
+          },
+          {
+            "x": 212.4843,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-51",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.36,
+            "y": 152.3232
+          },
+          {
+            "x": 212.4843,
+            "y": 153.1989
+          }
+        ]
+      },
+      {
+        "id": "trace-52",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.677,
+            "y": 161.925
+          },
+          {
+            "x": 210.8715,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-53",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 211.1255,
+            "y": 161.671
+          },
+          {
+            "x": 210.8715,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-54",
+        "net": "5v",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.4843,
+            "y": 161.671
+          },
+          {
+            "x": 211.1255,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-55",
+        "net": "D3",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.09,
+            "y": 125.9973
+          },
+          {
+            "x": 212.3573,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-56",
+        "net": "D3",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.09,
+            "y": 129.54
+          },
+          {
+            "x": 212.09,
+            "y": 125.9973
+          }
+        ]
+      },
+      {
+        "id": "trace-57",
+        "net": "D3",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.614,
+            "y": 125.73
+          },
+          {
+            "x": 212.3573,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-58",
+        "net": "D5",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 127.6217
+          },
+          {
+            "x": 206.629,
+            "y": 127.2407
+          }
+        ]
+      },
+      {
+        "id": "trace-59",
+        "net": "D5",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 129.54
+          },
+          {
+            "x": 207.01,
+            "y": 127.6217
+          }
+        ]
+      },
+      {
+        "id": "trace-60",
+        "net": "D5",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.629,
+            "y": 125.73
+          },
+          {
+            "x": 206.629,
+            "y": 127.2407
+          }
+        ]
+      },
+      {
+        "id": "trace-61",
+        "net": "D6",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.47,
+            "y": 126.6323
+          },
+          {
+            "x": 203.5677,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-62",
+        "net": "D6",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.47,
+            "y": 129.54
+          },
+          {
+            "x": 204.47,
+            "y": 126.6323
+          }
+        ]
+      },
+      {
+        "id": "trace-63",
+        "net": "D6",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 202.311,
+            "y": 125.73
+          },
+          {
+            "x": 203.5677,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-64",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 199.04964,
+            "y": 154.051
+          },
+          {
+            "x": 199.009,
+            "y": 154.051
+          }
+        ]
+      },
+      {
+        "id": "trace-65",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.677,
+            "y": 158.115
+          },
+          {
+            "x": 208.4825,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-66",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.4825,
+            "y": 158.115
+          },
+          {
+            "x": 208.4825,
+            "y": 153.8725
+          }
+        ]
+      },
+      {
+        "id": "trace-67",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.4825,
+            "y": 153.8725
+          },
+          {
+            "x": 205.74,
+            "y": 151.13
+          }
+        ]
+      },
+      {
+        "id": "trace-68",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 198.374,
+            "y": 153.37536
+          },
+          {
+            "x": 198.374,
+            "y": 152.72512
+          }
+        ]
+      },
+      {
+        "id": "trace-69",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 201.93,
+            "y": 154.051
+          },
+          {
+            "x": 199.04964,
+            "y": 154.051
+          }
+        ]
+      },
+      {
+        "id": "trace-70",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 199.04964,
+            "y": 154.051
+          },
+          {
+            "x": 198.374,
+            "y": 153.37536
+          }
+        ]
+      },
+      {
+        "id": "trace-71",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 201.93,
+            "y": 154.051
+          },
+          {
+            "x": 203.4407,
+            "y": 154.051
+          }
+        ]
+      },
+      {
+        "id": "trace-72",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 242.57,
+            "y": 149.225
+          },
+          {
+            "x": 226.695,
+            "y": 149.225
+          }
+        ]
+      },
+      {
+        "id": "trace-73",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.695,
+            "y": 149.225
+          },
+          {
+            "x": 222.25,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-74",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.695,
+            "y": 149.225
+          },
+          {
+            "x": 222.25,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-75",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 149.225
+          },
+          {
+            "x": 237.49,
+            "y": 149.225
+          }
+        ]
+      },
+      {
+        "id": "trace-76",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 220.853,
+            "y": 158.115
+          },
+          {
+            "x": 219.6585,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-77",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.171,
+            "y": 125.095
+          },
+          {
+            "x": 225.171,
+            "y": 122.555
+          }
+        ]
+      },
+      {
+        "id": "trace-78",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.171,
+            "y": 122.555
+          },
+          {
+            "x": 225.171,
+            "y": 121.0443
+          }
+        ]
+      },
+      {
+        "id": "trace-79",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 218.2997,
+            "y": 158.115
+          },
+          {
+            "x": 218.0457,
+            "y": 158.369
+          }
+        ]
+      },
+      {
+        "id": "trace-80",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 219.6585,
+            "y": 158.115
+          },
+          {
+            "x": 218.2997,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-81",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 158.369
+          },
+          {
+            "x": 218.0457,
+            "y": 158.369
+          }
+        ]
+      },
+      {
+        "id": "trace-82",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 237.49,
+            "y": 149.225
+          },
+          {
+            "x": 242.57,
+            "y": 149.225
+          }
+        ]
+      },
+      {
+        "id": "trace-83",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 203.4407,
+            "y": 153.4293
+          },
+          {
+            "x": 203.4407,
+            "y": 154.051
+          }
+        ]
+      },
+      {
+        "id": "trace-84",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 205.74,
+            "y": 151.13
+          },
+          {
+            "x": 203.4407,
+            "y": 153.4293
+          }
+        ]
+      },
+      {
+        "id": "trace-85",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 158.369
+          },
+          {
+            "x": 213.995,
+            "y": 158.369
+          }
+        ]
+      },
+      {
+        "id": "trace-86",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.1305,
+            "y": 127.5652
+          },
+          {
+            "x": 225.171,
+            "y": 126.6057
+          }
+        ]
+      },
+      {
+        "id": "trace-87",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.1305,
+            "y": 130.4304
+          },
+          {
+            "x": 226.1305,
+            "y": 127.5652
+          }
+        ]
+      },
+      {
+        "id": "trace-88",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.3571,
+            "y": 131.2038
+          },
+          {
+            "x": 226.1305,
+            "y": 130.4304
+          }
+        ]
+      },
+      {
+        "id": "trace-89",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 218.8338,
+            "y": 131.2038
+          },
+          {
+            "x": 225.3571,
+            "y": 131.2038
+          }
+        ]
+      },
+      {
+        "id": "trace-90",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.17,
+            "y": 129.54
+          },
+          {
+            "x": 218.8338,
+            "y": 131.2038
+          }
+        ]
+      },
+      {
+        "id": "trace-91",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.171,
+            "y": 125.095
+          },
+          {
+            "x": 225.171,
+            "y": 126.6057
+          }
+        ]
+      },
+      {
+        "id": "trace-92",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.171,
+            "y": 120.3205
+          },
+          {
+            "x": 225.171,
+            "y": 121.0443
+          }
+        ]
+      },
+      {
+        "id": "trace-93",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.425,
+            "y": 120.0665
+          },
+          {
+            "x": 225.171,
+            "y": 120.3205
+          }
+        ]
+      },
+      {
+        "id": "trace-94",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.425,
+            "y": 118.872
+          },
+          {
+            "x": 225.425,
+            "y": 120.0665
+          }
+        ]
+      },
+      {
+        "id": "trace-95",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.695,
+            "y": 153.4675
+          },
+          {
+            "x": 222.0475,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-96",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.695,
+            "y": 149.225
+          },
+          {
+            "x": 226.695,
+            "y": 153.4675
+          }
+        ]
+      },
+      {
+        "id": "trace-97",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 222.25,
+            "y": 144.78
+          },
+          {
+            "x": 226.695,
+            "y": 149.225
+          }
+        ]
+      },
+      {
+        "id": "trace-98",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.695,
+            "y": 149.225
+          },
+          {
+            "x": 233.045,
+            "y": 149.225
+          }
+        ]
+      },
+      {
+        "id": "trace-99",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 220.853,
+            "y": 158.115
+          },
+          {
+            "x": 221.8921,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-100",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.8921,
+            "y": 158.115
+          },
+          {
+            "x": 222.0475,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-101",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.3747,
+            "y": 162.985
+          },
+          {
+            "x": 203.4407,
+            "y": 154.051
+          }
+        ]
+      },
+      {
+        "id": "trace-102",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.5831,
+            "y": 162.985
+          },
+          {
+            "x": 212.3747,
+            "y": 162.985
+          }
+        ]
+      },
+      {
+        "id": "trace-103",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 222.0475,
+            "y": 162.5206
+          },
+          {
+            "x": 221.5831,
+            "y": 162.985
+          }
+        ]
+      },
+      {
+        "id": "trace-104",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 222.0475,
+            "y": 158.115
+          },
+          {
+            "x": 222.0475,
+            "y": 162.5206
+          }
+        ]
+      },
+      {
+        "id": "trace-105",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.96,
+            "y": 117.3251
+          },
+          {
+            "x": 191.77,
+            "y": 117.3251
+          }
+        ]
+      },
+      {
+        "id": "trace-106",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 203.8455,
+            "y": 119.7742
+          },
+          {
+            "x": 202.565,
+            "y": 121.0547
+          }
+        ]
+      },
+      {
+        "id": "trace-107",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.2517,
+            "y": 119.7742
+          },
+          {
+            "x": 203.8455,
+            "y": 119.7742
+          }
+        ]
+      },
+      {
+        "id": "trace-108",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 121.0725
+          },
+          {
+            "x": 208.2517,
+            "y": 119.7742
+          }
+        ]
+      },
+      {
+        "id": "trace-109",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 121.285
+          },
+          {
+            "x": 209.55,
+            "y": 121.0725
+          }
+        ]
+      },
+      {
+        "id": "trace-110",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 198.8354,
+            "y": 117.3251
+          },
+          {
+            "x": 202.565,
+            "y": 121.0547
+          }
+        ]
+      },
+      {
+        "id": "trace-111",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 191.77,
+            "y": 117.3251
+          },
+          {
+            "x": 198.8354,
+            "y": 117.3251
+          }
+        ]
+      },
+      {
+        "id": "trace-112",
+        "net": "Gnd",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 202.565,
+            "y": 121.0547
+          },
+          {
+            "x": 202.565,
+            "y": 121.285
+          }
+        ]
+      },
+      {
+        "id": "trace-113",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 149.225
+          },
+          {
+            "x": 233.045,
+            "y": 144.526
+          }
+        ]
+      },
+      {
+        "id": "trace-114",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 215.265,
+            "y": 140.716
+          },
+          {
+            "x": 215.265,
+            "y": 139.4593
+          }
+        ]
+      },
+      {
+        "id": "trace-115",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 214.5848,
+            "y": 132.1252
+          },
+          {
+            "x": 217.17,
+            "y": 129.54
+          }
+        ]
+      },
+      {
+        "id": "trace-116",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.2859,
+            "y": 132.1252
+          },
+          {
+            "x": 214.5848,
+            "y": 132.1252
+          }
+        ]
+      },
+      {
+        "id": "trace-117",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.5296,
+            "y": 135.8815
+          },
+          {
+            "x": 208.2859,
+            "y": 132.1252
+          }
+        ]
+      },
+      {
+        "id": "trace-118",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.5296,
+            "y": 137.4775
+          },
+          {
+            "x": 204.5296,
+            "y": 135.8815
+          }
+        ]
+      },
+      {
+        "id": "trace-119",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 203.3702,
+            "y": 137.4775
+          },
+          {
+            "x": 204.5296,
+            "y": 137.4775
+          }
+        ]
+      },
+      {
+        "id": "trace-120",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.5114,
+            "y": 139.4593
+          },
+          {
+            "x": 215.265,
+            "y": 139.4593
+          }
+        ]
+      },
+      {
+        "id": "trace-121",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.5296,
+            "y": 137.4775
+          },
+          {
+            "x": 206.5114,
+            "y": 139.4593
+          }
+        ]
+      },
+      {
+        "id": "trace-122",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 121.285
+          },
+          {
+            "x": 216.535,
+            "y": 122.8377
+          }
+        ]
+      },
+      {
+        "id": "trace-123",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.17,
+            "y": 123.4727
+          },
+          {
+            "x": 216.535,
+            "y": 122.8377
+          }
+        ]
+      },
+      {
+        "id": "trace-124",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.17,
+            "y": 129.54
+          },
+          {
+            "x": 217.17,
+            "y": 123.4727
+          }
+        ]
+      },
+      {
+        "id": "trace-125",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 211.1027,
+            "y": 122.8377
+          },
+          {
+            "x": 209.55,
+            "y": 121.285
+          }
+        ]
+      },
+      {
+        "id": "trace-126",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 122.8377
+          },
+          {
+            "x": 211.1027,
+            "y": 122.8377
+          }
+        ]
+      },
+      {
+        "id": "trace-127",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.9152,
+            "y": 144.78
+          },
+          {
+            "x": 222.25,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-128",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.9152,
+            "y": 141.7076
+          },
+          {
+            "x": 221.9152,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-129",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 219.6669,
+            "y": 139.4593
+          },
+          {
+            "x": 221.9152,
+            "y": 141.7076
+          }
+        ]
+      },
+      {
+        "id": "trace-130",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 215.265,
+            "y": 139.4593
+          },
+          {
+            "x": 219.6669,
+            "y": 139.4593
+          }
+        ]
+      },
+      {
+        "id": "trace-131",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.9152,
+            "y": 151.7321
+          },
+          {
+            "x": 216.535,
+            "y": 157.1123
+          }
+        ]
+      },
+      {
+        "id": "trace-132",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.9152,
+            "y": 144.78
+          },
+          {
+            "x": 221.9152,
+            "y": 151.7321
+          }
+        ]
+      },
+      {
+        "id": "trace-133",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 158.369
+          },
+          {
+            "x": 216.535,
+            "y": 157.7406
+          }
+        ]
+      },
+      {
+        "id": "trace-134",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 157.7406
+          },
+          {
+            "x": 216.535,
+            "y": 157.1123
+          }
+        ]
+      },
+      {
+        "id": "trace-135",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.1341,
+            "y": 157.7406
+          },
+          {
+            "x": 215.5057,
+            "y": 158.369
+          }
+        ]
+      },
+      {
+        "id": "trace-136",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 157.7406
+          },
+          {
+            "x": 216.1341,
+            "y": 157.7406
+          }
+        ]
+      },
+      {
+        "id": "trace-137",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.995,
+            "y": 158.369
+          },
+          {
+            "x": 215.5057,
+            "y": 158.369
+          }
+        ]
+      },
+      {
+        "id": "trace-138",
+        "net": "I2C1_GND",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 190.5,
+            "y": 158.369
+          },
+          {
+            "x": 192.0107,
+            "y": 158.369
+          }
+        ]
+      },
+      {
+        "id": "trace-139",
+        "net": "I2C1_GND",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.96,
+            "y": 158.369
+          },
+          {
+            "x": 190.5,
+            "y": 158.369
+          }
+        ]
+      },
+      {
+        "id": "trace-140",
+        "net": "I2C1_GND",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 192.8997,
+            "y": 157.48
+          },
+          {
+            "x": 193.675,
+            "y": 157.48
+          }
+        ]
+      },
+      {
+        "id": "trace-141",
+        "net": "I2C1_GND",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 192.0107,
+            "y": 158.369
+          },
+          {
+            "x": 192.8997,
+            "y": 157.48
+          }
+        ]
+      },
+      {
+        "id": "trace-142",
+        "net": "I2C1_GND",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 202.5135,
+            "y": 157.48
+          },
+          {
+            "x": 203.1485,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-143",
+        "net": "I2C1_GND",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 193.675,
+            "y": 157.48
+          },
+          {
+            "x": 202.5135,
+            "y": 157.48
+          }
+        ]
+      },
+      {
+        "id": "trace-144",
+        "net": "I2C1_GND",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.343,
+            "y": 158.115
+          },
+          {
+            "x": 203.1485,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-145",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 240.03,
+            "y": 159.004
+          },
+          {
+            "x": 240.03,
+            "y": 158.3756
+          }
+        ]
+      },
+      {
+        "id": "trace-146",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 240.4309,
+            "y": 158.3756
+          },
+          {
+            "x": 241.0593,
+            "y": 159.004
+          }
+        ]
+      },
+      {
+        "id": "trace-147",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 240.03,
+            "y": 158.3756
+          },
+          {
+            "x": 240.4309,
+            "y": 158.3756
+          }
+        ]
+      },
+      {
+        "id": "trace-148",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 242.57,
+            "y": 159.004
+          },
+          {
+            "x": 241.0593,
+            "y": 159.004
+          }
+        ]
+      },
+      {
+        "id": "trace-149",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.187,
+            "y": 158.115
+          },
+          {
+            "x": 227.3815,
+            "y": 158.115
+          }
+        ]
+      },
+      {
+        "id": "trace-150",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 228.0165,
+            "y": 157.48
+          },
+          {
+            "x": 236.855,
+            "y": 157.48
+          }
+        ]
+      },
+      {
+        "id": "trace-151",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 227.3815,
+            "y": 158.115
+          },
+          {
+            "x": 228.0165,
+            "y": 157.48
+          }
+        ]
+      },
+      {
+        "id": "trace-152",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 239.1344,
+            "y": 157.48
+          },
+          {
+            "x": 240.03,
+            "y": 158.3756
+          }
+        ]
+      },
+      {
+        "id": "trace-153",
+        "net": "I2C2_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 236.855,
+            "y": 157.48
+          },
+          {
+            "x": 239.1344,
+            "y": 157.48
+          }
+        ]
+      },
+      {
+        "id": "trace-154",
+        "net": "N-000001",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 223.1258,
+            "y": 120.3073
+          },
+          {
+            "x": 222.885,
+            "y": 120.0665
+          }
+        ]
+      },
+      {
+        "id": "trace-155",
+        "net": "N-000001",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 223.1258,
+            "y": 127.0265
+          },
+          {
+            "x": 223.1258,
+            "y": 120.3073
+          }
+        ]
+      },
+      {
+        "id": "trace-156",
+        "net": "N-000001",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 222.25,
+            "y": 127.9023
+          },
+          {
+            "x": 223.1258,
+            "y": 127.0265
+          }
+        ]
+      },
+      {
+        "id": "trace-157",
+        "net": "N-000001",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 222.25,
+            "y": 129.54
+          },
+          {
+            "x": 222.25,
+            "y": 127.9023
+          }
+        ]
+      },
+      {
+        "id": "trace-158",
+        "net": "N-000001",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 222.885,
+            "y": 118.872
+          },
+          {
+            "x": 222.885,
+            "y": 120.0665
+          }
+        ]
+      },
+      {
+        "id": "trace-159",
+        "net": "N-0000010",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.615,
+            "y": 111.0482
+          },
+          {
+            "x": 221.615,
+            "y": 113.538
+          }
+        ]
+      },
+      {
+        "id": "trace-160",
+        "net": "N-0000010",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 220.98,
+            "y": 110.4132
+          },
+          {
+            "x": 221.615,
+            "y": 111.0482
+          }
+        ]
+      },
+      {
+        "id": "trace-161",
+        "net": "N-0000010",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 220.98,
+            "y": 109.22
+          },
+          {
+            "x": 220.98,
+            "y": 110.4132
+          }
+        ]
+      },
+      {
+        "id": "trace-162",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 235.839,
+            "y": 159.004
+          },
+          {
+            "x": 229.87,
+            "y": 159.004
+          }
+        ]
+      },
+      {
+        "id": "trace-163",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 236.855,
+            "y": 160.02
+          },
+          {
+            "x": 235.839,
+            "y": 159.004
+          }
+        ]
+      },
+      {
+        "id": "trace-164",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 227.7625,
+            "y": 159.004
+          },
+          {
+            "x": 227.3815,
+            "y": 159.385
+          }
+        ]
+      },
+      {
+        "id": "trace-165",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 229.87,
+            "y": 159.004
+          },
+          {
+            "x": 227.7625,
+            "y": 159.004
+          }
+        ]
+      },
+      {
+        "id": "trace-166",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.187,
+            "y": 159.385
+          },
+          {
+            "x": 227.3815,
+            "y": 159.385
+          }
+        ]
+      },
+      {
+        "id": "trace-167",
+        "net": "N-0000013",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.995,
+            "y": 109.22
+          },
+          {
+            "x": 213.995,
+            "y": 113.665
+          }
+        ]
+      },
+      {
+        "id": "trace-168",
+        "net": "N-0000014",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.025,
+            "y": 109.22
+          },
+          {
+            "x": 200.025,
+            "y": 113.665
+          }
+        ]
+      },
+      {
+        "id": "trace-169",
+        "net": "N-0000015",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 199.009,
+            "y": 123.8117
+          },
+          {
+            "x": 199.009,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-170",
+        "net": "N-0000015",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.025,
+            "y": 122.7957
+          },
+          {
+            "x": 199.009,
+            "y": 123.8117
+          }
+        ]
+      },
+      {
+        "id": "trace-171",
+        "net": "N-0000015",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.025,
+            "y": 121.285
+          },
+          {
+            "x": 200.025,
+            "y": 122.7957
+          }
+        ]
+      },
+      {
+        "id": "trace-172",
+        "net": "N-0000016",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 109.22
+          },
+          {
+            "x": 209.55,
+            "y": 113.665
+          }
+        ]
+      },
+      {
+        "id": "trace-173",
+        "net": "N-0000017",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 109.22
+          },
+          {
+            "x": 207.01,
+            "y": 113.665
+          }
+        ]
+      },
+      {
+        "id": "trace-174",
+        "net": "N-0000018",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.6743,
+            "y": 124.46
+          },
+          {
+            "x": 208.6743,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-175",
+        "net": "N-0000018",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 122.7957
+          },
+          {
+            "x": 208.6743,
+            "y": 124.46
+          }
+        ]
+      },
+      {
+        "id": "trace-176",
+        "net": "N-0000018",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.931,
+            "y": 125.73
+          },
+          {
+            "x": 208.6743,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-177",
+        "net": "N-0000018",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 121.285
+          },
+          {
+            "x": 207.01,
+            "y": 122.7957
+          }
+        ]
+      },
+      {
+        "id": "trace-178",
+        "net": "N-0000019",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.535,
+            "y": 109.22
+          },
+          {
+            "x": 216.535,
+            "y": 113.665
+          }
+        ]
+      },
+      {
+        "id": "trace-179",
+        "net": "N-000002",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 223.9142,
+            "y": 120.3073
+          },
+          {
+            "x": 224.155,
+            "y": 120.0665
+          }
+        ]
+      },
+      {
+        "id": "trace-180",
+        "net": "N-000002",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 223.9142,
+            "y": 127.0265
+          },
+          {
+            "x": 223.9142,
+            "y": 120.3073
+          }
+        ]
+      },
+      {
+        "id": "trace-181",
+        "net": "N-000002",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 224.79,
+            "y": 127.9023
+          },
+          {
+            "x": 223.9142,
+            "y": 127.0265
+          }
+        ]
+      },
+      {
+        "id": "trace-182",
+        "net": "N-000002",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 224.79,
+            "y": 129.54
+          },
+          {
+            "x": 224.79,
+            "y": 127.9023
+          }
+        ]
+      },
+      {
+        "id": "trace-183",
+        "net": "N-000002",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 224.155,
+            "y": 118.872
+          },
+          {
+            "x": 224.155,
+            "y": 120.0665
+          }
+        ]
+      },
+      {
+        "id": "trace-184",
+        "net": "N-0000020",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 202.565,
+            "y": 109.22
+          },
+          {
+            "x": 202.565,
+            "y": 113.665
+          }
+        ]
+      },
+      {
+        "id": "trace-185",
+        "net": "N-0000021",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 215.6593,
+            "y": 124.46
+          },
+          {
+            "x": 215.6593,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-186",
+        "net": "N-0000021",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.995,
+            "y": 122.7957
+          },
+          {
+            "x": 215.6593,
+            "y": 124.46
+          }
+        ]
+      },
+      {
+        "id": "trace-187",
+        "net": "N-0000021",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 213.995,
+            "y": 121.285
+          },
+          {
+            "x": 213.995,
+            "y": 122.7957
+          }
+        ]
+      },
+      {
+        "id": "trace-188",
+        "net": "N-0000021",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.916,
+            "y": 125.73
+          },
+          {
+            "x": 215.6593,
+            "y": 125.73
+          }
+        ]
+      },
+      {
+        "id": "trace-189",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 221.1962,
+            "y": 137.414
+          },
+          {
+            "x": 218.44,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-190",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 227.0514,
+            "y": 143.2692
+          },
+          {
+            "x": 221.1962,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-191",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 239.1542,
+            "y": 143.2692
+          },
+          {
+            "x": 227.0514,
+            "y": 143.2692
+          }
+        ]
+      },
+      {
+        "id": "trace-192",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 242.57,
+            "y": 146.685
+          },
+          {
+            "x": 239.1542,
+            "y": 143.2692
+          }
+        ]
+      },
+      {
+        "id": "trace-193",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 218.44,
+            "y": 137.414
+          },
+          {
+            "x": 216.9293,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-194",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.8653,
+            "y": 136.525
+          },
+          {
+            "x": 213.7543,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-195",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 205.5698,
+            "y": 136.525
+          },
+          {
+            "x": 212.8653,
+            "y": 136.525
+          }
+        ]
+      },
+      {
+        "id": "trace-196",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 215.265,
+            "y": 137.414
+          },
+          {
+            "x": 216.9293,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-197",
+        "net": "N-0000022",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 215.265,
+            "y": 137.414
+          },
+          {
+            "x": 213.7543,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-198",
+        "net": "N-0000023",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 201.9802,
+            "y": 135.5725
+          },
+          {
+            "x": 201.6627,
+            "y": 135.89
+          }
+        ]
+      },
+      {
+        "id": "trace-199",
+        "net": "N-0000023",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 203.3702,
+            "y": 135.5725
+          },
+          {
+            "x": 201.9802,
+            "y": 135.5725
+          }
+        ]
+      },
+      {
+        "id": "trace-200",
+        "net": "N-0000023",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.406,
+            "y": 135.89
+          },
+          {
+            "x": 201.6627,
+            "y": 135.89
+          }
+        ]
+      },
+      {
+        "id": "trace-201",
+        "net": "N-0000025",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 191.77,
+            "y": 120.1649
+          },
+          {
+            "x": 191.77,
+            "y": 122.809
+          }
+        ]
+      },
+      {
+        "id": "trace-202",
+        "net": "N-0000026",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.96,
+            "y": 120.1649
+          },
+          {
+            "x": 187.96,
+            "y": 122.809
+          }
+        ]
+      },
+      {
+        "id": "trace-203",
+        "net": "N-0000027",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 196.85,
+            "y": 134.1253
+          },
+          {
+            "x": 197.104,
+            "y": 134.3793
+          }
+        ]
+      },
+      {
+        "id": "trace-204",
+        "net": "N-0000027",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 196.85,
+            "y": 129.54
+          },
+          {
+            "x": 196.85,
+            "y": 134.1253
+          }
+        ]
+      },
+      {
+        "id": "trace-205",
+        "net": "N-0000027",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 197.104,
+            "y": 135.89
+          },
+          {
+            "x": 197.104,
+            "y": 134.3793
+          }
+        ]
+      },
+      {
+        "id": "trace-206",
+        "net": "N-0000028",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.9479,
+            "y": 127.3798
+          },
+          {
+            "x": 187.96,
+            "y": 127.3677
+          }
+        ]
+      },
+      {
+        "id": "trace-207",
+        "net": "N-0000028",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.9479,
+            "y": 129.54
+          },
+          {
+            "x": 187.9479,
+            "y": 127.3798
+          }
+        ]
+      },
+      {
+        "id": "trace-208",
+        "net": "N-0000028",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 189.23,
+            "y": 129.54
+          },
+          {
+            "x": 187.9479,
+            "y": 129.54
+          }
+        ]
+      },
+      {
+        "id": "trace-209",
+        "net": "N-0000028",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.96,
+            "y": 126.111
+          },
+          {
+            "x": 187.96,
+            "y": 127.3677
+          }
+        ]
+      },
+      {
+        "id": "trace-210",
+        "net": "N-0000029",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 191.77,
+            "y": 129.54
+          },
+          {
+            "x": 191.77,
+            "y": 126.111
+          }
+        ]
+      },
+      {
+        "id": "trace-211",
+        "net": "N-0000033",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 191.4525,
+            "y": 151.30018
+          },
+          {
+            "x": 189.5475,
+            "y": 151.30018
+          }
+        ]
+      },
+      {
+        "id": "trace-212",
+        "net": "N-0000033",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 152.07488
+          },
+          {
+            "x": 192.2272,
+            "y": 152.07488
+          }
+        ]
+      },
+      {
+        "id": "trace-213",
+        "net": "N-0000033",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 192.2272,
+            "y": 152.07488
+          },
+          {
+            "x": 191.4525,
+            "y": 151.30018
+          }
+        ]
+      },
+      {
+        "id": "trace-214",
+        "net": "N-0000034",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 199.39,
+            "y": 145.796
+          },
+          {
+            "x": 199.39,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-215",
+        "net": "N-0000034",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 196.215,
+            "y": 148.971
+          },
+          {
+            "x": 199.39,
+            "y": 145.796
+          }
+        ]
+      },
+      {
+        "id": "trace-216",
+        "net": "N-0000034",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 196.215,
+            "y": 151.511
+          },
+          {
+            "x": 196.215,
+            "y": 148.971
+          }
+        ]
+      },
+      {
+        "id": "trace-217",
+        "net": "N-0000034",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 196.77888,
+            "y": 152.07488
+          },
+          {
+            "x": 196.215,
+            "y": 151.511
+          }
+        ]
+      },
+      {
+        "id": "trace-218",
+        "net": "N-0000034",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 198.374,
+            "y": 152.07488
+          },
+          {
+            "x": 196.77888,
+            "y": 152.07488
+          }
+        ]
+      },
+      {
+        "id": "trace-219",
+        "net": "N-0000035",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 153.37536
+          },
+          {
+            "x": 194.056,
+            "y": 153.416
+          }
+        ]
+      },
+      {
+        "id": "trace-220",
+        "net": "N-0000035",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.579,
+            "y": 154.559
+          },
+          {
+            "x": 186.69,
+            "y": 153.67
+          }
+        ]
+      },
+      {
+        "id": "trace-221",
+        "net": "N-0000035",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 192.913,
+            "y": 154.559
+          },
+          {
+            "x": 187.579,
+            "y": 154.559
+          }
+        ]
+      },
+      {
+        "id": "trace-222",
+        "net": "N-0000035",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 153.416
+          },
+          {
+            "x": 192.913,
+            "y": 154.559
+          }
+        ]
+      },
+      {
+        "id": "trace-223",
+        "net": "N-0000036",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 151.42464
+          },
+          {
+            "x": 194.056,
+            "y": 151.384
+          }
+        ]
+      },
+      {
+        "id": "trace-224",
+        "net": "N-0000036",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.833,
+            "y": 149.987
+          },
+          {
+            "x": 186.69,
+            "y": 151.13
+          }
+        ]
+      },
+      {
+        "id": "trace-225",
+        "net": "N-0000036",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 192.659,
+            "y": 149.987
+          },
+          {
+            "x": 187.833,
+            "y": 149.987
+          }
+        ]
+      },
+      {
+        "id": "trace-226",
+        "net": "N-0000036",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 151.384
+          },
+          {
+            "x": 192.659,
+            "y": 149.987
+          }
+        ]
+      },
+      {
+        "id": "trace-227",
+        "net": "N-0000037",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 152.72512
+          },
+          {
+            "x": 191.2747,
+            "y": 152.72512
+          }
+        ]
+      },
+      {
+        "id": "trace-228",
+        "net": "N-0000037",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 191.2747,
+            "y": 152.72512
+          },
+          {
+            "x": 190.5,
+            "y": 153.49982
+          }
+        ]
+      },
+      {
+        "id": "trace-229",
+        "net": "N-0000038",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 242.57,
+            "y": 144.145
+          },
+          {
+            "x": 226.7071,
+            "y": 144.145
+          }
+        ]
+      },
+      {
+        "id": "trace-230",
+        "net": "N-0000038",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.7071,
+            "y": 144.145
+          },
+          {
+            "x": 226.0721,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-231",
+        "net": "N-0000038",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.0721,
+            "y": 144.78
+          },
+          {
+            "x": 224.79,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-232",
+        "net": "N-0000038",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.7071,
+            "y": 144.145
+          },
+          {
+            "x": 226.0721,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-233",
+        "net": "N-0000038",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 224.79,
+            "y": 144.78
+          },
+          {
+            "x": 226.0721,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-234",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 236.855,
+            "y": 165.1
+          },
+          {
+            "x": 235.6618,
+            "y": 165.1
+          }
+        ]
+      },
+      {
+        "id": "trace-235",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 234.7728,
+            "y": 164.211
+          },
+          {
+            "x": 233.045,
+            "y": 164.211
+          }
+        ]
+      },
+      {
+        "id": "trace-236",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 235.6618,
+            "y": 165.1
+          },
+          {
+            "x": 234.7728,
+            "y": 164.211
+          }
+        ]
+      },
+      {
+        "id": "trace-237",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 230.886,
+            "y": 163.5627
+          },
+          {
+            "x": 229.87,
+            "y": 163.5627
+          }
+        ]
+      },
+      {
+        "id": "trace-238",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 231.5343,
+            "y": 164.211
+          },
+          {
+            "x": 230.886,
+            "y": 163.5627
+          }
+        ]
+      },
+      {
+        "id": "trace-239",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 164.211
+          },
+          {
+            "x": 231.5343,
+            "y": 164.211
+          }
+        ]
+      },
+      {
+        "id": "trace-240",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 229.87,
+            "y": 162.306
+          },
+          {
+            "x": 229.87,
+            "y": 162.9343
+          }
+        ]
+      },
+      {
+        "id": "trace-241",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 229.87,
+            "y": 162.9343
+          },
+          {
+            "x": 229.87,
+            "y": 163.5627
+          }
+        ]
+      },
+      {
+        "id": "trace-242",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 228.3908,
+            "y": 162.9343
+          },
+          {
+            "x": 227.3815,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-243",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 229.87,
+            "y": 162.9343
+          },
+          {
+            "x": 228.3908,
+            "y": 162.9343
+          }
+        ]
+      },
+      {
+        "id": "trace-244",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.187,
+            "y": 161.925
+          },
+          {
+            "x": 227.3815,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-245",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 239.5855,
+            "y": 163.5627
+          },
+          {
+            "x": 238.0482,
+            "y": 165.1
+          }
+        ]
+      },
+      {
+        "id": "trace-246",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 240.03,
+            "y": 163.5627
+          },
+          {
+            "x": 239.5855,
+            "y": 163.5627
+          }
+        ]
+      },
+      {
+        "id": "trace-247",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 236.855,
+            "y": 165.1
+          },
+          {
+            "x": 238.0482,
+            "y": 165.1
+          }
+        ]
+      },
+      {
+        "id": "trace-248",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 240.03,
+            "y": 162.306
+          },
+          {
+            "x": 240.03,
+            "y": 162.9343
+          }
+        ]
+      },
+      {
+        "id": "trace-249",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 240.03,
+            "y": 162.9343
+          },
+          {
+            "x": 240.03,
+            "y": 163.5627
+          }
+        ]
+      },
+      {
+        "id": "trace-250",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 240.431,
+            "y": 162.9343
+          },
+          {
+            "x": 241.0593,
+            "y": 162.306
+          }
+        ]
+      },
+      {
+        "id": "trace-251",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 240.03,
+            "y": 162.9343
+          },
+          {
+            "x": 240.431,
+            "y": 162.9343
+          }
+        ]
+      },
+      {
+        "id": "trace-252",
+        "net": "N-0000039",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 242.57,
+            "y": 162.306
+          },
+          {
+            "x": 241.0593,
+            "y": 162.306
+          }
+        ]
+      },
+      {
+        "id": "trace-253",
+        "net": "N-000004",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 194.691,
+            "y": 159.004
+          },
+          {
+            "x": 200.66,
+            "y": 159.004
+          }
+        ]
+      },
+      {
+        "id": "trace-254",
+        "net": "N-000004",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 193.675,
+            "y": 160.02
+          },
+          {
+            "x": 194.691,
+            "y": 159.004
+          }
+        ]
+      },
+      {
+        "id": "trace-255",
+        "net": "N-000004",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 202.7675,
+            "y": 159.004
+          },
+          {
+            "x": 203.1485,
+            "y": 159.385
+          }
+        ]
+      },
+      {
+        "id": "trace-256",
+        "net": "N-000004",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 159.004
+          },
+          {
+            "x": 202.7675,
+            "y": 159.004
+          }
+        ]
+      },
+      {
+        "id": "trace-257",
+        "net": "N-000004",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.343,
+            "y": 159.385
+          },
+          {
+            "x": 203.1485,
+            "y": 159.385
+          }
+        ]
+      },
+      {
+        "id": "trace-258",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 202.7675,
+            "y": 162.306
+          },
+          {
+            "x": 203.1485,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-259",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 162.306
+          },
+          {
+            "x": 202.7675,
+            "y": 162.306
+          }
+        ]
+      },
+      {
+        "id": "trace-260",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.343,
+            "y": 161.925
+          },
+          {
+            "x": 203.1485,
+            "y": 161.925
+          }
+        ]
+      },
+      {
+        "id": "trace-261",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 190.5,
+            "y": 161.671
+          },
+          {
+            "x": 190.5,
+            "y": 162.2993
+          }
+        ]
+      },
+      {
+        "id": "trace-262",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 190.099,
+            "y": 162.2993
+          },
+          {
+            "x": 189.4707,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-263",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 190.5,
+            "y": 162.2993
+          },
+          {
+            "x": 190.099,
+            "y": 162.2993
+          }
+        ]
+      },
+      {
+        "id": "trace-264",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 187.96,
+            "y": 161.671
+          },
+          {
+            "x": 189.4707,
+            "y": 161.671
+          }
+        ]
+      },
+      {
+        "id": "trace-265",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 199.644,
+            "y": 163.5627
+          },
+          {
+            "x": 200.66,
+            "y": 163.5627
+          }
+        ]
+      },
+      {
+        "id": "trace-266",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 198.9957,
+            "y": 164.211
+          },
+          {
+            "x": 199.644,
+            "y": 163.5627
+          }
+        ]
+      },
+      {
+        "id": "trace-267",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 197.485,
+            "y": 164.211
+          },
+          {
+            "x": 198.9957,
+            "y": 164.211
+          }
+        ]
+      },
+      {
+        "id": "trace-268",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 162.306
+          },
+          {
+            "x": 200.66,
+            "y": 163.5627
+          }
+        ]
+      },
+      {
+        "id": "trace-269",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 197.485,
+            "y": 164.211
+          },
+          {
+            "x": 195.9743,
+            "y": 164.211
+          }
+        ]
+      },
+      {
+        "id": "trace-270",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 195.0853,
+            "y": 165.1
+          },
+          {
+            "x": 195.9743,
+            "y": 164.211
+          }
+        ]
+      },
+      {
+        "id": "trace-271",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 193.675,
+            "y": 165.1
+          },
+          {
+            "x": 195.0853,
+            "y": 165.1
+          }
+        ]
+      },
+      {
+        "id": "trace-272",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 192.4818,
+            "y": 164.2811
+          },
+          {
+            "x": 190.5,
+            "y": 162.2993
+          }
+        ]
+      },
+      {
+        "id": "trace-273",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 192.4818,
+            "y": 165.1
+          },
+          {
+            "x": 192.4818,
+            "y": 164.2811
+          }
+        ]
+      },
+      {
+        "id": "trace-274",
+        "net": "N-0000040",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 193.675,
+            "y": 165.1
+          },
+          {
+            "x": 192.4818,
+            "y": 165.1
+          }
+        ]
+      },
+      {
+        "id": "trace-275",
+        "net": "N-000005",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 195.326,
+            "y": 160.909
+          },
+          {
+            "x": 197.485,
+            "y": 160.909
+          }
+        ]
+      },
+      {
+        "id": "trace-276",
+        "net": "N-000005",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 193.675,
+            "y": 162.56
+          },
+          {
+            "x": 195.326,
+            "y": 160.909
+          }
+        ]
+      },
+      {
+        "id": "trace-277",
+        "net": "N-000005",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 202.8945,
+            "y": 160.909
+          },
+          {
+            "x": 203.1485,
+            "y": 160.655
+          }
+        ]
+      },
+      {
+        "id": "trace-278",
+        "net": "N-000005",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 197.485,
+            "y": 160.909
+          },
+          {
+            "x": 202.8945,
+            "y": 160.909
+          }
+        ]
+      },
+      {
+        "id": "trace-279",
+        "net": "N-000005",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.343,
+            "y": 160.655
+          },
+          {
+            "x": 203.1485,
+            "y": 160.655
+          }
+        ]
+      },
+      {
+        "id": "trace-280",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.677,
+            "y": 160.655
+          },
+          {
+            "x": 208.4825,
+            "y": 160.655
+          }
+        ]
+      },
+      {
+        "id": "trace-281",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.4825,
+            "y": 160.0085
+          },
+          {
+            "x": 208.4825,
+            "y": 160.655
+          }
+        ]
+      },
+      {
+        "id": "trace-282",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.5193,
+            "y": 156.0453
+          },
+          {
+            "x": 208.4825,
+            "y": 160.0085
+          }
+        ]
+      },
+      {
+        "id": "trace-283",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 204.5193,
+            "y": 150.6132
+          },
+          {
+            "x": 204.5193,
+            "y": 156.0453
+          }
+        ]
+      },
+      {
+        "id": "trace-284",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 206.1413,
+            "y": 148.9912
+          },
+          {
+            "x": 204.5193,
+            "y": 150.6132
+          }
+        ]
+      },
+      {
+        "id": "trace-285",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 144.78
+          },
+          {
+            "x": 207.01,
+            "y": 146.4177
+          }
+        ]
+      },
+      {
+        "id": "trace-286",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 146.4177
+          },
+          {
+            "x": 207.01,
+            "y": 148.1225
+          }
+        ]
+      },
+      {
+        "id": "trace-287",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 148.1225
+          },
+          {
+            "x": 206.1413,
+            "y": 148.9912
+          }
+        ]
+      },
+      {
+        "id": "trace-288",
+        "net": "N-0000053",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.28,
+            "y": 151.13
+          },
+          {
+            "x": 206.1413,
+            "y": 148.9912
+          }
+        ]
+      },
+      {
+        "id": "trace-289",
+        "net": "N-0000053",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 219.2511,
+            "y": 160.2476
+          },
+          {
+            "x": 219.6585,
+            "y": 160.655
+          }
+        ]
+      },
+      {
+        "id": "trace-290",
+        "net": "N-0000053",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 211.6959,
+            "y": 160.2476
+          },
+          {
+            "x": 219.2511,
+            "y": 160.2476
+          }
+        ]
+      },
+      {
+        "id": "trace-291",
+        "net": "N-0000053",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.899,
+            "y": 156.4507
+          },
+          {
+            "x": 211.6959,
+            "y": 160.2476
+          }
+        ]
+      },
+      {
+        "id": "trace-292",
+        "net": "N-0000053",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.899,
+            "y": 154.94
+          },
+          {
+            "x": 207.899,
+            "y": 156.4507
+          }
+        ]
+      },
+      {
+        "id": "trace-293",
+        "net": "N-0000053",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 220.853,
+            "y": 160.655
+          },
+          {
+            "x": 219.6585,
+            "y": 160.655
+          }
+        ]
+      },
+      {
+        "id": "trace-294",
+        "net": "N-0000053",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.28,
+            "y": 153.0483
+          },
+          {
+            "x": 207.899,
+            "y": 153.4293
+          }
+        ]
+      },
+      {
+        "id": "trace-295",
+        "net": "N-0000053",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 208.28,
+            "y": 151.13
+          },
+          {
+            "x": 208.28,
+            "y": 153.0483
+          }
+        ]
+      },
+      {
+        "id": "trace-296",
+        "net": "N-0000053",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.899,
+            "y": 154.94
+          },
+          {
+            "x": 207.899,
+            "y": 153.4293
+          }
+        ]
+      },
+      {
+        "id": "trace-297",
+        "net": "N-0000057",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.677,
+            "y": 159.385
+          },
+          {
+            "x": 210.8715,
+            "y": 159.385
+          }
+        ]
+      },
+      {
+        "id": "trace-298",
+        "net": "N-0000057",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 210.8715,
+            "y": 159.385
+          },
+          {
+            "x": 210.8715,
+            "y": 151.1815
+          }
+        ]
+      },
+      {
+        "id": "trace-299",
+        "net": "N-0000057",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 210.8715,
+            "y": 151.1815
+          },
+          {
+            "x": 210.82,
+            "y": 151.13
+          }
+        ]
+      },
+      {
+        "id": "trace-300",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 219.4177,
+            "y": 159.6258
+          },
+          {
+            "x": 219.6585,
+            "y": 159.385
+          }
+        ]
+      },
+      {
+        "id": "trace-301",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 212.7707,
+            "y": 159.6258
+          },
+          {
+            "x": 219.4177,
+            "y": 159.6258
+          }
+        ]
+      },
+      {
+        "id": "trace-302",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.9442,
+            "y": 156.7993
+          },
+          {
+            "x": 212.7707,
+            "y": 159.6258
+          }
+        ]
+      },
+      {
+        "id": "trace-303",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.9442,
+            "y": 152.0058
+          },
+          {
+            "x": 209.9442,
+            "y": 156.7993
+          }
+        ]
+      },
+      {
+        "id": "trace-304",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 210.82,
+            "y": 151.13
+          },
+          {
+            "x": 209.9442,
+            "y": 152.0058
+          }
+        ]
+      },
+      {
+        "id": "trace-305",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 220.853,
+            "y": 159.385
+          },
+          {
+            "x": 219.6585,
+            "y": 159.385
+          }
+        ]
+      },
+      {
+        "id": "trace-306",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.1956,
+            "y": 146.4177
+          },
+          {
+            "x": 209.169,
+            "y": 146.4443
+          }
+        ]
+      },
+      {
+        "id": "trace-307",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 146.4177
+          },
+          {
+            "x": 209.1956,
+            "y": 146.4177
+          }
+        ]
+      },
+      {
+        "id": "trace-308",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.169,
+            "y": 147.955
+          },
+          {
+            "x": 209.169,
+            "y": 146.4443
+          }
+        ]
+      },
+      {
+        "id": "trace-309",
+        "net": "N-0000057",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 144.78
+          },
+          {
+            "x": 209.55,
+            "y": 146.4177
+          }
+        ]
+      },
+      {
+        "id": "trace-310",
+        "net": "N-0000057",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 149.86
+          },
+          {
+            "x": 210.82,
+            "y": 151.13
+          }
+        ]
+      },
+      {
+        "id": "trace-311",
+        "net": "N-0000057",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 144.78
+          },
+          {
+            "x": 209.55,
+            "y": 149.86
+          }
+        ]
+      },
+      {
+        "id": "trace-312",
+        "net": "N-0000058",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 237.49,
+            "y": 120.015
+          },
+          {
+            "x": 233.045,
+            "y": 120.015
+          }
+        ]
+      },
+      {
+        "id": "trace-313",
+        "net": "N-0000058",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 242.57,
+            "y": 125.095
+          },
+          {
+            "x": 242.57,
+            "y": 141.605
+          }
+        ]
+      },
+      {
+        "id": "trace-314",
+        "net": "N-0000058",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 237.49,
+            "y": 120.015
+          },
+          {
+            "x": 242.57,
+            "y": 125.095
+          }
+        ]
+      },
+      {
+        "id": "trace-315",
+        "net": "N-000006",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 160.909
+          },
+          {
+            "x": 233.045,
+            "y": 161.0492
+          }
+        ]
+      },
+      {
+        "id": "trace-316",
+        "net": "N-000006",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 227.7757,
+            "y": 161.0492
+          },
+          {
+            "x": 227.3815,
+            "y": 160.655
+          }
+        ]
+      },
+      {
+        "id": "trace-317",
+        "net": "N-000006",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 161.0492
+          },
+          {
+            "x": 227.7757,
+            "y": 161.0492
+          }
+        ]
+      },
+      {
+        "id": "trace-318",
+        "net": "N-000006",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.187,
+            "y": 160.655
+          },
+          {
+            "x": 227.3815,
+            "y": 160.655
+          }
+        ]
+      },
+      {
+        "id": "trace-319",
+        "net": "N-000006",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 235.3442,
+            "y": 161.0492
+          },
+          {
+            "x": 233.045,
+            "y": 161.0492
+          }
+        ]
+      },
+      {
+        "id": "trace-320",
+        "net": "N-000006",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 236.855,
+            "y": 162.56
+          },
+          {
+            "x": 235.3442,
+            "y": 161.0492
+          }
+        ]
+      },
+      {
+        "id": "trace-321",
+        "net": "N-000007",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 237.49,
+            "y": 131.445
+          },
+          {
+            "x": 233.045,
+            "y": 131.445
+          }
+        ]
+      },
+      {
+        "id": "trace-322",
+        "net": "N-000007",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 203.835,
+            "y": 137.795
+          },
+          {
+            "x": 196.85,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-323",
+        "net": "N-000007",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 137.795
+          },
+          {
+            "x": 203.835,
+            "y": 137.795
+          }
+        ]
+      },
+      {
+        "id": "trace-324",
+        "net": "N-000007",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 131.445
+          },
+          {
+            "x": 233.045,
+            "y": 137.795
+          }
+        ]
+      },
+      {
+        "id": "trace-325",
+        "net": "N-000007",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 137.795
+          },
+          {
+            "x": 233.045,
+            "y": 141.224
+          }
+        ]
+      },
+      {
+        "id": "trace-326",
+        "net": "N-000007",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 137.795
+          },
+          {
+            "x": 237.49,
+            "y": 137.795
+          }
+        ]
+      },
+      {
+        "id": "trace-327",
+        "net": "N-000008",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 224.155,
+            "y": 111.125
+          },
+          {
+            "x": 224.155,
+            "y": 113.538
+          }
+        ]
+      },
+      {
+        "id": "trace-328",
+        "net": "N-000008",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 226.06,
+            "y": 109.22
+          },
+          {
+            "x": 224.155,
+            "y": 111.125
+          }
+        ]
+      },
+      {
+        "id": "trace-329",
+        "net": "N-000009",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 222.885,
+            "y": 109.855
+          },
+          {
+            "x": 222.885,
+            "y": 113.538
+          }
+        ]
+      },
+      {
+        "id": "trace-330",
+        "net": "N-000009",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 223.52,
+            "y": 109.22
+          },
+          {
+            "x": 222.885,
+            "y": 109.855
+          }
+        ]
+      },
+      {
+        "id": "trace-331",
+        "net": "RS232_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.4765,
+            "y": 112.3435
+          },
+          {
+            "x": 225.425,
+            "y": 112.3435
+          }
+        ]
+      },
+      {
+        "id": "trace-332",
+        "net": "RS232_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 228.6,
+            "y": 109.22
+          },
+          {
+            "x": 225.4765,
+            "y": 112.3435
+          }
+        ]
+      },
+      {
+        "id": "trace-333",
+        "net": "RS232_GND",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 225.425,
+            "y": 113.538
+          },
+          {
+            "x": 225.425,
+            "y": 112.3435
+          }
+        ]
+      }
+    ],
+    "vias": [
+      {
+        "id": "via-0",
+        "net": "Gnd",
+        "x": 199.04964,
+        "y": 154.051,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "id": "zone-0",
+        "net": "Gnd",
+        "layer": "B.Cu",
+        "points": [
+          {
+            "x": 203.2,
+            "y": 155.575
+          },
+          {
+            "x": 185.42,
+            "y": 155.575
+          },
+          {
+            "x": 185.42,
+            "y": 148.59
+          },
+          {
+            "x": 203.2,
+            "y": 148.59
+          }
+        ],
+        "priority": 0
+      },
+      {
+        "id": "zone-1",
+        "net": "I2C2_GND",
+        "layer": "B.Cu",
+        "points": [
+          {
+            "x": 244.475,
+            "y": 166.37
+          },
+          {
+            "x": 224.155,
+            "y": 166.37
+          },
+          {
+            "x": 224.155,
+            "y": 158.115
+          },
+          {
+            "x": 226.695,
+            "y": 155.575
+          },
+          {
+            "x": 244.475,
+            "y": 155.575
+          }
+        ],
+        "priority": 0
+      },
+      {
+        "id": "zone-2",
+        "net": "I2C1_GND",
+        "layer": "F.Cu",
+        "points": [
+          {
+            "x": 206.375,
+            "y": 166.37
+          },
+          {
+            "x": 185.42,
+            "y": 166.37
+          },
+          {
+            "x": 185.42,
+            "y": 156.21
+          },
+          {
+            "x": 203.835,
+            "y": 156.21
+          },
+          {
+            "x": 206.375,
+            "y": 158.75
+          }
+        ],
+        "priority": 0
+      }
+    ],
+    "nets": [
+      {
+        "name": "5v",
+        "class": "signal"
+      },
+      {
+        "name": "D3",
+        "class": "signal"
+      },
+      {
+        "name": "D5",
+        "class": "signal"
+      },
+      {
+        "name": "D6",
+        "class": "signal"
+      },
+      {
+        "name": "Gnd",
+        "class": "ground"
+      },
+      {
+        "name": "I2C1_GND",
+        "class": "signal"
+      },
+      {
+        "name": "I2C2_GND",
+        "class": "signal"
+      },
+      {
+        "name": "N-000001",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000010",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000012",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000013",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000014",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000015",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000016",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000017",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000018",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000019",
+        "class": "signal"
+      },
+      {
+        "name": "N-000002",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000020",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000021",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000022",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000023",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000025",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000026",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000027",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000028",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000029",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000033",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000034",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000035",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000036",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000037",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000038",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000039",
+        "class": "signal"
+      },
+      {
+        "name": "N-000004",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000040",
+        "class": "signal"
+      },
+      {
+        "name": "N-000005",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000053",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000057",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000058",
+        "class": "signal"
+      },
+      {
+        "name": "N-000006",
+        "class": "signal"
+      },
+      {
+        "name": "N-000007",
+        "class": "signal"
+      },
+      {
+        "name": "N-000008",
+        "class": "signal"
+      },
+      {
+        "name": "N-000009",
+        "class": "signal"
+      },
+      {
+        "name": "RS232_GND",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "LiFePO4-Charge-Controller_LiFePO4-Charge-Controller__raw",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:07.000Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996667000,
+  "updatedAt": 1773996667000
+}

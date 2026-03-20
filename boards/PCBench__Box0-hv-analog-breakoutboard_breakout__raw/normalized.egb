@@ -1,0 +1,8421 @@
+{
+  "egb": 1,
+  "name": "Box0-hv-analog-breakoutboard_breakout__raw",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 61.999999999999986,
+      "height": 0,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 156.8815,
+          "y": 50.39852
+        },
+        {
+          "x": 94.8815,
+          "y": 50.39852
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/JP1",
+        "type": "connector",
+        "designator": "JP1",
+        "value": "Jumper_NO_Small",
+        "package": "0201",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 108.4075,
+        "y": 92.30852,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "DIGITAL_EXT",
+            "x": -0.275,
+            "y": 0,
+            "width": 0.3,
+            "height": 0.35,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(JP1-Pad2)",
+            "x": 0.275,
+            "y": 0,
+            "width": 0.3,
+            "height": 0.35,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 0.85,
+        "bodyHeight": 0.35,
+        "bodyHeight3D": 0.3
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C3",
+        "type": "capacitor",
+        "designator": "C3",
+        "value": "100nF",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 152.8575,
+        "y": 64.62252,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "ANALOG_NEG",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C2",
+        "type": "capacitor",
+        "designator": "C2",
+        "value": "100nF",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 152.8575,
+        "y": 61.06652,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "ANALOG_POS",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C1",
+        "type": "capacitor",
+        "designator": "C1",
+        "value": "100nF",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 152.8575,
+        "y": 67.67052,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "VREF_EXT",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/U1",
+        "type": "ic",
+        "designator": "U1",
+        "value": "24C16",
+        "package": "SOIC-8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 109.9315,
+        "y": 87.73652,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "DIGITAL_EXT",
+            "x": -2.7,
+            "y": -1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "DIGITAL_EXT",
+            "x": -2.7,
+            "y": -0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "DIGITAL_EXT",
+            "x": -2.7,
+            "y": 0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GND",
+            "x": -2.7,
+            "y": 1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "/Box0 Interface/I2C0.SDA",
+            "x": 2.7,
+            "y": 1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "/Box0 Interface/I2C0.SCL",
+            "x": 2.7,
+            "y": 0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(JP1-Pad2)",
+            "x": 2.7,
+            "y": -0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "DIGITAL_EXT",
+            "x": 2.7,
+            "y": -1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 6.95,
+        "bodyHeight": 4.41,
+        "bodyHeight3D": 1.75
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R24",
+        "type": "resistor",
+        "designator": "R24",
+        "value": "4.7K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 105.1055,
+        "y": 87.99052,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "DIGITAL_EXT",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Box0 Interface/I2C0.SCL",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R23",
+        "type": "resistor",
+        "designator": "R23",
+        "value": "10K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 147.0155,
+        "y": 84.68852,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Box0 Interface/AIN0.3",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R22",
+        "type": "resistor",
+        "designator": "R22",
+        "value": "91K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 148.5395,
+        "y": 84.68852,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/Box0 Interface/AIN0.3",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P8-Pad4)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R21",
+        "type": "resistor",
+        "designator": "R21",
+        "value": "10K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.9195,
+        "y": 84.68852,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Box0 Interface/AIN0.1",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R20",
+        "type": "resistor",
+        "designator": "R20",
+        "value": "91K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 142.4435,
+        "y": 84.68852,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/Box0 Interface/AIN0.1",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P8-Pad2)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R19",
+        "type": "resistor",
+        "designator": "R19",
+        "value": "4.7K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 103.3275,
+        "y": 87.22852,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "DIGITAL_EXT",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Box0 Interface/I2C0.SDA",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R18",
+        "type": "resistor",
+        "designator": "R18",
+        "value": "10K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 143.9675,
+        "y": 84.68852,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Box0 Interface/AIN0.2",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R17",
+        "type": "resistor",
+        "designator": "R17",
+        "value": "91K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 145.4915,
+        "y": 84.68852,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/Box0 Interface/AIN0.2",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P8-Pad3)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R16",
+        "type": "resistor",
+        "designator": "R16",
+        "value": "10K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 137.8715,
+        "y": 84.68852,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Box0 Interface/AIN0.0",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R15",
+        "type": "resistor",
+        "designator": "R15",
+        "value": "91K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 139.3955,
+        "y": 84.68852,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/Box0 Interface/AIN0.0",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P8-Pad1)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R14",
+        "type": "resistor",
+        "designator": "R14",
+        "value": "10R",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1575,
+        "y": 61.32052,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P4-Pad1)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC4-Pad6)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R13",
+        "type": "resistor",
+        "designator": "R13",
+        "value": "10R",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1575,
+        "y": 71.48052,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P4-Pad2)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC3-Pad6)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R12",
+        "type": "resistor",
+        "designator": "R12",
+        "value": "91K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 134.8235,
+        "y": 64.11452,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(IC4-Pad6)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC4-Pad2)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R11",
+        "type": "resistor",
+        "designator": "R11",
+        "value": "1M",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1195,
+        "y": 58.27252,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+33V",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC4-Pad8)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R10",
+        "type": "resistor",
+        "designator": "R10",
+        "value": "91K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 134.6075,
+        "y": 74.27452,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(IC3-Pad6)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC3-Pad2)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R9",
+        "type": "resistor",
+        "designator": "R9",
+        "value": "1M",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1195,
+        "y": 68.43252,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+33V",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC3-Pad8)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R8",
+        "type": "resistor",
+        "designator": "R8",
+        "value": "10K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 129.7435,
+        "y": 60.05052,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC4-Pad2)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R7",
+        "type": "resistor",
+        "designator": "R7",
+        "value": "10K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 129.4895,
+        "y": 70.21052,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC3-Pad2)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R6",
+        "type": "resistor",
+        "designator": "R6",
+        "value": "309K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 121.2345,
+        "y": 59.28852,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C7-Pad1)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R5",
+        "type": "resistor",
+        "designator": "R5",
+        "value": "309K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 121.6155,
+        "y": 69.06752,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C6-Pad1)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "+33V",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R4",
+        "type": "resistor",
+        "designator": "R4",
+        "value": "12K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 119.3295,
+        "y": 58.01852,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C7-Pad1)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-33V",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R3",
+        "type": "resistor",
+        "designator": "R3",
+        "value": "12K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 119.7105,
+        "y": 67.79752,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C6-Pad1)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R2",
+        "type": "resistor",
+        "designator": "R2",
+        "value": "47K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 113.6145,
+        "y": 59.03452,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5V",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC2-Pad4)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/R1",
+        "type": "resistor",
+        "designator": "R1",
+        "value": "47K",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 113.9955,
+        "y": 68.43252,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5V",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC1-Pad4)",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/P8",
+        "type": "connector",
+        "designator": "P8",
+        "value": "CONN_01X04",
+        "package": "Pin_Header_Straight_1x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1575,
+        "y": 87.73652,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P8-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P8-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P8-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(P8-Pad4)",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/P7",
+        "type": "connector",
+        "designator": "P7",
+        "value": "CONN_01X04",
+        "package": "Pin_Header_Straight_1x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1575,
+        "y": 90.27652,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-33V",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-33V",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "-33V",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/P6",
+        "type": "connector",
+        "designator": "P6",
+        "value": "CONN_01X04",
+        "package": "Pin_Header_Straight_1x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1575,
+        "y": 92.81652,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+33V",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "+33V",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "+33V",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "+33V",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/P4",
+        "type": "connector",
+        "designator": "P4",
+        "value": "CONN_02X04",
+        "package": "Pin_Header_Straight_2x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 145.2375,
+        "y": 67.67052,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P4-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P4-Pad2)",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GND",
+            "x": 2.54,
+            "y": 2.54,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "GND",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "GND",
+            "x": 2.54,
+            "y": 5.08,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "GND",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "GND",
+            "x": 2.54,
+            "y": 7.62,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 6.807,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/L2",
+        "type": "inductor",
+        "designator": "L2",
+        "value": "10u",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 116.1545,
+        "y": 62.46352,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(D2-Pad2)",
+            "x": -1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "5V",
+            "x": 1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.1,
+        "bodyHeight": 1.4,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/L1",
+        "type": "inductor",
+        "designator": "L1",
+        "value": "10u",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 116.5355,
+        "y": 71.60752,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(D1-Pad2)",
+            "x": -1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "5V",
+            "x": 1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.1,
+        "bodyHeight": 1.4,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/IC4",
+        "type": "other",
+        "designator": "IC4",
+        "value": "OPA454",
+        "package": "SOIC-8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 134.8235,
+        "y": 60.55852,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-33V",
+            "x": -2.7,
+            "y": -1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC4-Pad2)",
+            "x": -2.7,
+            "y": -0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/Box0 Interface/AOUT0.0",
+            "x": -2.7,
+            "y": 0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": -2.7,
+            "y": 1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "",
+            "x": 2.7,
+            "y": 1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(IC4-Pad6)",
+            "x": 2.7,
+            "y": 0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "+33V",
+            "x": 2.7,
+            "y": -0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(IC4-Pad8)",
+            "x": 2.7,
+            "y": -1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": 0.5875,
+            "y": 0.5875,
+            "width": 1.175,
+            "height": 1.175,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": 0.5875,
+            "y": -0.5875,
+            "width": 1.175,
+            "height": 1.175,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": -0.5875,
+            "y": 0.5875,
+            "width": 1.175,
+            "height": 1.175,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": -0.5875,
+            "y": -0.5875,
+            "width": 1.175,
+            "height": 1.175,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 6.95,
+        "bodyHeight": 4.41,
+        "bodyHeight3D": 1.75
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/IC3",
+        "type": "other",
+        "designator": "IC3",
+        "value": "OPA454",
+        "package": "SOIC-8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 134.649,
+        "y": 70.63902,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-33V",
+            "x": -2.7,
+            "y": -1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IC3-Pad2)",
+            "x": -2.7,
+            "y": -0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/Box0 Interface/AOUT0.1",
+            "x": -2.7,
+            "y": 0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": -2.7,
+            "y": 1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "",
+            "x": 2.7,
+            "y": 1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(IC3-Pad6)",
+            "x": 2.7,
+            "y": 0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "+33V",
+            "x": 2.7,
+            "y": -0.635,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(IC3-Pad8)",
+            "x": 2.7,
+            "y": -1.905,
+            "width": 1.55,
+            "height": 0.6,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": 0.5875,
+            "y": 0.5875,
+            "width": 1.175,
+            "height": 1.175,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": 0.5875,
+            "y": -0.5875,
+            "width": 1.175,
+            "height": 1.175,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": -0.5875,
+            "y": 0.5875,
+            "width": 1.175,
+            "height": 1.175,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "-33V",
+            "x": -0.5875,
+            "y": -0.5875,
+            "width": 1.175,
+            "height": 1.175,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 6.95,
+        "bodyHeight": 4.41,
+        "bodyHeight3D": 1.75
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/IC2",
+        "type": "other",
+        "designator": "IC2",
+        "value": "LM2733",
+        "package": "SOT-23",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 116.1545,
+        "y": 58.96852,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(D2-Pad2)",
+            "x": -1.1,
+            "y": -0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-33V",
+            "x": -1.1,
+            "y": 0,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(C7-Pad1)",
+            "x": -1.1,
+            "y": 0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(IC2-Pad4)",
+            "x": 1.1,
+            "y": 0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "5V",
+            "x": 1.1,
+            "y": -0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.26,
+        "bodyHeight": 2.55,
+        "bodyHeight3D": 1.1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/IC1",
+        "type": "other",
+        "designator": "IC1",
+        "value": "LM2733",
+        "package": "SOT-23",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 116.5355,
+        "y": 68.43252,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(D1-Pad2)",
+            "x": -1.1,
+            "y": -0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": -1.1,
+            "y": 0,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(C6-Pad1)",
+            "x": -1.1,
+            "y": 0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(IC1-Pad4)",
+            "x": 1.1,
+            "y": 0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "5V",
+            "x": 1.1,
+            "y": -0.95,
+            "width": 1.06,
+            "height": 0.65,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.26,
+        "bodyHeight": 2.55,
+        "bodyHeight3D": 1.1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/D2",
+        "type": "diode",
+        "designator": "D2",
+        "value": "MBR0540",
+        "package": "SOD-123",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 120.5995,
+        "y": 62.46352,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -1.635,
+            "y": 0,
+            "width": 0.91,
+            "height": 1.22,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(D2-Pad2)",
+            "x": 1.635,
+            "y": 0,
+            "width": 0.91,
+            "height": 1.22,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.18,
+        "bodyHeight": 1.22,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/D1",
+        "type": "diode",
+        "designator": "D1",
+        "value": "MBR0540",
+        "package": "SOD-123",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 120.9805,
+        "y": 71.60752,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+33V",
+            "x": -1.635,
+            "y": 0,
+            "width": 0.91,
+            "height": 1.22,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(D1-Pad2)",
+            "x": 1.635,
+            "y": 0,
+            "width": 0.91,
+            "height": 1.22,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 4.18,
+        "bodyHeight": 1.22,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C9",
+        "type": "capacitor",
+        "designator": "C9",
+        "value": "10u",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 124.4095,
+        "y": 63.09852,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-33V",
+            "x": 1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.1,
+        "bodyHeight": 1.4,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C8",
+        "type": "capacitor",
+        "designator": "C8",
+        "value": "10u",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 124.7905,
+        "y": 72.24252,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+33V",
+            "x": -1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.1,
+        "bodyHeight": 1.4,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C7",
+        "type": "capacitor",
+        "designator": "C7",
+        "value": "82p",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 123.1395,
+        "y": 59.28852,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C7-Pad1)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C6",
+        "type": "capacitor",
+        "designator": "C6",
+        "value": "82p",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 123.5205,
+        "y": 69.06752,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C6-Pad1)",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "+33V",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C5",
+        "type": "capacitor",
+        "designator": "C5",
+        "value": "4.7u",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 112.9795,
+        "y": 62.33652,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5V",
+            "x": -1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.1,
+        "bodyHeight": 1.4,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C4",
+        "type": "capacitor",
+        "designator": "C4",
+        "value": "4.7u",
+        "package": "0805",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 113.3605,
+        "y": 71.60752,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5V",
+            "x": -1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 1.1,
+            "y": 0,
+            "width": 0.9,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 3.1,
+        "bodyHeight": 1.4,
+        "bodyHeight3D": 0.5
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/P1",
+        "type": "connector",
+        "designator": "P1",
+        "value": "USB_OTG",
+        "package": "USB_Micro-B",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 108.1535,
+        "y": 54.20852,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(F1-Pad2)",
+            "x": -1.3009,
+            "y": -1.56254,
+            "width": 1.35,
+            "height": 0.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "",
+            "x": -0.6509,
+            "y": -1.56254,
+            "width": 1.35,
+            "height": 0.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": -0.0009,
+            "y": -1.56254,
+            "width": 1.35,
+            "height": 0.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "",
+            "x": 0.6491,
+            "y": -1.56254,
+            "width": 1.35,
+            "height": 0.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "GND",
+            "x": 1.2991,
+            "y": -1.56254,
+            "width": 1.35,
+            "height": 0.4,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "GND",
+            "x": -2.5009,
+            "y": -1.56254,
+            "width": 0.95,
+            "height": 1.25,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "GND",
+            "x": 2.4991,
+            "y": -1.56254,
+            "width": 0.95,
+            "height": 1.25,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "GND",
+            "x": -3.5009,
+            "y": 1.13746,
+            "width": 1.55,
+            "height": 1,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "GND",
+            "x": 3.4991,
+            "y": 1.13746,
+            "width": 1.55,
+            "height": 1,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 8.552,
+        "bodyHeight": 4.375,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/P2",
+        "type": "connector",
+        "designator": "P2",
+        "value": "BASE_BOARD_ANALOG",
+        "package": "Pin_Header_Straight_2x13",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 157.65302,
+        "y": 60.15974,
+        "rotation": 180,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "ANALOG_POS",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "GND",
+            "x": 0,
+            "y": -2.54,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "ANALOG_NEG",
+            "x": 2.54,
+            "y": -2.54,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "GND",
+            "x": 0,
+            "y": -5.08,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "GND",
+            "x": 2.54,
+            "y": -5.08,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "GND",
+            "x": 0,
+            "y": -7.62,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "VREF_EXT",
+            "x": 2.54,
+            "y": -7.62,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "GND",
+            "x": 0,
+            "y": -10.16,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "GND",
+            "x": 2.54,
+            "y": -10.16,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "GND",
+            "x": 0,
+            "y": -12.7,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "/Box0 Interface/AOUT0.0",
+            "x": 2.54,
+            "y": -12.7,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "GND",
+            "x": 0,
+            "y": -15.24,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "/Box0 Interface/AOUT0.1",
+            "x": 2.54,
+            "y": -15.24,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "GND",
+            "x": 0,
+            "y": -17.78,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "GND",
+            "x": 2.54,
+            "y": -17.78,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "17",
+            "signalName": "17",
+            "netName": "GND",
+            "x": 0,
+            "y": -20.32,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "18",
+            "signalName": "18",
+            "netName": "GND",
+            "x": 2.54,
+            "y": -20.32,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "19",
+            "signalName": "19",
+            "netName": "GND",
+            "x": 0,
+            "y": -22.86,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "20",
+            "signalName": "20",
+            "netName": "/Box0 Interface/AIN0.0",
+            "x": 2.54,
+            "y": -22.86,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "21",
+            "signalName": "21",
+            "netName": "GND",
+            "x": 0,
+            "y": -25.4,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "22",
+            "signalName": "22",
+            "netName": "/Box0 Interface/AIN0.1",
+            "x": 2.54,
+            "y": -25.4,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "23",
+            "signalName": "23",
+            "netName": "GND",
+            "x": 0,
+            "y": -27.94,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "24",
+            "signalName": "24",
+            "netName": "/Box0 Interface/AIN0.2",
+            "x": 2.54,
+            "y": -27.94,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "25",
+            "signalName": "25",
+            "netName": "GND",
+            "x": 0,
+            "y": -30.48,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "26",
+            "signalName": "26",
+            "netName": "/Box0 Interface/AIN0.3",
+            "x": 2.54,
+            "y": -30.48,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 6.807,
+        "bodyHeight": 62.687,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/P3",
+        "type": "connector",
+        "designator": "P3",
+        "value": "BASE_BOARD_DIGITAL",
+        "package": "Pin_Header_Straight_2x13",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 96.6473,
+        "y": 60.14958,
+        "rotation": 180,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": 0,
+            "y": -2.54,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "",
+            "x": 2.54,
+            "y": -2.54,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "GND",
+            "x": 0,
+            "y": -5.08,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "",
+            "x": 2.54,
+            "y": -5.08,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "",
+            "x": 0,
+            "y": -7.62,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "",
+            "x": 2.54,
+            "y": -7.62,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "",
+            "x": 0,
+            "y": -10.16,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "",
+            "x": 2.54,
+            "y": -10.16,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "",
+            "x": 0,
+            "y": -12.7,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "",
+            "x": 2.54,
+            "y": -12.7,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "",
+            "x": 0,
+            "y": -15.24,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "",
+            "x": 2.54,
+            "y": -15.24,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "",
+            "x": 0,
+            "y": -17.78,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "GND",
+            "x": 2.54,
+            "y": -17.78,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "17",
+            "signalName": "17",
+            "netName": "",
+            "x": 0,
+            "y": -20.32,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "18",
+            "signalName": "18",
+            "netName": "",
+            "x": 2.54,
+            "y": -20.32,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "19",
+            "signalName": "19",
+            "netName": "",
+            "x": 0,
+            "y": -22.86,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "20",
+            "signalName": "20",
+            "netName": "",
+            "x": 2.54,
+            "y": -22.86,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "21",
+            "signalName": "21",
+            "netName": "",
+            "x": 0,
+            "y": -25.4,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "22",
+            "signalName": "22",
+            "netName": "GND",
+            "x": 2.54,
+            "y": -25.4,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "23",
+            "signalName": "23",
+            "netName": "GND",
+            "x": 0,
+            "y": -27.94,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "24",
+            "signalName": "24",
+            "netName": "/Box0 Interface/I2C0.SCL",
+            "x": 2.54,
+            "y": -27.94,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "25",
+            "signalName": "25",
+            "netName": "DIGITAL_EXT",
+            "x": 0,
+            "y": -30.48,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          },
+          {
+            "id": "26",
+            "signalName": "26",
+            "netName": "/Box0 Interface/I2C0.SDA",
+            "x": 2.54,
+            "y": -30.48,
+            "width": 1.7272,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 6.807,
+        "bodyHeight": 62.687,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/P5",
+        "type": "connector",
+        "designator": "P5",
+        "value": "CONN_01X04",
+        "package": "Pin_Header_Straight_1x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1575,
+        "y": 95.35652,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "GND",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GND",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C10",
+        "type": "capacitor",
+        "designator": "C10",
+        "value": "100n",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 129.5275,
+        "y": 72.49652,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-33V",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C11",
+        "type": "capacitor",
+        "designator": "C11",
+        "value": "100n",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 129.7435,
+        "y": 62.33652,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-33V",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C12",
+        "type": "capacitor",
+        "designator": "C12",
+        "value": "100n",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1575,
+        "y": 69.95652,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+33V",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C13",
+        "type": "capacitor",
+        "designator": "C13",
+        "value": "100n",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.1575,
+        "y": 59.79652,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+33V",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/C14",
+        "type": "capacitor",
+        "designator": "C14",
+        "value": "100n",
+        "package": "0603",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 114.7575,
+        "y": 86.46652,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "DIGITAL_EXT",
+            "x": -0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0.8,
+            "y": 0,
+            "width": 0.8,
+            "height": 1.1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.4,
+        "bodyHeight": 1.1,
+        "bodyHeight3D": 0.45
+      },
+      {
+        "id": "PCBench/PCBench/Box0-hv-analog-breakoutboard_breakout__raw/F1",
+        "type": "fuse",
+        "designator": "F1",
+        "value": "F_Small",
+        "package": "1210",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 106.3755,
+        "y": 61.82852,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "5V",
+            "x": -1.778,
+            "y": 0,
+            "width": 1.778,
+            "height": 2.794,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(F1-Pad2)",
+            "x": 1.778,
+            "y": 0,
+            "width": 1.778,
+            "height": 2.794,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 5.334,
+        "bodyHeight": 2.794,
+        "bodyHeight3D": 0.55
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "ANALOG_POS",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 152.8575,
+            "y": 60.11652
+          },
+          {
+            "x": 155.0698,
+            "y": 60.11652
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "ANALOG_POS",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 155.0698,
+            "y": 60.11652
+          },
+          {
+            "x": 155.11302,
+            "y": 60.15974
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "ANALOG_NEG",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 152.8575,
+            "y": 63.67252
+          },
+          {
+            "x": 154.14024,
+            "y": 63.67252
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "ANALOG_NEG",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 154.14024,
+            "y": 63.67252
+          },
+          {
+            "x": 155.11302,
+            "y": 62.69974
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.4,
+        "points": [
+          {
+            "x": 158.01624,
+            "y": 67.41652
+          },
+          {
+            "x": 157.65302,
+            "y": 67.77974
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "VREF_EXT",
+        "layer": "F.Cu",
+        "width": 0.4,
+        "points": [
+          {
+            "x": 155.03428,
+            "y": 67.77974
+          },
+          {
+            "x": 154.3435,
+            "y": 68.47052
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "VREF_EXT",
+        "layer": "F.Cu",
+        "width": 0.4,
+        "points": [
+          {
+            "x": 154.3435,
+            "y": 68.47052
+          },
+          {
+            "x": 152.8575,
+            "y": 68.47052
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "VREF_EXT",
+        "layer": "F.Cu",
+        "width": 0.4,
+        "points": [
+          {
+            "x": 155.11302,
+            "y": 67.77974
+          },
+          {
+            "x": 155.03428,
+            "y": 67.77974
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 109.4544,
+            "y": 61.32052
+          },
+          {
+            "x": 109.4544,
+            "y": 63.60652
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 109.4544,
+            "y": 63.60652
+          },
+          {
+            "x": 109.4544,
+            "y": 68.97142
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 106.3755,
+            "y": 63.60652
+          },
+          {
+            "x": 106.8835,
+            "y": 63.60652
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 106.8835,
+            "y": 63.60652
+          },
+          {
+            "x": 109.4544,
+            "y": 63.60652
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 111.3955,
+            "y": 61.32052
+          },
+          {
+            "x": 109.4544,
+            "y": 61.32052
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 112.9795,
+            "y": 61.23652
+          },
+          {
+            "x": 111.4795,
+            "y": 61.23652
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 111.4795,
+            "y": 61.23652
+          },
+          {
+            "x": 111.3955,
+            "y": 61.32052
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 109.4544,
+            "y": 68.97142
+          },
+          {
+            "x": 110.9905,
+            "y": 70.50752
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 110.9905,
+            "y": 70.50752
+          },
+          {
+            "x": 113.3605,
+            "y": 70.50752
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 115.4355,
+            "y": 71.60752
+          },
+          {
+            "x": 115.4355,
+            "y": 69.38252
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 113.9955,
+            "y": 69.23252
+          },
+          {
+            "x": 115.2855,
+            "y": 69.23252
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 115.2855,
+            "y": 69.23252
+          },
+          {
+            "x": 115.4355,
+            "y": 69.38252
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 113.3605,
+            "y": 70.50752
+          },
+          {
+            "x": 113.3605,
+            "y": 69.86752
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 113.3605,
+            "y": 69.86752
+          },
+          {
+            "x": 113.9955,
+            "y": 69.23252
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 115.0545,
+            "y": 62.46352
+          },
+          {
+            "x": 115.0545,
+            "y": 62.11152
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 115.0545,
+            "y": 62.11152
+          },
+          {
+            "x": 114.1795,
+            "y": 61.23652
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 114.1795,
+            "y": 61.23652
+          },
+          {
+            "x": 112.9795,
+            "y": 61.23652
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 113.6145,
+            "y": 59.83452
+          },
+          {
+            "x": 114.9705,
+            "y": 59.83452
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 114.9705,
+            "y": 59.83452
+          },
+          {
+            "x": 115.0545,
+            "y": 59.91852
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 112.9795,
+            "y": 61.23652
+          },
+          {
+            "x": 112.9795,
+            "y": 60.46952
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "5V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 112.9795,
+            "y": 60.46952
+          },
+          {
+            "x": 113.6145,
+            "y": 59.83452
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "Net-(C6-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 123.1505,
+            "y": 66.99752
+          },
+          {
+            "x": 121.6155,
+            "y": 66.99752
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "Net-(C6-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 121.6155,
+            "y": 66.99752
+          },
+          {
+            "x": 119.7105,
+            "y": 66.99752
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "Net-(C6-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 121.6155,
+            "y": 68.26752
+          },
+          {
+            "x": 121.6155,
+            "y": 67.36752
+          }
+        ]
+      },
+      {
+        "id": "trace-32",
+        "net": "Net-(C6-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 121.6155,
+            "y": 67.36752
+          },
+          {
+            "x": 121.6155,
+            "y": 66.99752
+          }
+        ]
+      },
+      {
+        "id": "trace-33",
+        "net": "Net-(C6-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 123.5205,
+            "y": 68.26752
+          },
+          {
+            "x": 123.5205,
+            "y": 67.36752
+          }
+        ]
+      },
+      {
+        "id": "trace-34",
+        "net": "Net-(C6-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 123.5205,
+            "y": 67.36752
+          },
+          {
+            "x": 123.1505,
+            "y": 66.99752
+          }
+        ]
+      },
+      {
+        "id": "trace-35",
+        "net": "Net-(C6-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 117.6355,
+            "y": 67.48252
+          },
+          {
+            "x": 119.2255,
+            "y": 67.48252
+          }
+        ]
+      },
+      {
+        "id": "trace-36",
+        "net": "Net-(C6-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 119.2255,
+            "y": 67.48252
+          },
+          {
+            "x": 119.7105,
+            "y": 66.99752
+          }
+        ]
+      },
+      {
+        "id": "trace-37",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 130.7595,
+            "y": 92.81652
+          },
+          {
+            "x": 127.9655,
+            "y": 90.02252
+          }
+        ]
+      },
+      {
+        "id": "trace-38",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 127.9655,
+            "y": 90.02252
+          },
+          {
+            "x": 127.9655,
+            "y": 75.79852
+          }
+        ]
+      },
+      {
+        "id": "trace-39",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 140.1575,
+            "y": 92.81652
+          },
+          {
+            "x": 130.7595,
+            "y": 92.81652
+          }
+        ]
+      },
+      {
+        "id": "trace-40",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 92.81652
+          },
+          {
+            "x": 140.1575,
+            "y": 92.81652
+          }
+        ]
+      },
+      {
+        "id": "trace-41",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 145.2375,
+            "y": 92.81652
+          },
+          {
+            "x": 142.6975,
+            "y": 92.81652
+          }
+        ]
+      },
+      {
+        "id": "trace-42",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 147.7775,
+            "y": 92.81652
+          },
+          {
+            "x": 145.2375,
+            "y": 92.81652
+          }
+        ]
+      },
+      {
+        "id": "trace-43",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 124.7905,
+            "y": 71.14252
+          },
+          {
+            "x": 126.2905,
+            "y": 71.14252
+          }
+        ]
+      },
+      {
+        "id": "trace-44",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 126.2905,
+            "y": 71.14252
+          },
+          {
+            "x": 126.9495,
+            "y": 71.80152
+          }
+        ]
+      },
+      {
+        "id": "trace-45",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 126.9495,
+            "y": 71.80152
+          },
+          {
+            "x": 126.9495,
+            "y": 74.78252
+          }
+        ]
+      },
+      {
+        "id": "trace-46",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 126.9495,
+            "y": 74.78252
+          },
+          {
+            "x": 127.9655,
+            "y": 75.79852
+          }
+        ]
+      },
+      {
+        "id": "trace-47",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 127.9655,
+            "y": 75.79852
+          },
+          {
+            "x": 141.6815,
+            "y": 75.79852
+          }
+        ]
+      },
+      {
+        "id": "trace-48",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 141.6815,
+            "y": 75.79852
+          },
+          {
+            "x": 142.6975,
+            "y": 74.78252
+          }
+        ]
+      },
+      {
+        "id": "trace-49",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 74.78252
+          },
+          {
+            "x": 142.6975,
+            "y": 72.75052
+          }
+        ]
+      },
+      {
+        "id": "trace-50",
+        "net": "+33V",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 72.75052
+          },
+          {
+            "x": 142.6975,
+            "y": 66.50452
+          }
+        ]
+      },
+      {
+        "id": "trace-51",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 59.03452
+          },
+          {
+            "x": 141.9355,
+            "y": 58.27252
+          }
+        ]
+      },
+      {
+        "id": "trace-52",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 141.9355,
+            "y": 58.27252
+          },
+          {
+            "x": 140.9195,
+            "y": 58.27252
+          }
+        ]
+      },
+      {
+        "id": "trace-53",
+        "net": "+33V",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 59.54252
+          },
+          {
+            "x": 142.6975,
+            "y": 59.03452
+          }
+        ]
+      },
+      {
+        "id": "trace-54",
+        "net": "+33V",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 63.60652
+          },
+          {
+            "x": 142.6975,
+            "y": 59.54252
+          }
+        ]
+      },
+      {
+        "id": "trace-55",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 66.50452
+          },
+          {
+            "x": 142.6975,
+            "y": 63.60652
+          }
+        ]
+      },
+      {
+        "id": "trace-56",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 140.9195,
+            "y": 68.43252
+          },
+          {
+            "x": 140.9195,
+            "y": 68.28252
+          }
+        ]
+      },
+      {
+        "id": "trace-57",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 140.9195,
+            "y": 68.28252
+          },
+          {
+            "x": 142.6975,
+            "y": 66.50452
+          }
+        ]
+      },
+      {
+        "id": "trace-58",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 137.349,
+            "y": 70.00402
+          },
+          {
+            "x": 139.31,
+            "y": 70.00402
+          }
+        ]
+      },
+      {
+        "id": "trace-59",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.31,
+            "y": 70.00402
+          },
+          {
+            "x": 139.3575,
+            "y": 69.95652
+          }
+        ]
+      },
+      {
+        "id": "trace-60",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 139.3575,
+            "y": 69.95652
+          },
+          {
+            "x": 139.3955,
+            "y": 69.95652
+          }
+        ]
+      },
+      {
+        "id": "trace-61",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 139.3955,
+            "y": 69.95652
+          },
+          {
+            "x": 140.9195,
+            "y": 68.43252
+          }
+        ]
+      },
+      {
+        "id": "trace-62",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 139.3575,
+            "y": 59.79652
+          },
+          {
+            "x": 139.3955,
+            "y": 59.79652
+          }
+        ]
+      },
+      {
+        "id": "trace-63",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 139.3955,
+            "y": 59.79652
+          },
+          {
+            "x": 140.9195,
+            "y": 58.27252
+          }
+        ]
+      },
+      {
+        "id": "trace-64",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 137.5235,
+            "y": 59.92352
+          },
+          {
+            "x": 139.2305,
+            "y": 59.92352
+          }
+        ]
+      },
+      {
+        "id": "trace-65",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.2305,
+            "y": 59.92352
+          },
+          {
+            "x": 139.3575,
+            "y": 59.79652
+          }
+        ]
+      },
+      {
+        "id": "trace-66",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 124.5545,
+            "y": 69.95652
+          },
+          {
+            "x": 123.6095,
+            "y": 69.95652
+          }
+        ]
+      },
+      {
+        "id": "trace-67",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 123.6095,
+            "y": 69.95652
+          },
+          {
+            "x": 123.5205,
+            "y": 69.86752
+          }
+        ]
+      },
+      {
+        "id": "trace-68",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 124.7905,
+            "y": 71.14252
+          },
+          {
+            "x": 124.7905,
+            "y": 70.19252
+          }
+        ]
+      },
+      {
+        "id": "trace-69",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 124.7905,
+            "y": 70.19252
+          },
+          {
+            "x": 124.5545,
+            "y": 69.95652
+          }
+        ]
+      },
+      {
+        "id": "trace-70",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 121.6155,
+            "y": 69.86752
+          },
+          {
+            "x": 122.6315,
+            "y": 69.86752
+          }
+        ]
+      },
+      {
+        "id": "trace-71",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 122.6315,
+            "y": 69.86752
+          },
+          {
+            "x": 123.5205,
+            "y": 69.86752
+          }
+        ]
+      },
+      {
+        "id": "trace-72",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 122.6155,
+            "y": 71.60752
+          },
+          {
+            "x": 122.6155,
+            "y": 70.49752
+          }
+        ]
+      },
+      {
+        "id": "trace-73",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 122.6155,
+            "y": 70.49752
+          },
+          {
+            "x": 122.6315,
+            "y": 70.48152
+          }
+        ]
+      },
+      {
+        "id": "trace-74",
+        "net": "+33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 122.6315,
+            "y": 70.48152
+          },
+          {
+            "x": 122.6315,
+            "y": 69.86752
+          }
+        ]
+      },
+      {
+        "id": "trace-75",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 122.7695,
+            "y": 57.21852
+          },
+          {
+            "x": 121.1075,
+            "y": 57.21852
+          }
+        ]
+      },
+      {
+        "id": "trace-76",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 121.1075,
+            "y": 57.21852
+          },
+          {
+            "x": 119.3295,
+            "y": 57.21852
+          }
+        ]
+      },
+      {
+        "id": "trace-77",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 121.2345,
+            "y": 58.48852
+          },
+          {
+            "x": 121.2345,
+            "y": 57.58852
+          }
+        ]
+      },
+      {
+        "id": "trace-78",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 121.2345,
+            "y": 57.58852
+          },
+          {
+            "x": 121.1075,
+            "y": 57.46152
+          }
+        ]
+      },
+      {
+        "id": "trace-79",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 121.1075,
+            "y": 57.46152
+          },
+          {
+            "x": 121.1075,
+            "y": 57.21852
+          }
+        ]
+      },
+      {
+        "id": "trace-80",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 123.1395,
+            "y": 58.48852
+          },
+          {
+            "x": 123.1395,
+            "y": 57.58852
+          }
+        ]
+      },
+      {
+        "id": "trace-81",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 123.1395,
+            "y": 57.58852
+          },
+          {
+            "x": 122.7695,
+            "y": 57.21852
+          }
+        ]
+      },
+      {
+        "id": "trace-82",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 117.2545,
+            "y": 57.55352
+          },
+          {
+            "x": 117.5895,
+            "y": 57.21852
+          }
+        ]
+      },
+      {
+        "id": "trace-83",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 117.5895,
+            "y": 57.21852
+          },
+          {
+            "x": 119.3295,
+            "y": 57.21852
+          }
+        ]
+      },
+      {
+        "id": "trace-84",
+        "net": "Net-(C7-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 117.2545,
+            "y": 58.01852
+          },
+          {
+            "x": 117.2545,
+            "y": 57.55352
+          }
+        ]
+      },
+      {
+        "id": "trace-85",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 134.0615,
+            "y": 67.67052
+          },
+          {
+            "x": 134.0615,
+            "y": 70.05152
+          }
+        ]
+      },
+      {
+        "id": "trace-86",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 134.0615,
+            "y": 67.16252
+          },
+          {
+            "x": 134.0615,
+            "y": 67.67052
+          }
+        ]
+      },
+      {
+        "id": "trace-87",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 129.4895,
+            "y": 67.16252
+          },
+          {
+            "x": 134.0615,
+            "y": 67.16252
+          }
+        ]
+      },
+      {
+        "id": "trace-88",
+        "net": "-33V",
+        "layer": "B.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 129.4895,
+            "y": 78.33852
+          },
+          {
+            "x": 129.4895,
+            "y": 67.16252
+          }
+        ]
+      },
+      {
+        "id": "trace-89",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 129.4895,
+            "y": 78.84652
+          },
+          {
+            "x": 129.4895,
+            "y": 78.33852
+          }
+        ]
+      },
+      {
+        "id": "trace-90",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 129.4895,
+            "y": 81.27212
+          },
+          {
+            "x": 129.4895,
+            "y": 78.84652
+          }
+        ]
+      },
+      {
+        "id": "trace-91",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 140.1575,
+            "y": 90.27652
+          },
+          {
+            "x": 138.4939,
+            "y": 90.27652
+          }
+        ]
+      },
+      {
+        "id": "trace-92",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 138.4939,
+            "y": 90.27652
+          },
+          {
+            "x": 129.4895,
+            "y": 81.27212
+          }
+        ]
+      },
+      {
+        "id": "trace-93",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 90.27652
+          },
+          {
+            "x": 140.1575,
+            "y": 90.27652
+          }
+        ]
+      },
+      {
+        "id": "trace-94",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 145.2375,
+            "y": 90.27652
+          },
+          {
+            "x": 142.6975,
+            "y": 90.27652
+          }
+        ]
+      },
+      {
+        "id": "trace-95",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 147.7775,
+            "y": 90.27652
+          },
+          {
+            "x": 145.2375,
+            "y": 90.27652
+          }
+        ]
+      },
+      {
+        "id": "trace-96",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 131.5215,
+            "y": 56.49452
+          },
+          {
+            "x": 132.1235,
+            "y": 57.09652
+          }
+        ]
+      },
+      {
+        "id": "trace-97",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 132.1235,
+            "y": 57.09652
+          },
+          {
+            "x": 132.1235,
+            "y": 58.65352
+          }
+        ]
+      },
+      {
+        "id": "trace-98",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 126.9495,
+            "y": 56.49452
+          },
+          {
+            "x": 131.5215,
+            "y": 56.49452
+          }
+        ]
+      },
+      {
+        "id": "trace-99",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 125.4255,
+            "y": 58.01852
+          },
+          {
+            "x": 126.9495,
+            "y": 56.49452
+          }
+        ]
+      },
+      {
+        "id": "trace-100",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 125.4255,
+            "y": 59.28852
+          },
+          {
+            "x": 125.4255,
+            "y": 58.01852
+          }
+        ]
+      },
+      {
+        "id": "trace-101",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.949,
+            "y": 72.54402
+          },
+          {
+            "x": 130.375,
+            "y": 72.54402
+          }
+        ]
+      },
+      {
+        "id": "trace-102",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.375,
+            "y": 72.54402
+          },
+          {
+            "x": 130.3275,
+            "y": 72.49652
+          }
+        ]
+      },
+      {
+        "id": "trace-103",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 132.1235,
+            "y": 62.46352
+          },
+          {
+            "x": 130.6705,
+            "y": 62.46352
+          }
+        ]
+      },
+      {
+        "id": "trace-104",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.6705,
+            "y": 62.46352
+          },
+          {
+            "x": 130.5435,
+            "y": 62.33652
+          }
+        ]
+      },
+      {
+        "id": "trace-105",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 124.4095,
+            "y": 59.28852
+          },
+          {
+            "x": 125.4255,
+            "y": 59.28852
+          }
+        ]
+      },
+      {
+        "id": "trace-106",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 125.9335,
+            "y": 63.87452
+          },
+          {
+            "x": 125.6095,
+            "y": 64.19852
+          }
+        ]
+      },
+      {
+        "id": "trace-107",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 125.4255,
+            "y": 59.28852
+          },
+          {
+            "x": 125.9335,
+            "y": 59.79652
+          }
+        ]
+      },
+      {
+        "id": "trace-108",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 125.9335,
+            "y": 59.79652
+          },
+          {
+            "x": 125.9335,
+            "y": 63.87452
+          }
+        ]
+      },
+      {
+        "id": "trace-109",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 125.6095,
+            "y": 64.19852
+          },
+          {
+            "x": 124.4095,
+            "y": 64.19852
+          }
+        ]
+      },
+      {
+        "id": "trace-110",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 119.9495,
+            "y": 59.28852
+          },
+          {
+            "x": 124.4095,
+            "y": 59.28852
+          }
+        ]
+      },
+      {
+        "id": "trace-111",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 119.3295,
+            "y": 58.81852
+          },
+          {
+            "x": 119.4795,
+            "y": 58.81852
+          }
+        ]
+      },
+      {
+        "id": "trace-112",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 119.4795,
+            "y": 58.81852
+          },
+          {
+            "x": 119.9495,
+            "y": 59.28852
+          }
+        ]
+      },
+      {
+        "id": "trace-113",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 117.2545,
+            "y": 58.96852
+          },
+          {
+            "x": 119.1795,
+            "y": 58.96852
+          }
+        ]
+      },
+      {
+        "id": "trace-114",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 119.1795,
+            "y": 58.96852
+          },
+          {
+            "x": 119.3295,
+            "y": 58.81852
+          }
+        ]
+      },
+      {
+        "id": "trace-115",
+        "net": "Net-(D1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 119.3455,
+            "y": 71.60752
+          },
+          {
+            "x": 117.6355,
+            "y": 71.60752
+          }
+        ]
+      },
+      {
+        "id": "trace-116",
+        "net": "Net-(D1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 117.6355,
+            "y": 69.38252
+          },
+          {
+            "x": 117.6355,
+            "y": 71.60752
+          }
+        ]
+      },
+      {
+        "id": "trace-117",
+        "net": "Net-(D2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 118.9645,
+            "y": 62.46352
+          },
+          {
+            "x": 117.2545,
+            "y": 62.46352
+          }
+        ]
+      },
+      {
+        "id": "trace-118",
+        "net": "Net-(D2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 117.2545,
+            "y": 59.91852
+          },
+          {
+            "x": 117.2545,
+            "y": 62.46352
+          }
+        ]
+      },
+      {
+        "id": "trace-119",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 113.9955,
+            "y": 67.63252
+          },
+          {
+            "x": 115.2855,
+            "y": 67.63252
+          }
+        ]
+      },
+      {
+        "id": "trace-120",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 115.2855,
+            "y": 67.63252
+          },
+          {
+            "x": 115.4355,
+            "y": 67.48252
+          }
+        ]
+      },
+      {
+        "id": "trace-121",
+        "net": "Net-(IC2-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 115.0545,
+            "y": 58.01852
+          },
+          {
+            "x": 113.8305,
+            "y": 58.01852
+          }
+        ]
+      },
+      {
+        "id": "trace-122",
+        "net": "Net-(IC2-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 113.8305,
+            "y": 58.01852
+          },
+          {
+            "x": 113.6145,
+            "y": 58.23452
+          }
+        ]
+      },
+      {
+        "id": "trace-123",
+        "net": "Net-(IC3-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 129.7435,
+            "y": 71.22652
+          },
+          {
+            "x": 129.577499,
+            "y": 71.392521
+          }
+        ]
+      },
+      {
+        "id": "trace-124",
+        "net": "Net-(IC3-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 129.577499,
+            "y": 71.392521
+          },
+          {
+            "x": 129.577499,
+            "y": 74.108519
+          }
+        ]
+      },
+      {
+        "id": "trace-125",
+        "net": "Net-(IC3-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 129.577499,
+            "y": 74.108519
+          },
+          {
+            "x": 129.7435,
+            "y": 74.27452
+          }
+        ]
+      },
+      {
+        "id": "trace-126",
+        "net": "Net-(IC3-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.2895,
+            "y": 70.68052
+          },
+          {
+            "x": 129.7435,
+            "y": 71.22652
+          }
+        ]
+      },
+      {
+        "id": "trace-127",
+        "net": "Net-(IC3-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.2895,
+            "y": 70.21052
+          },
+          {
+            "x": 130.2895,
+            "y": 70.68052
+          }
+        ]
+      },
+      {
+        "id": "trace-128",
+        "net": "Net-(IC3-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 133.8075,
+            "y": 74.27452
+          },
+          {
+            "x": 129.7435,
+            "y": 74.27452
+          }
+        ]
+      },
+      {
+        "id": "trace-129",
+        "net": "Net-(IC3-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.949,
+            "y": 70.00402
+          },
+          {
+            "x": 130.496,
+            "y": 70.00402
+          }
+        ]
+      },
+      {
+        "id": "trace-130",
+        "net": "Net-(IC3-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.496,
+            "y": 70.00402
+          },
+          {
+            "x": 130.2895,
+            "y": 70.21052
+          }
+        ]
+      },
+      {
+        "id": "trace-131",
+        "net": "/Box0 Interface/AOUT0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.949,
+            "y": 71.27402
+          },
+          {
+            "x": 131.218935,
+            "y": 71.27402
+          }
+        ]
+      },
+      {
+        "id": "trace-132",
+        "net": "/Box0 Interface/AOUT0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.218935,
+            "y": 71.27402
+          },
+          {
+            "x": 131.015193,
+            "y": 71.477762
+          }
+        ]
+      },
+      {
+        "id": "trace-133",
+        "net": "/Box0 Interface/AOUT0.1",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.0135,
+            "y": 79.10052
+          },
+          {
+            "x": 131.015193,
+            "y": 71.477762
+          }
+        ]
+      },
+      {
+        "id": "trace-134",
+        "net": "/Box0 Interface/AOUT0.1",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.0135,
+            "y": 71.48052
+          },
+          {
+            "x": 131.0135,
+            "y": 71.479455
+          }
+        ]
+      },
+      {
+        "id": "trace-135",
+        "net": "/Box0 Interface/AOUT0.1",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.0135,
+            "y": 71.479455
+          },
+          {
+            "x": 131.015193,
+            "y": 71.477762
+          }
+        ]
+      },
+      {
+        "id": "trace-136",
+        "net": "/Box0 Interface/AOUT0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 143.2055,
+            "y": 79.10052
+          },
+          {
+            "x": 131.0135,
+            "y": 79.10052
+          }
+        ]
+      },
+      {
+        "id": "trace-137",
+        "net": "/Box0 Interface/AOUT0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 151.41224,
+            "y": 79.10052
+          },
+          {
+            "x": 143.2055,
+            "y": 79.10052
+          }
+        ]
+      },
+      {
+        "id": "trace-138",
+        "net": "/Box0 Interface/AOUT0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 155.11302,
+            "y": 75.39974
+          },
+          {
+            "x": 151.41224,
+            "y": 79.10052
+          }
+        ]
+      },
+      {
+        "id": "trace-139",
+        "net": "Net-(IC3-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 138.6335,
+            "y": 74.27452
+          },
+          {
+            "x": 139.3575,
+            "y": 73.55052
+          }
+        ]
+      },
+      {
+        "id": "trace-140",
+        "net": "Net-(IC3-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.3575,
+            "y": 73.55052
+          },
+          {
+            "x": 139.3575,
+            "y": 71.48052
+          }
+        ]
+      },
+      {
+        "id": "trace-141",
+        "net": "Net-(IC3-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 135.4075,
+            "y": 74.27452
+          },
+          {
+            "x": 138.6335,
+            "y": 74.27452
+          }
+        ]
+      },
+      {
+        "id": "trace-142",
+        "net": "Net-(IC3-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 137.349,
+            "y": 71.27402
+          },
+          {
+            "x": 139.151,
+            "y": 71.27402
+          }
+        ]
+      },
+      {
+        "id": "trace-143",
+        "net": "Net-(IC3-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.151,
+            "y": 71.27402
+          },
+          {
+            "x": 139.3575,
+            "y": 71.48052
+          }
+        ]
+      },
+      {
+        "id": "trace-144",
+        "net": "Net-(IC3-Pad8)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 137.349,
+            "y": 68.73402
+          },
+          {
+            "x": 139.018,
+            "y": 68.73402
+          }
+        ]
+      },
+      {
+        "id": "trace-145",
+        "net": "Net-(IC3-Pad8)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.018,
+            "y": 68.73402
+          },
+          {
+            "x": 139.3195,
+            "y": 68.43252
+          }
+        ]
+      },
+      {
+        "id": "trace-146",
+        "net": "Net-(IC4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.5435,
+            "y": 60.26652
+          },
+          {
+            "x": 129.7435,
+            "y": 61.06652
+          }
+        ]
+      },
+      {
+        "id": "trace-147",
+        "net": "Net-(IC4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 129.7435,
+            "y": 61.06652
+          },
+          {
+            "x": 129.7435,
+            "y": 61.32052
+          }
+        ]
+      },
+      {
+        "id": "trace-148",
+        "net": "Net-(IC4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.5435,
+            "y": 60.05052
+          },
+          {
+            "x": 130.5435,
+            "y": 60.26652
+          }
+        ]
+      },
+      {
+        "id": "trace-149",
+        "net": "Net-(IC4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 129.7435,
+            "y": 63.60652
+          },
+          {
+            "x": 129.7435,
+            "y": 61.32052
+          }
+        ]
+      },
+      {
+        "id": "trace-150",
+        "net": "Net-(IC4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.2515,
+            "y": 64.11452
+          },
+          {
+            "x": 129.7435,
+            "y": 63.60652
+          }
+        ]
+      },
+      {
+        "id": "trace-151",
+        "net": "Net-(IC4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 134.0235,
+            "y": 64.11452
+          },
+          {
+            "x": 130.2515,
+            "y": 64.11452
+          }
+        ]
+      },
+      {
+        "id": "trace-152",
+        "net": "Net-(IC4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 132.1235,
+            "y": 59.92352
+          },
+          {
+            "x": 130.6705,
+            "y": 59.92352
+          }
+        ]
+      },
+      {
+        "id": "trace-153",
+        "net": "Net-(IC4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 130.6705,
+            "y": 59.92352
+          },
+          {
+            "x": 130.5435,
+            "y": 60.05052
+          }
+        ]
+      },
+      {
+        "id": "trace-154",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 132.1235,
+            "y": 61.19352
+          },
+          {
+            "x": 131.074301,
+            "y": 61.19352
+          }
+        ]
+      },
+      {
+        "id": "trace-155",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.074301,
+            "y": 61.19352
+          },
+          {
+            "x": 131.025201,
+            "y": 61.24262
+          }
+        ]
+      },
+      {
+        "id": "trace-156",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 132.2835,
+            "y": 62.59052
+          },
+          {
+            "x": 131.025201,
+            "y": 61.24262
+          }
+        ]
+      },
+      {
+        "id": "trace-157",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.0135,
+            "y": 61.32052
+          },
+          {
+            "x": 131.025201,
+            "y": 61.308819
+          }
+        ]
+      },
+      {
+        "id": "trace-158",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 131.025201,
+            "y": 61.308819
+          },
+          {
+            "x": 131.025201,
+            "y": 61.24262
+          }
+        ]
+      },
+      {
+        "id": "trace-159",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 132.2835,
+            "y": 78.08452
+          },
+          {
+            "x": 132.2835,
+            "y": 62.59052
+          }
+        ]
+      },
+      {
+        "id": "trace-160",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 132.555498,
+            "y": 78.08452
+          },
+          {
+            "x": 132.2835,
+            "y": 78.08452
+          }
+        ]
+      },
+      {
+        "id": "trace-161",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 149.88824,
+            "y": 78.08452
+          },
+          {
+            "x": 132.555498,
+            "y": 78.08452
+          }
+        ]
+      },
+      {
+        "id": "trace-162",
+        "net": "/Box0 Interface/AOUT0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 155.11302,
+            "y": 72.85974
+          },
+          {
+            "x": 149.88824,
+            "y": 78.08452
+          }
+        ]
+      },
+      {
+        "id": "trace-163",
+        "net": "Net-(IC4-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 138.6335,
+            "y": 64.11452
+          },
+          {
+            "x": 139.3575,
+            "y": 63.39052
+          }
+        ]
+      },
+      {
+        "id": "trace-164",
+        "net": "Net-(IC4-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.3575,
+            "y": 63.39052
+          },
+          {
+            "x": 139.3575,
+            "y": 61.32052
+          }
+        ]
+      },
+      {
+        "id": "trace-165",
+        "net": "Net-(IC4-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 135.6235,
+            "y": 64.11452
+          },
+          {
+            "x": 138.6335,
+            "y": 64.11452
+          }
+        ]
+      },
+      {
+        "id": "trace-166",
+        "net": "Net-(IC4-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 137.5235,
+            "y": 61.19352
+          },
+          {
+            "x": 139.2305,
+            "y": 61.19352
+          }
+        ]
+      },
+      {
+        "id": "trace-167",
+        "net": "Net-(IC4-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.2305,
+            "y": 61.19352
+          },
+          {
+            "x": 139.3575,
+            "y": 61.32052
+          }
+        ]
+      },
+      {
+        "id": "trace-168",
+        "net": "Net-(IC4-Pad8)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 137.5235,
+            "y": 58.65352
+          },
+          {
+            "x": 138.9385,
+            "y": 58.65352
+          }
+        ]
+      },
+      {
+        "id": "trace-169",
+        "net": "Net-(IC4-Pad8)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 138.9385,
+            "y": 58.65352
+          },
+          {
+            "x": 139.3195,
+            "y": 58.27252
+          }
+        ]
+      },
+      {
+        "id": "trace-170",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 106.3755,
+            "y": 92.81652
+          },
+          {
+            "x": 106.3755,
+            "y": 92.30852
+          }
+        ]
+      },
+      {
+        "id": "trace-171",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 106.3755,
+            "y": 92.30852
+          },
+          {
+            "x": 106.3755,
+            "y": 90.53052
+          }
+        ]
+      },
+      {
+        "id": "trace-172",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 108.1325,
+            "y": 92.30852
+          },
+          {
+            "x": 106.3755,
+            "y": 92.30852
+          }
+        ]
+      },
+      {
+        "id": "trace-173",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 105.1055,
+            "y": 90.53052
+          },
+          {
+            "x": 106.3755,
+            "y": 90.53052
+          }
+        ]
+      },
+      {
+        "id": "trace-174",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 106.3755,
+            "y": 90.53052
+          },
+          {
+            "x": 107.1425,
+            "y": 90.53052
+          }
+        ]
+      },
+      {
+        "id": "trace-175",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 107.1375,
+            "y": 93.57852
+          },
+          {
+            "x": 106.3755,
+            "y": 92.81652
+          }
+        ]
+      },
+      {
+        "id": "trace-176",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 111.7095,
+            "y": 93.57852
+          },
+          {
+            "x": 107.1375,
+            "y": 93.57852
+          }
+        ]
+      },
+      {
+        "id": "trace-177",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 112.6315,
+            "y": 92.65652
+          },
+          {
+            "x": 111.7095,
+            "y": 93.57852
+          }
+        ]
+      },
+      {
+        "id": "trace-178",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 112.6315,
+            "y": 89.64152
+          },
+          {
+            "x": 112.6315,
+            "y": 92.65652
+          }
+        ]
+      },
+      {
+        "id": "trace-179",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 114.7575,
+            "y": 87.26652
+          },
+          {
+            "x": 112.7965,
+            "y": 87.26652
+          }
+        ]
+      },
+      {
+        "id": "trace-180",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 112.7965,
+            "y": 87.26652
+          },
+          {
+            "x": 112.6315,
+            "y": 87.10152
+          }
+        ]
+      },
+      {
+        "id": "trace-181",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 112.6315,
+            "y": 87.10152
+          },
+          {
+            "x": 112.6315,
+            "y": 88.37152
+          }
+        ]
+      },
+      {
+        "id": "trace-182",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 112.6315,
+            "y": 89.64152
+          },
+          {
+            "x": 112.6315,
+            "y": 88.37152
+          }
+        ]
+      },
+      {
+        "id": "trace-183",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 99.5175,
+            "y": 90.53052
+          },
+          {
+            "x": 103.3275,
+            "y": 90.53052
+          }
+        ]
+      },
+      {
+        "id": "trace-184",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 103.3275,
+            "y": 90.53052
+          },
+          {
+            "x": 105.1055,
+            "y": 90.53052
+          }
+        ]
+      },
+      {
+        "id": "trace-185",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 103.3275,
+            "y": 88.02852
+          },
+          {
+            "x": 103.3275,
+            "y": 90.53052
+          }
+        ]
+      },
+      {
+        "id": "trace-186",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 105.1055,
+            "y": 88.79052
+          },
+          {
+            "x": 105.1055,
+            "y": 90.53052
+          }
+        ]
+      },
+      {
+        "id": "trace-187",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 107.1425,
+            "y": 90.53052
+          },
+          {
+            "x": 107.2315,
+            "y": 90.44152
+          }
+        ]
+      },
+      {
+        "id": "trace-188",
+        "net": "DIGITAL_EXT",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 107.2315,
+            "y": 90.44152
+          },
+          {
+            "x": 107.2315,
+            "y": 89.64152
+          }
+        ]
+      },
+      {
+        "id": "trace-189",
+        "net": "DIGITAL_EXT",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 96.6473,
+            "y": 90.62958
+          },
+          {
+            "x": 99.41844,
+            "y": 90.62958
+          }
+        ]
+      },
+      {
+        "id": "trace-190",
+        "net": "DIGITAL_EXT",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 99.41844,
+            "y": 90.62958
+          },
+          {
+            "x": 99.5175,
+            "y": 90.53052
+          }
+        ]
+      },
+      {
+        "id": "trace-191",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 107.2315,
+            "y": 88.37152
+          },
+          {
+            "x": 108.2565,
+            "y": 88.37152
+          }
+        ]
+      },
+      {
+        "id": "trace-192",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 108.2565,
+            "y": 88.37152
+          },
+          {
+            "x": 108.6825,
+            "y": 88.79752
+          }
+        ]
+      },
+      {
+        "id": "trace-193",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 108.6825,
+            "y": 88.79752
+          },
+          {
+            "x": 108.6825,
+            "y": 89.02752
+          }
+        ]
+      },
+      {
+        "id": "trace-194",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 108.6825,
+            "y": 92.30852
+          },
+          {
+            "x": 108.6825,
+            "y": 89.02752
+          }
+        ]
+      },
+      {
+        "id": "trace-195",
+        "net": "/Box0 Interface/AIN0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 155.11302,
+            "y": 83.01974
+          },
+          {
+            "x": 152.7178,
+            "y": 80.62452
+          }
+        ]
+      },
+      {
+        "id": "trace-196",
+        "net": "/Box0 Interface/AIN0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 152.7178,
+            "y": 80.62452
+          },
+          {
+            "x": 140.1575,
+            "y": 80.62452
+          }
+        ]
+      },
+      {
+        "id": "trace-197",
+        "net": "/Box0 Interface/AIN0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 140.1575,
+            "y": 80.62452
+          },
+          {
+            "x": 139.3955,
+            "y": 81.38652
+          }
+        ]
+      },
+      {
+        "id": "trace-198",
+        "net": "/Box0 Interface/AIN0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.3955,
+            "y": 81.38652
+          },
+          {
+            "x": 139.3955,
+            "y": 83.88852
+          }
+        ]
+      },
+      {
+        "id": "trace-199",
+        "net": "/Box0 Interface/AIN0.0",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.3955,
+            "y": 83.88852
+          },
+          {
+            "x": 137.8715,
+            "y": 83.88852
+          }
+        ]
+      },
+      {
+        "id": "trace-200",
+        "net": "/Box0 Interface/AIN0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 142.4435,
+            "y": 83.88852
+          },
+          {
+            "x": 142.4435,
+            "y": 82.65652
+          }
+        ]
+      },
+      {
+        "id": "trace-201",
+        "net": "/Box0 Interface/AIN0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 142.4435,
+            "y": 82.65652
+          },
+          {
+            "x": 143.4595,
+            "y": 81.64052
+          }
+        ]
+      },
+      {
+        "id": "trace-202",
+        "net": "/Box0 Interface/AIN0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 151.8415,
+            "y": 81.64052
+          },
+          {
+            "x": 152.8575,
+            "y": 82.65652
+          }
+        ]
+      },
+      {
+        "id": "trace-203",
+        "net": "/Box0 Interface/AIN0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 143.4595,
+            "y": 81.64052
+          },
+          {
+            "x": 151.8415,
+            "y": 81.64052
+          }
+        ]
+      },
+      {
+        "id": "trace-204",
+        "net": "/Box0 Interface/AIN0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 152.8575,
+            "y": 82.65652
+          },
+          {
+            "x": 152.8575,
+            "y": 84.94252
+          }
+        ]
+      },
+      {
+        "id": "trace-205",
+        "net": "/Box0 Interface/AIN0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 152.8575,
+            "y": 84.94252
+          },
+          {
+            "x": 153.47472,
+            "y": 85.55974
+          }
+        ]
+      },
+      {
+        "id": "trace-206",
+        "net": "/Box0 Interface/AIN0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 153.47472,
+            "y": 85.55974
+          },
+          {
+            "x": 155.11302,
+            "y": 85.55974
+          }
+        ]
+      },
+      {
+        "id": "trace-207",
+        "net": "/Box0 Interface/AIN0.1",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 140.9195,
+            "y": 83.88852
+          },
+          {
+            "x": 142.4435,
+            "y": 83.88852
+          }
+        ]
+      },
+      {
+        "id": "trace-208",
+        "net": "/Box0 Interface/AIN0.2",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 155.11302,
+            "y": 88.09974
+          },
+          {
+            "x": 152.71272,
+            "y": 88.09974
+          }
+        ]
+      },
+      {
+        "id": "trace-209",
+        "net": "/Box0 Interface/AIN0.2",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 152.71272,
+            "y": 88.09974
+          },
+          {
+            "x": 151.8415,
+            "y": 87.22852
+          }
+        ]
+      },
+      {
+        "id": "trace-210",
+        "net": "/Box0 Interface/AIN0.2",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 151.0795,
+            "y": 82.65652
+          },
+          {
+            "x": 145.8235,
+            "y": 82.65652
+          }
+        ]
+      },
+      {
+        "id": "trace-211",
+        "net": "/Box0 Interface/AIN0.2",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 151.8415,
+            "y": 87.22852
+          },
+          {
+            "x": 151.8415,
+            "y": 83.41852
+          }
+        ]
+      },
+      {
+        "id": "trace-212",
+        "net": "/Box0 Interface/AIN0.2",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 151.8415,
+            "y": 83.41852
+          },
+          {
+            "x": 151.0795,
+            "y": 82.65652
+          }
+        ]
+      },
+      {
+        "id": "trace-213",
+        "net": "/Box0 Interface/AIN0.2",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 145.8235,
+            "y": 82.65652
+          },
+          {
+            "x": 145.4915,
+            "y": 82.98852
+          }
+        ]
+      },
+      {
+        "id": "trace-214",
+        "net": "/Box0 Interface/AIN0.2",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 145.4915,
+            "y": 82.98852
+          },
+          {
+            "x": 145.4915,
+            "y": 83.88852
+          }
+        ]
+      },
+      {
+        "id": "trace-215",
+        "net": "/Box0 Interface/AIN0.2",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 145.4915,
+            "y": 83.88852
+          },
+          {
+            "x": 143.9675,
+            "y": 83.88852
+          }
+        ]
+      },
+      {
+        "id": "trace-216",
+        "net": "/Box0 Interface/AIN0.3",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 155.11302,
+            "y": 90.63974
+          },
+          {
+            "x": 151.44272,
+            "y": 90.63974
+          }
+        ]
+      },
+      {
+        "id": "trace-217",
+        "net": "/Box0 Interface/AIN0.3",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 151.44272,
+            "y": 90.63974
+          },
+          {
+            "x": 150.8255,
+            "y": 90.02252
+          }
+        ]
+      },
+      {
+        "id": "trace-218",
+        "net": "/Box0 Interface/AIN0.3",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 150.8255,
+            "y": 90.02252
+          },
+          {
+            "x": 150.8255,
+            "y": 84.43452
+          }
+        ]
+      },
+      {
+        "id": "trace-219",
+        "net": "/Box0 Interface/AIN0.3",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 150.2795,
+            "y": 83.88852
+          },
+          {
+            "x": 148.5395,
+            "y": 83.88852
+          }
+        ]
+      },
+      {
+        "id": "trace-220",
+        "net": "/Box0 Interface/AIN0.3",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 150.8255,
+            "y": 84.43452
+          },
+          {
+            "x": 150.2795,
+            "y": 83.88852
+          }
+        ]
+      },
+      {
+        "id": "trace-221",
+        "net": "/Box0 Interface/AIN0.3",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 148.5395,
+            "y": 83.88852
+          },
+          {
+            "x": 147.0155,
+            "y": 83.88852
+          }
+        ]
+      },
+      {
+        "id": "trace-222",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 105.1055,
+            "y": 87.19052
+          },
+          {
+            "x": 100.8255,
+            "y": 87.19052
+          }
+        ]
+      },
+      {
+        "id": "trace-223",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 100.8255,
+            "y": 87.19052
+          },
+          {
+            "x": 98.2475,
+            "y": 89.76852
+          }
+        ]
+      },
+      {
+        "id": "trace-224",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 98.2475,
+            "y": 89.76852
+          },
+          {
+            "x": 98.2475,
+            "y": 91.80052
+          }
+        ]
+      },
+      {
+        "id": "trace-225",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 97.7395,
+            "y": 92.30852
+          },
+          {
+            "x": 92.9135,
+            "y": 92.30852
+          }
+        ]
+      },
+      {
+        "id": "trace-226",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 92.4055,
+            "y": 91.80052
+          },
+          {
+            "x": 92.4055,
+            "y": 88.570066
+          }
+        ]
+      },
+      {
+        "id": "trace-227",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 98.2475,
+            "y": 91.80052
+          },
+          {
+            "x": 97.7395,
+            "y": 92.30852
+          }
+        ]
+      },
+      {
+        "id": "trace-228",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 92.9135,
+            "y": 92.30852
+          },
+          {
+            "x": 92.4055,
+            "y": 91.80052
+          }
+        ]
+      },
+      {
+        "id": "trace-229",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 92.4055,
+            "y": 88.570066
+          },
+          {
+            "x": 92.885986,
+            "y": 88.08958
+          }
+        ]
+      },
+      {
+        "id": "trace-230",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 92.885986,
+            "y": 88.08958
+          },
+          {
+            "x": 94.1073,
+            "y": 88.08958
+          }
+        ]
+      },
+      {
+        "id": "trace-231",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 107.2315,
+            "y": 87.10152
+          },
+          {
+            "x": 105.1945,
+            "y": 87.10152
+          }
+        ]
+      },
+      {
+        "id": "trace-232",
+        "net": "/Box0 Interface/I2C0.SCL",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 105.1945,
+            "y": 87.10152
+          },
+          {
+            "x": 105.1055,
+            "y": 87.19052
+          }
+        ]
+      },
+      {
+        "id": "trace-233",
+        "net": "/Box0 Interface/I2C0.SDA",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 103.3275,
+            "y": 86.42852
+          },
+          {
+            "x": 100.10449,
+            "y": 86.42852
+          }
+        ]
+      },
+      {
+        "id": "trace-234",
+        "net": "/Box0 Interface/I2C0.SDA",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 100.10449,
+            "y": 86.42852
+          },
+          {
+            "x": 97.229829,
+            "y": 89.303181
+          }
+        ]
+      },
+      {
+        "id": "trace-235",
+        "net": "/Box0 Interface/I2C0.SDA",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 95.433699,
+            "y": 89.303181
+          },
+          {
+            "x": 94.970899,
+            "y": 89.765981
+          }
+        ]
+      },
+      {
+        "id": "trace-236",
+        "net": "/Box0 Interface/I2C0.SDA",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 94.970899,
+            "y": 89.765981
+          },
+          {
+            "x": 94.1073,
+            "y": 90.62958
+          }
+        ]
+      },
+      {
+        "id": "trace-237",
+        "net": "/Box0 Interface/I2C0.SDA",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 97.229829,
+            "y": 89.303181
+          },
+          {
+            "x": 95.433699,
+            "y": 89.303181
+          }
+        ]
+      },
+      {
+        "id": "trace-238",
+        "net": "/Box0 Interface/I2C0.SDA",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 107.2315,
+            "y": 85.83152
+          },
+          {
+            "x": 103.9245,
+            "y": 85.83152
+          }
+        ]
+      },
+      {
+        "id": "trace-239",
+        "net": "/Box0 Interface/I2C0.SDA",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 103.9245,
+            "y": 85.83152
+          },
+          {
+            "x": 103.3275,
+            "y": 86.42852
+          }
+        ]
+      },
+      {
+        "id": "trace-240",
+        "net": "Net-(P4-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 140.9575,
+            "y": 61.32052
+          },
+          {
+            "x": 143.4595,
+            "y": 61.32052
+          }
+        ]
+      },
+      {
+        "id": "trace-241",
+        "net": "Net-(P4-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 143.4595,
+            "y": 61.32052
+          },
+          {
+            "x": 145.2375,
+            "y": 63.09852
+          }
+        ]
+      },
+      {
+        "id": "trace-242",
+        "net": "Net-(P4-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 145.2375,
+            "y": 63.09852
+          },
+          {
+            "x": 145.2375,
+            "y": 67.67052
+          }
+        ]
+      },
+      {
+        "id": "trace-243",
+        "net": "Net-(P4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 70.97252
+          },
+          {
+            "x": 142.1895,
+            "y": 71.48052
+          }
+        ]
+      },
+      {
+        "id": "trace-244",
+        "net": "Net-(P4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 142.1895,
+            "y": 71.48052
+          },
+          {
+            "x": 141.6575,
+            "y": 71.48052
+          }
+        ]
+      },
+      {
+        "id": "trace-245",
+        "net": "Net-(P4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 142.6975,
+            "y": 69.70252
+          },
+          {
+            "x": 142.6975,
+            "y": 70.97252
+          }
+        ]
+      },
+      {
+        "id": "trace-246",
+        "net": "Net-(P4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 143.403101,
+            "y": 68.996919
+          },
+          {
+            "x": 142.6975,
+            "y": 69.70252
+          }
+        ]
+      },
+      {
+        "id": "trace-247",
+        "net": "Net-(P4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 147.7775,
+            "y": 67.67052
+          },
+          {
+            "x": 146.451101,
+            "y": 68.996919
+          }
+        ]
+      },
+      {
+        "id": "trace-248",
+        "net": "Net-(P4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 146.451101,
+            "y": 68.996919
+          },
+          {
+            "x": 143.403101,
+            "y": 68.996919
+          }
+        ]
+      },
+      {
+        "id": "trace-249",
+        "net": "Net-(P4-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 141.6575,
+            "y": 71.48052
+          },
+          {
+            "x": 140.9575,
+            "y": 71.48052
+          }
+        ]
+      },
+      {
+        "id": "trace-250",
+        "net": "Net-(P8-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.3955,
+            "y": 85.48852
+          },
+          {
+            "x": 139.3955,
+            "y": 86.97452
+          }
+        ]
+      },
+      {
+        "id": "trace-251",
+        "net": "Net-(P8-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 139.3955,
+            "y": 86.97452
+          },
+          {
+            "x": 140.1575,
+            "y": 87.73652
+          }
+        ]
+      },
+      {
+        "id": "trace-252",
+        "net": "Net-(P8-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 142.4435,
+            "y": 85.48852
+          },
+          {
+            "x": 142.4435,
+            "y": 87.48252
+          }
+        ]
+      },
+      {
+        "id": "trace-253",
+        "net": "Net-(P8-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 142.4435,
+            "y": 87.48252
+          },
+          {
+            "x": 142.6975,
+            "y": 87.73652
+          }
+        ]
+      },
+      {
+        "id": "trace-254",
+        "net": "Net-(P8-Pad3)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 145.4915,
+            "y": 85.48852
+          },
+          {
+            "x": 145.4915,
+            "y": 87.48252
+          }
+        ]
+      },
+      {
+        "id": "trace-255",
+        "net": "Net-(P8-Pad3)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 145.4915,
+            "y": 87.48252
+          },
+          {
+            "x": 145.2375,
+            "y": 87.73652
+          }
+        ]
+      },
+      {
+        "id": "trace-256",
+        "net": "Net-(P8-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 148.5395,
+            "y": 85.48852
+          },
+          {
+            "x": 148.5395,
+            "y": 86.97452
+          }
+        ]
+      },
+      {
+        "id": "trace-257",
+        "net": "Net-(P8-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 148.5395,
+            "y": 86.97452
+          },
+          {
+            "x": 147.7775,
+            "y": 87.73652
+          }
+        ]
+      },
+      {
+        "id": "trace-258",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 109.4235,
+            "y": 56.74852
+          },
+          {
+            "x": 109.45194,
+            "y": 56.74852
+          }
+        ]
+      },
+      {
+        "id": "trace-259",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 109.45194,
+            "y": 56.74852
+          },
+          {
+            "x": 109.4544,
+            "y": 56.74606
+          }
+        ]
+      },
+      {
+        "id": "trace-260",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 109.4544,
+            "y": 56.74606
+          },
+          {
+            "x": 109.4544,
+            "y": 55.77106
+          }
+        ]
+      },
+      {
+        "id": "trace-261",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "points": [
+          {
+            "x": 109.4235,
+            "y": 57.25652
+          },
+          {
+            "x": 109.4235,
+            "y": 56.74852
+          }
+        ]
+      },
+      {
+        "id": "trace-262",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 109.4235,
+            "y": 59.19952
+          },
+          {
+            "x": 109.4235,
+            "y": 57.25652
+          }
+        ]
+      },
+      {
+        "id": "trace-263",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 106.3755,
+            "y": 60.05052
+          },
+          {
+            "x": 108.5725,
+            "y": 60.05052
+          }
+        ]
+      },
+      {
+        "id": "trace-264",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.8,
+        "points": [
+          {
+            "x": 108.5725,
+            "y": 60.05052
+          },
+          {
+            "x": 109.4235,
+            "y": 59.19952
+          }
+        ]
+      },
+      {
+        "id": "trace-265",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.2,
+        "points": [
+          {
+            "x": 109.4544,
+            "y": 55.77106
+          },
+          {
+            "x": 109.4544,
+            "y": 56.64606
+          }
+        ]
+      },
+      {
+        "id": "trace-266",
+        "net": "Net-(F1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.2,
+        "points": [
+          {
+            "x": 109.4544,
+            "y": 56.64606
+          },
+          {
+            "x": 109.4235,
+            "y": 56.67696
+          }
+        ]
+      }
+    ],
+    "vias": [
+      {
+        "id": "via-0",
+        "net": "+33V",
+        "x": 142.6975,
+        "y": 66.50452,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-1",
+        "net": "+33V",
+        "x": 142.6975,
+        "y": 72.75052,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-2",
+        "net": "+33V",
+        "x": 142.6975,
+        "y": 59.03452,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-3",
+        "net": "+33V",
+        "x": 142.6975,
+        "y": 63.60652,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-4",
+        "net": "-33V",
+        "x": 129.4895,
+        "y": 67.16252,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-5",
+        "net": "-33V",
+        "x": 129.4895,
+        "y": 78.33852,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-6",
+        "net": "/Box0 Interface/AOUT0.1",
+        "x": 131.015193,
+        "y": 71.477762,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-7",
+        "net": "/Box0 Interface/AOUT0.1",
+        "x": 131.0135,
+        "y": 79.10052,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-8",
+        "net": "/Box0 Interface/AOUT0.0",
+        "x": 131.025201,
+        "y": 61.24262,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-9",
+        "net": "/Box0 Interface/AOUT0.0",
+        "x": 132.2835,
+        "y": 78.08452,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-10",
+        "net": "DIGITAL_EXT",
+        "x": 99.5175,
+        "y": 90.53052,
+        "outerDiameter": 0.7,
+        "drillDiameter": 0.3,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "id": "zone-0",
+        "net": "GND",
+        "layer": "F.Cu",
+        "points": [
+          {
+            "x": 90.88088,
+            "y": 50.39798
+          },
+          {
+            "x": 160.88088,
+            "y": 50.39798
+          },
+          {
+            "x": 160.88088,
+            "y": 100.39798
+          },
+          {
+            "x": 90.88088,
+            "y": 100.39798
+          }
+        ],
+        "priority": 1
+      },
+      {
+        "id": "zone-1",
+        "net": "GND",
+        "layer": "B.Cu",
+        "points": [
+          {
+            "x": 90.88088,
+            "y": 50.39798
+          },
+          {
+            "x": 160.88088,
+            "y": 50.39798
+          },
+          {
+            "x": 160.88088,
+            "y": 100.39798
+          },
+          {
+            "x": 90.88088,
+            "y": 100.39798
+          }
+        ],
+        "priority": 0
+      },
+      {
+        "id": "zone-2",
+        "net": "-33V",
+        "layer": "F.Cu",
+        "points": [
+          {
+            "x": 137.1095,
+            "y": 75.79852
+          },
+          {
+            "x": 131.5215,
+            "y": 75.79852
+          },
+          {
+            "x": 131.5215,
+            "y": 56.49452
+          },
+          {
+            "x": 137.1095,
+            "y": 56.49452
+          }
+        ],
+        "priority": 2
+      }
+    ],
+    "nets": [
+      {
+        "name": "ANALOG_POS",
+        "class": "signal"
+      },
+      {
+        "name": "ANALOG_NEG",
+        "class": "signal"
+      },
+      {
+        "name": "GND",
+        "class": "ground"
+      },
+      {
+        "name": "VREF_EXT",
+        "class": "signal"
+      },
+      {
+        "name": "5V",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(C6-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "+33V",
+        "class": "power"
+      },
+      {
+        "name": "Net-(C7-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "-33V",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(D1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(D2-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC1-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC2-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC3-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "/Box0 Interface/AOUT0.1",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC3-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC3-Pad8)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC4-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "/Box0 Interface/AOUT0.0",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC4-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC4-Pad8)",
+        "class": "signal"
+      },
+      {
+        "name": "DIGITAL_EXT",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(JP1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "/Box0 Interface/AIN0.0",
+        "class": "signal"
+      },
+      {
+        "name": "/Box0 Interface/AIN0.1",
+        "class": "signal"
+      },
+      {
+        "name": "/Box0 Interface/AIN0.2",
+        "class": "signal"
+      },
+      {
+        "name": "/Box0 Interface/AIN0.3",
+        "class": "signal"
+      },
+      {
+        "name": "/Box0 Interface/I2C0.SCL",
+        "class": "signal"
+      },
+      {
+        "name": "/Box0 Interface/I2C0.SDA",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P8-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P8-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P8-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P8-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(F1-Pad2)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "Box0-hv-analog-breakoutboard_breakout__raw",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.445Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666445,
+  "updatedAt": 1773996666445
+}

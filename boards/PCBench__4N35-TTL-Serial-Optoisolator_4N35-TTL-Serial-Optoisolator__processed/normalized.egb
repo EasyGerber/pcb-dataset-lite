@@ -1,0 +1,2091 @@
+{
+  "egb": 1,
+  "name": "4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 0,
+      "height": 17.78,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 240.03,
+          "y": 54.61
+        },
+        {
+          "x": 240.03,
+          "y": 72.39
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/Q1",
+        "type": "transistor",
+        "designator": "Q1",
+        "value": "2N3906",
+        "package": "TO-92_Q_EBC_059Bo_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 212.09,
+        "y": 69.85,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "VCCA",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000012",
+            "x": -1.27,
+            "y": 1.27,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-0000011",
+            "x": -2.54,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 6.579,
+        "bodyHeight": 4.788,
+        "bodyHeight3D": 4.5
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/Q2",
+        "type": "transistor",
+        "designator": "Q2",
+        "value": "2N3906",
+        "package": "TO-92_Q_EBC_059Bo_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 227.33,
+        "y": 57.15,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "VCCB",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000005",
+            "x": -1.27,
+            "y": 1.27,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "N-000006",
+            "x": -2.54,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 6.579,
+        "bodyHeight": 4.788,
+        "bodyHeight3D": 4.5
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/R1",
+        "type": "resistor",
+        "designator": "R1",
+        "value": "4.7k",
+        "package": "R_AXIAL_0W25_059A_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 208.28,
+        "y": 55.88,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "TXA",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000012",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 21.819,
+        "bodyHeight": 1.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/R4",
+        "type": "resistor",
+        "designator": "R4",
+        "value": "470",
+        "package": "R_AXIAL_0W25_059A_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 226.06,
+        "y": 71.12,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "RXB",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "VCCB",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 21.819,
+        "bodyHeight": 1.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/R2",
+        "type": "resistor",
+        "designator": "R2",
+        "value": "330",
+        "package": "R_AXIAL_0W25_059A_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 210.82,
+        "y": 55.88,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000015",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-0000011",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 21.819,
+        "bodyHeight": 1.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/R6",
+        "type": "resistor",
+        "designator": "R6",
+        "value": "4.7k",
+        "package": "R_AXIAL_0W25_059A_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 231.14,
+        "y": 71.12,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "TXB",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000005",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 21.819,
+        "bodyHeight": 1.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/R3",
+        "type": "resistor",
+        "designator": "R3",
+        "value": "470",
+        "package": "R_AXIAL_0W25_059A_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 213.36,
+        "y": 55.88,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "RXA",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "VCCA",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 21.819,
+        "bodyHeight": 1.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/R5",
+        "type": "resistor",
+        "designator": "R5",
+        "value": "330",
+        "package": "R_AXIAL_0W25_059A_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 228.6,
+        "y": 71.12,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-000007",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "N-000006",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.4986,
+            "height": 1.4986,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 21.819,
+        "bodyHeight": 1.499,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/P1",
+        "type": "connector",
+        "designator": "P1",
+        "value": "CONN_4",
+        "package": "PIN_ARRAY_4x1",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 201.93,
+        "y": 63.5,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "VCCA",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "TXA",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "RXA",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GNDA",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 9.144,
+        "bodyHeight": 1.524,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/P2",
+        "type": "connector",
+        "designator": "P2",
+        "value": "CONN_4",
+        "package": "PIN_ARRAY_4x1",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 237.49,
+        "y": 63.5,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "VCCB",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "TXB",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "RXB",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GNDB",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 9.144,
+        "bodyHeight": 1.524,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/U1",
+        "type": "ic",
+        "designator": "U1",
+        "value": "4N35",
+        "package": "DIP6_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 215.9,
+        "y": 66.04,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-0000015",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GNDA",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GNDB",
+            "x": 5.08,
+            "y": -7.62,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "RXB",
+            "x": 2.54,
+            "y": -7.62,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "",
+            "x": 0,
+            "y": -7.62,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 11.659,
+        "bodyHeight": 17.488,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/U2",
+        "type": "ic",
+        "designator": "U2",
+        "value": "4N35",
+        "package": "DIP6_PL",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 223.52,
+        "y": 60.96,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "N-000007",
+            "x": 0,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GNDB",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GNDA",
+            "x": 5.08,
+            "y": -7.62,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "RXA",
+            "x": 2.54,
+            "y": -7.62,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "",
+            "x": 0,
+            "y": -7.62,
+            "width": 1.4986,
+            "height": 2.2479,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 11.659,
+        "bodyHeight": 17.488,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/H***_4",
+        "type": "other",
+        "designator": "H***_4",
+        "value": "Val**",
+        "package": "hole_M3_2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 201.93,
+        "y": 54.61,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 3.2,
+            "height": 3.2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          }
+        ],
+        "bodyWidth": 3.2,
+        "bodyHeight": 3.2,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/H***_3",
+        "type": "other",
+        "designator": "H***_3",
+        "value": "Val**",
+        "package": "hole_M3_2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 237.49,
+        "y": 54.61,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 3.2,
+            "height": 3.2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          }
+        ],
+        "bodyWidth": 3.2,
+        "bodyHeight": 3.2,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/H***_2",
+        "type": "other",
+        "designator": "H***_2",
+        "value": "Val**",
+        "package": "hole_M3_2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 237.49,
+        "y": 72.39,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 3.2,
+            "height": 3.2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          }
+        ],
+        "bodyWidth": 3.2,
+        "bodyHeight": 3.2,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed/H***",
+        "type": "other",
+        "designator": "H***",
+        "value": "Val**",
+        "package": "hole_M3_2",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 201.93,
+        "y": 72.39,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": 0,
+            "y": 0,
+            "width": 3.2,
+            "height": 3.2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          }
+        ],
+        "bodyWidth": 3.2,
+        "bodyHeight": 3.2,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 215.9,
+            "y": 68.58
+          },
+          {
+            "x": 216.294,
+            "y": 68.58
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.294,
+            "y": 68.58
+          },
+          {
+            "x": 217.78,
+            "y": 67.0941
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.78,
+            "y": 67.0941
+          },
+          {
+            "x": 217.78,
+            "y": 57.7596
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.78,
+            "y": 57.7596
+          },
+          {
+            "x": 215.9,
+            "y": 55.88
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 201.93,
+            "y": 67.31
+          },
+          {
+            "x": 207.62,
+            "y": 72.9996
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 207.62,
+            "y": 72.9996
+          },
+          {
+            "x": 216.368,
+            "y": 72.9996
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 216.368,
+            "y": 72.9996
+          },
+          {
+            "x": 217.78,
+            "y": 71.5882
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.78,
+            "y": 71.5882
+          },
+          {
+            "x": 217.78,
+            "y": 70.4596
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "GNDA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 217.78,
+            "y": 70.4596
+          },
+          {
+            "x": 215.9,
+            "y": 68.58
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "GNDB",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 224.6505,
+            "y": 67.31
+          },
+          {
+            "x": 224.6505,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "GNDB",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 224.6505,
+            "y": 58.42
+          },
+          {
+            "x": 224.6505,
+            "y": 67.31
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "GNDB",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 224.6505,
+            "y": 67.31
+          },
+          {
+            "x": 237.49,
+            "y": 67.31
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "GNDB",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 223.52,
+            "y": 71.12
+          },
+          {
+            "x": 224.6505,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "GNDB",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 223.52,
+            "y": 58.42
+          },
+          {
+            "x": 224.6505,
+            "y": 58.42
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "N-0000011",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 210.82,
+            "y": 66.04
+          },
+          {
+            "x": 209.55,
+            "y": 67.31
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "N-0000011",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 67.31
+          },
+          {
+            "x": 209.55,
+            "y": 69.85
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 208.28,
+            "y": 66.04
+          },
+          {
+            "x": 207.01,
+            "y": 67.31
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 67.31
+          },
+          {
+            "x": 207.01,
+            "y": 70.485
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 70.485
+          },
+          {
+            "x": 208.28,
+            "y": 71.755
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 208.28,
+            "y": 71.755
+          },
+          {
+            "x": 210.185,
+            "y": 71.755
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "N-0000012",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 210.185,
+            "y": 71.755
+          },
+          {
+            "x": 210.82,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "N-0000015",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 210.82,
+            "y": 55.88
+          },
+          {
+            "x": 210.82,
+            "y": 60.96
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "N-0000015",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 210.82,
+            "y": 60.96
+          },
+          {
+            "x": 215.9,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "N-000005",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 231.14,
+            "y": 60.96
+          },
+          {
+            "x": 231.775,
+            "y": 60.325
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "N-000005",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 231.775,
+            "y": 60.325
+          },
+          {
+            "x": 231.775,
+            "y": 55.88
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "N-000005",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 231.775,
+            "y": 55.88
+          },
+          {
+            "x": 231.14,
+            "y": 55.245
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "N-000005",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 231.14,
+            "y": 55.245
+          },
+          {
+            "x": 229.235,
+            "y": 55.245
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "N-000005",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 229.235,
+            "y": 55.245
+          },
+          {
+            "x": 228.6,
+            "y": 55.88
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "N-000006",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 228.6,
+            "y": 60.96
+          },
+          {
+            "x": 229.87,
+            "y": 59.69
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "N-000006",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 229.87,
+            "y": 59.69
+          },
+          {
+            "x": 229.87,
+            "y": 57.15
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "N-000007",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 223.52,
+            "y": 60.96
+          },
+          {
+            "x": 228.6,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "N-000007",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 228.6,
+            "y": 66.04
+          },
+          {
+            "x": 228.6,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-32",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 213.36,
+            "y": 55.88
+          },
+          {
+            "x": 213.36,
+            "y": 57.15
+          }
+        ]
+      },
+      {
+        "id": "trace-33",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 213.36,
+            "y": 57.15
+          },
+          {
+            "x": 214.63,
+            "y": 58.42
+          }
+        ]
+      },
+      {
+        "id": "trace-34",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 214.63,
+            "y": 58.42
+          },
+          {
+            "x": 215.9,
+            "y": 58.42
+          }
+        ]
+      },
+      {
+        "id": "trace-35",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 55.245
+          },
+          {
+            "x": 209.55,
+            "y": 54.61
+          }
+        ]
+      },
+      {
+        "id": "trace-36",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 54.61
+          },
+          {
+            "x": 210.185,
+            "y": 53.975
+          }
+        ]
+      },
+      {
+        "id": "trace-37",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 210.185,
+            "y": 53.975
+          },
+          {
+            "x": 211.455,
+            "y": 53.975
+          }
+        ]
+      },
+      {
+        "id": "trace-38",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 211.455,
+            "y": 53.975
+          },
+          {
+            "x": 213.36,
+            "y": 55.88
+          }
+        ]
+      },
+      {
+        "id": "trace-39",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 55.245
+          },
+          {
+            "x": 209.55,
+            "y": 56.515
+          }
+        ]
+      },
+      {
+        "id": "trace-40",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 201.93,
+            "y": 64.77
+          },
+          {
+            "x": 209.55,
+            "y": 57.15
+          }
+        ]
+      },
+      {
+        "id": "trace-41",
+        "net": "RXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 57.15
+          },
+          {
+            "x": 209.55,
+            "y": 56.515
+          }
+        ]
+      },
+      {
+        "id": "trace-42",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 223.52,
+            "y": 68.58
+          },
+          {
+            "x": 224.79,
+            "y": 68.58
+          }
+        ]
+      },
+      {
+        "id": "trace-43",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 224.79,
+            "y": 68.58
+          },
+          {
+            "x": 226.06,
+            "y": 69.85
+          }
+        ]
+      },
+      {
+        "id": "trace-44",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.06,
+            "y": 69.85
+          },
+          {
+            "x": 226.06,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-45",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.06,
+            "y": 71.12
+          },
+          {
+            "x": 226.06,
+            "y": 71.755
+          }
+        ]
+      },
+      {
+        "id": "trace-46",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.06,
+            "y": 71.755
+          },
+          {
+            "x": 227.33,
+            "y": 73.025
+          }
+        ]
+      },
+      {
+        "id": "trace-47",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 227.33,
+            "y": 73.025
+          },
+          {
+            "x": 231.775,
+            "y": 73.025
+          }
+        ]
+      },
+      {
+        "id": "trace-48",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 231.775,
+            "y": 73.025
+          },
+          {
+            "x": 233.045,
+            "y": 71.755
+          }
+        ]
+      },
+      {
+        "id": "trace-49",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 71.755
+          },
+          {
+            "x": 233.045,
+            "y": 69.215
+          }
+        ]
+      },
+      {
+        "id": "trace-50",
+        "net": "RXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 233.045,
+            "y": 69.215
+          },
+          {
+            "x": 237.49,
+            "y": 64.77
+          }
+        ]
+      },
+      {
+        "id": "trace-51",
+        "net": "TXA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 208.28,
+            "y": 55.88
+          },
+          {
+            "x": 201.93,
+            "y": 62.23
+          }
+        ]
+      },
+      {
+        "id": "trace-52",
+        "net": "TXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 231.14,
+            "y": 71.12
+          },
+          {
+            "x": 231.14,
+            "y": 68.58
+          }
+        ]
+      },
+      {
+        "id": "trace-53",
+        "net": "TXB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 231.14,
+            "y": 68.58
+          },
+          {
+            "x": 237.49,
+            "y": 62.23
+          }
+        ]
+      },
+      {
+        "id": "trace-54",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 212.09,
+            "y": 69.85
+          },
+          {
+            "x": 212.09,
+            "y": 67.31
+          }
+        ]
+      },
+      {
+        "id": "trace-55",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 212.09,
+            "y": 67.31
+          },
+          {
+            "x": 213.36,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-56",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 65.405
+          },
+          {
+            "x": 200.025,
+            "y": 64.77
+          }
+        ]
+      },
+      {
+        "id": "trace-57",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 200.025,
+            "y": 64.77
+          },
+          {
+            "x": 200.025,
+            "y": 61.595
+          }
+        ]
+      },
+      {
+        "id": "trace-58",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 200.025,
+            "y": 61.595
+          },
+          {
+            "x": 201.93,
+            "y": 59.69
+          }
+        ]
+      },
+      {
+        "id": "trace-59",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 213.36,
+            "y": 66.04
+          },
+          {
+            "x": 211.455,
+            "y": 64.135
+          }
+        ]
+      },
+      {
+        "id": "trace-60",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 211.455,
+            "y": 64.135
+          },
+          {
+            "x": 206.375,
+            "y": 64.135
+          }
+        ]
+      },
+      {
+        "id": "trace-61",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 206.375,
+            "y": 64.135
+          },
+          {
+            "x": 204.47,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-62",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 204.47,
+            "y": 66.04
+          },
+          {
+            "x": 202.565,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-63",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 65.405
+          },
+          {
+            "x": 201.295,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-64",
+        "net": "VCCA",
+        "layer": "F.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 201.295,
+            "y": 66.04
+          },
+          {
+            "x": 202.565,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-65",
+        "net": "VCCB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.06,
+            "y": 60.96
+          },
+          {
+            "x": 226.06,
+            "y": 58.42
+          }
+        ]
+      },
+      {
+        "id": "trace-66",
+        "net": "VCCB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.06,
+            "y": 58.42
+          },
+          {
+            "x": 227.33,
+            "y": 57.15
+          }
+        ]
+      },
+      {
+        "id": "trace-67",
+        "net": "VCCB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 226.06,
+            "y": 60.96
+          },
+          {
+            "x": 227.965,
+            "y": 62.865
+          }
+        ]
+      },
+      {
+        "id": "trace-68",
+        "net": "VCCB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 227.965,
+            "y": 62.865
+          },
+          {
+            "x": 232.41,
+            "y": 62.865
+          }
+        ]
+      },
+      {
+        "id": "trace-69",
+        "net": "VCCB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 232.41,
+            "y": 62.865
+          },
+          {
+            "x": 235.585,
+            "y": 59.69
+          }
+        ]
+      },
+      {
+        "id": "trace-70",
+        "net": "VCCB",
+        "layer": "F.Cu",
+        "width": 0.508,
+        "points": [
+          {
+            "x": 235.585,
+            "y": 59.69
+          },
+          {
+            "x": 237.49,
+            "y": 59.69
+          }
+        ]
+      }
+    ],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "GNDA",
+        "class": "signal"
+      },
+      {
+        "name": "GNDB",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000011",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000012",
+        "class": "signal"
+      },
+      {
+        "name": "N-0000015",
+        "class": "signal"
+      },
+      {
+        "name": "N-000005",
+        "class": "signal"
+      },
+      {
+        "name": "N-000006",
+        "class": "signal"
+      },
+      {
+        "name": "N-000007",
+        "class": "signal"
+      },
+      {
+        "name": "RXA",
+        "class": "signal"
+      },
+      {
+        "name": "RXB",
+        "class": "signal"
+      },
+      {
+        "name": "TXA",
+        "class": "signal"
+      },
+      {
+        "name": "TXB",
+        "class": "signal"
+      },
+      {
+        "name": "VCCA",
+        "class": "signal"
+      },
+      {
+        "name": "VCCB",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "4N35-TTL-Serial-Optoisolator_4N35-TTL-Serial-Optoisolator__processed",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.166Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666166,
+  "updatedAt": 1773996666166
+}

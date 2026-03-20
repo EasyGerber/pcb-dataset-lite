@@ -1,0 +1,5254 @@
+{
+  "egb": 1,
+  "name": "ESP_nRF_Relay_Relay_WiFi_nRF24__raw",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 50.79999999999998,
+      "height": 50.8,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 163.83,
+          "y": 168.91
+        },
+        {
+          "x": 163.83,
+          "y": 118.11
+        },
+        {
+          "x": 214.63,
+          "y": 118.11
+        },
+        {
+          "x": 214.63,
+          "y": 168.91
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/C1",
+        "type": "capacitor",
+        "designator": "C1",
+        "value": "0.01",
+        "package": "C_Disc_D3_P2.5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 190.754,
+        "y": 137.16,
+        "rotation": 0,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.3,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.8
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C1-Pad2)",
+            "x": 2.5,
+            "y": 0,
+            "width": 1.3,
+            "height": 1.3,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.8001
+          }
+        ],
+        "bodyWidth": 6.3,
+        "bodyHeight": 1.3,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/C2",
+        "type": "capacitor",
+        "designator": "C2",
+        "value": "10n",
+        "package": "C_Disc_D6_P5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 170.688,
+        "y": 132.334,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C2-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.4,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C2-Pad2)",
+            "x": 5,
+            "y": 0,
+            "width": 1.4,
+            "height": 1.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          }
+        ],
+        "bodyWidth": 11.4,
+        "bodyHeight": 1.4,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/IC1",
+        "type": "other",
+        "designator": "IC1",
+        "value": "MOC3061M",
+        "package": "Optocoupler_6pin_wide_Stile-II",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 183.388,
+        "y": 148.082,
+        "rotation": 270,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(IC1-Pad1)",
+            "x": -2.54,
+            "y": -5.00126,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.8001
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0,
+            "y": -5.00126,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.8001
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": 2.54,
+            "y": -5.00126,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.8001
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(IC1-Pad4)",
+            "x": 2.54,
+            "y": 4.99872,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.8001
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "",
+            "x": 0,
+            "y": 4.99872,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.8001
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(IC1-Pad6)",
+            "x": -2.54,
+            "y": 4.99872,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 0.8001
+          }
+        ],
+        "bodyWidth": 6.581,
+        "bodyHeight": 11.504,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/P1",
+        "type": "connector",
+        "designator": "P1",
+        "value": "CONN_4",
+        "package": "Pin_Header_Straight_1x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 210.058,
+        "y": 121.666,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P1-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "GND",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "VCC",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/P2",
+        "type": "connector",
+        "designator": "P2",
+        "value": "CONN_4",
+        "package": "AK300-4",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 169.672,
+        "y": 152.146,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P2-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.9812,
+            "height": 3.9624,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.3208
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P2-Pad2)",
+            "x": 5,
+            "y": 0,
+            "width": 1.9812,
+            "height": 3.9624,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.3208
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(C2-Pad2)",
+            "x": 15,
+            "y": 0,
+            "width": 1.9812,
+            "height": 3.9624,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.3208
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P2-Pad2)",
+            "x": 10,
+            "y": 0,
+            "width": 1.9812,
+            "height": 3.9624,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "bottom",
+            "drillSize": 1.3208
+          }
+        ],
+        "bodyWidth": 31.981,
+        "bodyHeight": 3.962,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/U1",
+        "type": "ic",
+        "designator": "U1",
+        "value": "ESP8266-ESP-03",
+        "package": "ESP8266-ESP-03",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 206.248,
+        "y": 131.318,
+        "rotation": 0,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "Net-(JP1-Pad2)",
+            "x": -6.1,
+            "y": -5.9,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "Net-(U1-Pad13)",
+            "x": -6.1,
+            "y": -3.9,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "Net-(IC1-Pad1)",
+            "x": -6.1,
+            "y": -1.9,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "Net-(U1-Pad11)",
+            "x": -6.1,
+            "y": 0.1,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "Net-(U1-Pad10)",
+            "x": -6.1,
+            "y": 2.1,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(U1-Pad9)",
+            "x": -6.1,
+            "y": 4.1,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(C1-Pad2)",
+            "x": -6.1,
+            "y": 6.1,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 6.1,
+            "y": -5.9,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "",
+            "x": 6.1,
+            "y": -3.9,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P1-Pad1)",
+            "x": 6.1,
+            "y": -1.9,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(P1-Pad2)",
+            "x": 6.1,
+            "y": 0.1,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(U1-Pad5)",
+            "x": 6.1,
+            "y": 2.1,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(C1-Pad2)",
+            "x": 6.1,
+            "y": 4.1,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(U1-Pad7)",
+            "x": 6.1,
+            "y": 6.1,
+            "width": 1,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 13.2,
+        "bodyHeight": 13.2,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/U3",
+        "type": "ic",
+        "designator": "U3",
+        "value": "NRF24L01P_SMD",
+        "package": "NRF24L01P_SMD",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 208.026,
+        "y": 165.608,
+        "rotation": 90,
+        "layer": "bottom",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C1-Pad2)",
+            "x": 0,
+            "y": -1.55,
+            "width": 1.5,
+            "height": 0.9,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0,
+            "y": -2.82,
+            "width": 1.5,
+            "height": 0.9,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(JP1-Pad2)",
+            "x": 0,
+            "y": -4.09,
+            "width": 1.5,
+            "height": 0.9,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(U1-Pad13)",
+            "x": 0,
+            "y": -5.37,
+            "width": 1.5,
+            "height": 0.9,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(U1-Pad9)",
+            "x": 0,
+            "y": -6.63,
+            "width": 1.5,
+            "height": 0.9,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(U1-Pad11)",
+            "x": 0,
+            "y": -7.9,
+            "width": 1.5,
+            "height": 0.9,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(U1-Pad10)",
+            "x": 0,
+            "y": -9.18,
+            "width": 1.5,
+            "height": 0.9,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(U3-Pad8)",
+            "x": 0,
+            "y": -10.45,
+            "width": 1.5,
+            "height": 0.9,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(U3-Pad9)",
+            "x": 11.5,
+            "y": -12,
+            "width": 0.9,
+            "height": 1.5,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "bottom"
+          }
+        ],
+        "bodyWidth": 23.9,
+        "bodyHeight": 25.5,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/U4",
+        "type": "ic",
+        "designator": "U4",
+        "value": "TRIAC",
+        "package": "TO-220_Neutral123_Vertical_LargePads",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 168.656,
+        "y": 125.222,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P2-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 3.50012,
+            "height": 1.69926,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(C2-Pad2)",
+            "x": -2.54,
+            "y": 0,
+            "width": 3.50012,
+            "height": 1.69926,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(R1-Pad2)",
+            "x": 2.54,
+            "y": 0,
+            "width": 3.50012,
+            "height": 1.69926,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 8.58,
+        "bodyHeight": 1.699,
+        "bodyHeight3D": 10
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/R1",
+        "type": "resistor",
+        "designator": "R1",
+        "value": "360",
+        "package": "Resistor_Horizontal_RM10mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 196.088,
+        "y": 125.73,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(IC1-Pad4)",
+            "x": -5.08,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R1-Pad2)",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 12.159,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/R2",
+        "type": "resistor",
+        "designator": "R2",
+        "value": "360",
+        "package": "Resistor_Horizontal_RM10mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 185.42,
+        "y": 125.73,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(IC1-Pad6)",
+            "x": -5.08,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P2-Pad1)",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 12.159,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/R3",
+        "type": "resistor",
+        "designator": "R3",
+        "value": "360",
+        "package": "Resistor_Horizontal_RM10mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 190.754,
+        "y": 125.73,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(R1-Pad2)",
+            "x": -5.08,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C2-Pad2)",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 12.159,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/R4",
+        "type": "resistor",
+        "designator": "R4",
+        "value": "360",
+        "package": "Resistor_Horizontal_RM10mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 179.832,
+        "y": 125.73,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P2-Pad1)",
+            "x": -5.08,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C2-Pad1)",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 12.159,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/P3",
+        "type": "connector",
+        "designator": "P3",
+        "value": "CONN_01X04",
+        "package": "ACDC-Converter_TRACO-TMLM-05",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 166.37,
+        "y": 156.21,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P2-Pad2)",
+            "x": 0,
+            "y": 0,
+            "width": 2.79908,
+            "height": 2.79908,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.39954
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C2-Pad2)",
+            "x": 0,
+            "y": 10.16,
+            "width": 2.79908,
+            "height": 2.79908,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.39954
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "VCC",
+            "x": 45.72,
+            "y": 10.16,
+            "width": 2.79908,
+            "height": 2.79908,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.39954
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GND",
+            "x": 45.72,
+            "y": -10.16,
+            "width": 2.79908,
+            "height": 2.79908,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.39954
+          }
+        ],
+        "bodyWidth": 94.239,
+        "bodyHeight": 23.119,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/U2",
+        "type": "ic",
+        "designator": "U2",
+        "value": "NCP1117ST33T3G",
+        "package": "SOT-223",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 205.994,
+        "y": 130.048,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "",
+            "x": 0,
+            "y": -3.302,
+            "width": 3.6576,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(C1-Pad2)",
+            "x": 0,
+            "y": 3.302,
+            "width": 1.016,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "VCC",
+            "x": 2.286,
+            "y": 3.302,
+            "width": 1.016,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -2.286,
+            "y": 3.302,
+            "width": 1.016,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 5.588,
+        "bodyHeight": 8.636,
+        "bodyHeight3D": 1.1
+      },
+      {
+        "id": "PCBench/PCBench/ESP_nRF_Relay_Relay_WiFi_nRF24__raw/JP1",
+        "type": "connector",
+        "designator": "JP1",
+        "value": "JUMPER",
+        "package": "Pin_Header_Straight_1x02",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 196.596,
+        "y": 139.192,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(JP1-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 7.112,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.206,
+            "y": 165.608
+          },
+          {
+            "x": 205.232,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.232,
+            "y": 165.608
+          },
+          {
+            "x": 205.232,
+            "y": 167.132
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.232,
+            "y": 167.132
+          },
+          {
+            "x": 205.74,
+            "y": 167.64
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.74,
+            "y": 167.64
+          },
+          {
+            "x": 212.09,
+            "y": 161.29
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.09,
+            "y": 161.29
+          },
+          {
+            "x": 212.09,
+            "y": 146.05
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.708,
+            "y": 133.35
+          },
+          {
+            "x": 201.422,
+            "y": 135.636
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 201.422,
+            "y": 135.636
+          },
+          {
+            "x": 201.422,
+            "y": 139.192
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 201.422,
+            "y": 139.192
+          },
+          {
+            "x": 196.596,
+            "y": 139.192
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.348,
+            "y": 125.418
+          },
+          {
+            "x": 212.344,
+            "y": 125.476
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.344,
+            "y": 125.476
+          },
+          {
+            "x": 210.312,
+            "y": 123.444
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 210.312,
+            "y": 123.444
+          },
+          {
+            "x": 205.74,
+            "y": 123.444
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.74,
+            "y": 123.444
+          },
+          {
+            "x": 205.74,
+            "y": 122.428
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.74,
+            "y": 122.428
+          },
+          {
+            "x": 204.978,
+            "y": 121.666
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.09,
+            "y": 146.05
+          },
+          {
+            "x": 214.122,
+            "y": 144.018
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 214.122,
+            "y": 144.018
+          },
+          {
+            "x": 214.122,
+            "y": 126.492
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 214.122,
+            "y": 126.492
+          },
+          {
+            "x": 213.106,
+            "y": 125.476
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 213.106,
+            "y": 125.476
+          },
+          {
+            "x": 212.344,
+            "y": 125.476
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.344,
+            "y": 125.476
+          },
+          {
+            "x": 212.348,
+            "y": 125.418
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 190.754,
+            "y": 137.16
+          },
+          {
+            "x": 189.992,
+            "y": 137.922
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 189.992,
+            "y": 137.922
+          },
+          {
+            "x": 189.992,
+            "y": 147.066
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 189.992,
+            "y": 147.066
+          },
+          {
+            "x": 189.484,
+            "y": 147.066
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 189.484,
+            "y": 147.066
+          },
+          {
+            "x": 188.468,
+            "y": 148.082
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.468,
+            "y": 148.082
+          },
+          {
+            "x": 188.38926,
+            "y": 148.082
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 204.978,
+            "y": 121.666
+          },
+          {
+            "x": 204.216,
+            "y": 122.428
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 204.216,
+            "y": 122.428
+          },
+          {
+            "x": 204.216,
+            "y": 123.444
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 204.216,
+            "y": 123.444
+          },
+          {
+            "x": 203.2,
+            "y": 124.46
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.2,
+            "y": 124.46
+          },
+          {
+            "x": 203.2,
+            "y": 128.524
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.2,
+            "y": 128.524
+          },
+          {
+            "x": 203.708,
+            "y": 129.032
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.708,
+            "y": 129.032
+          },
+          {
+            "x": 203.708,
+            "y": 133.35
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 196.596,
+            "y": 139.192
+          },
+          {
+            "x": 196.088,
+            "y": 138.684
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 196.088,
+            "y": 138.684
+          },
+          {
+            "x": 192.532,
+            "y": 138.684
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 192.532,
+            "y": 138.684
+          },
+          {
+            "x": 191.008,
+            "y": 137.16
+          }
+        ]
+      },
+      {
+        "id": "trace-32",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 191.008,
+            "y": 137.16
+          },
+          {
+            "x": 190.754,
+            "y": 137.16
+          }
+        ]
+      },
+      {
+        "id": "trace-33",
+        "net": "Net-(C1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.994,
+            "y": 133.35
+          },
+          {
+            "x": 205.994,
+            "y": 131.064
+          }
+        ]
+      },
+      {
+        "id": "trace-34",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.994,
+            "y": 131.064
+          },
+          {
+            "x": 205.994,
+            "y": 136.652
+          }
+        ]
+      },
+      {
+        "id": "trace-35",
+        "net": "Net-(C1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.994,
+            "y": 136.652
+          },
+          {
+            "x": 205.994,
+            "y": 163.576
+          }
+        ]
+      },
+      {
+        "id": "trace-36",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.994,
+            "y": 163.576
+          },
+          {
+            "x": 206.502,
+            "y": 164.084
+          }
+        ]
+      },
+      {
+        "id": "trace-37",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 206.502,
+            "y": 164.084
+          },
+          {
+            "x": 206.502,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-38",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 206.502,
+            "y": 165.608
+          },
+          {
+            "x": 206.476,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-39",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.148,
+            "y": 137.418
+          },
+          {
+            "x": 200.66,
+            "y": 136.906
+          }
+        ]
+      },
+      {
+        "id": "trace-40",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 136.906
+          },
+          {
+            "x": 201.422,
+            "y": 136.906
+          }
+        ]
+      },
+      {
+        "id": "trace-41",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 201.422,
+            "y": 136.906
+          },
+          {
+            "x": 202.184,
+            "y": 136.144
+          }
+        ]
+      },
+      {
+        "id": "trace-42",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 202.184,
+            "y": 136.144
+          },
+          {
+            "x": 203.962,
+            "y": 136.144
+          }
+        ]
+      },
+      {
+        "id": "trace-43",
+        "net": "Net-(C1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.962,
+            "y": 136.144
+          },
+          {
+            "x": 205.994,
+            "y": 134.112
+          }
+        ]
+      },
+      {
+        "id": "trace-44",
+        "net": "Net-(C1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.994,
+            "y": 134.112
+          },
+          {
+            "x": 205.994,
+            "y": 133.35
+          }
+        ]
+      },
+      {
+        "id": "trace-45",
+        "net": "Net-(C1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 205.994,
+            "y": 133.35
+          },
+          {
+            "x": 207.01,
+            "y": 134.366
+          }
+        ]
+      },
+      {
+        "id": "trace-46",
+        "net": "Net-(C1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 134.366
+          },
+          {
+            "x": 207.01,
+            "y": 135.128
+          }
+        ]
+      },
+      {
+        "id": "trace-47",
+        "net": "Net-(C1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 135.128
+          },
+          {
+            "x": 208.026,
+            "y": 136.144
+          }
+        ]
+      },
+      {
+        "id": "trace-48",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 208.026,
+            "y": 136.144
+          },
+          {
+            "x": 208.788,
+            "y": 135.382
+          }
+        ]
+      },
+      {
+        "id": "trace-49",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 208.788,
+            "y": 135.382
+          },
+          {
+            "x": 212.344,
+            "y": 135.382
+          }
+        ]
+      },
+      {
+        "id": "trace-50",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.344,
+            "y": 135.382
+          },
+          {
+            "x": 212.348,
+            "y": 135.418
+          }
+        ]
+      },
+      {
+        "id": "trace-51",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.254,
+            "y": 137.16
+          },
+          {
+            "x": 193.294,
+            "y": 137.16
+          }
+        ]
+      },
+      {
+        "id": "trace-52",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.294,
+            "y": 137.16
+          },
+          {
+            "x": 193.548,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-53",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.548,
+            "y": 137.414
+          },
+          {
+            "x": 200.152,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-54",
+        "net": "Net-(C1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 137.414
+          },
+          {
+            "x": 200.148,
+            "y": 137.418
+          }
+        ]
+      },
+      {
+        "id": "trace-55",
+        "net": "Net-(C2-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 179.832,
+            "y": 130.81
+          },
+          {
+            "x": 178.308,
+            "y": 132.334
+          }
+        ]
+      },
+      {
+        "id": "trace-56",
+        "net": "Net-(C2-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 178.308,
+            "y": 132.334
+          },
+          {
+            "x": 170.688,
+            "y": 132.334
+          }
+        ]
+      },
+      {
+        "id": "trace-57",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.672,
+            "y": 137.146
+          },
+          {
+            "x": 169.672,
+            "y": 137.16
+          }
+        ]
+      },
+      {
+        "id": "trace-58",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.672,
+            "y": 137.16
+          },
+          {
+            "x": 164.084,
+            "y": 142.748
+          }
+        ]
+      },
+      {
+        "id": "trace-59",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 164.084,
+            "y": 142.748
+          },
+          {
+            "x": 164.084,
+            "y": 156.972
+          }
+        ]
+      },
+      {
+        "id": "trace-60",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 164.084,
+            "y": 156.972
+          },
+          {
+            "x": 164.338,
+            "y": 157.226
+          }
+        ]
+      },
+      {
+        "id": "trace-61",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 164.338,
+            "y": 157.226
+          },
+          {
+            "x": 164.338,
+            "y": 157.48
+          }
+        ]
+      },
+      {
+        "id": "trace-62",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 164.338,
+            "y": 157.48
+          },
+          {
+            "x": 166.37,
+            "y": 159.512
+          }
+        ]
+      },
+      {
+        "id": "trace-63",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 166.37,
+            "y": 159.512
+          },
+          {
+            "x": 166.37,
+            "y": 166.37
+          }
+        ]
+      },
+      {
+        "id": "trace-64",
+        "net": "Net-(C2-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 168.656,
+            "y": 127.762
+          },
+          {
+            "x": 169.926,
+            "y": 129.032
+          }
+        ]
+      },
+      {
+        "id": "trace-65",
+        "net": "Net-(C2-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.926,
+            "y": 129.032
+          },
+          {
+            "x": 186.436,
+            "y": 129.032
+          }
+        ]
+      },
+      {
+        "id": "trace-66",
+        "net": "Net-(C2-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 186.436,
+            "y": 129.032
+          },
+          {
+            "x": 188.214,
+            "y": 130.81
+          }
+        ]
+      },
+      {
+        "id": "trace-67",
+        "net": "Net-(C2-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.214,
+            "y": 130.81
+          },
+          {
+            "x": 190.754,
+            "y": 130.81
+          }
+        ]
+      },
+      {
+        "id": "trace-68",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.672,
+            "y": 137.146
+          },
+          {
+            "x": 169.672,
+            "y": 137.16
+          }
+        ]
+      },
+      {
+        "id": "trace-69",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.672,
+            "y": 137.16
+          },
+          {
+            "x": 165.608,
+            "y": 133.096
+          }
+        ]
+      },
+      {
+        "id": "trace-70",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 165.608,
+            "y": 133.096
+          },
+          {
+            "x": 165.608,
+            "y": 132.334
+          }
+        ]
+      },
+      {
+        "id": "trace-71",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 165.608,
+            "y": 132.334
+          },
+          {
+            "x": 165.688,
+            "y": 132.334
+          }
+        ]
+      },
+      {
+        "id": "trace-72",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 165.688,
+            "y": 132.334
+          },
+          {
+            "x": 165.608,
+            "y": 132.334
+          }
+        ]
+      },
+      {
+        "id": "trace-73",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 165.608,
+            "y": 132.334
+          },
+          {
+            "x": 168.656,
+            "y": 129.286
+          }
+        ]
+      },
+      {
+        "id": "trace-74",
+        "net": "Net-(C2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 168.656,
+            "y": 129.286
+          },
+          {
+            "x": 168.656,
+            "y": 127.762
+          }
+        ]
+      },
+      {
+        "id": "trace-75",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.802,
+            "y": 134.62
+          },
+          {
+            "x": 194.818,
+            "y": 133.604
+          }
+        ]
+      },
+      {
+        "id": "trace-76",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.802,
+            "y": 134.62
+          },
+          {
+            "x": 188.976,
+            "y": 134.62
+          }
+        ]
+      },
+      {
+        "id": "trace-77",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.976,
+            "y": 134.62
+          },
+          {
+            "x": 187.452,
+            "y": 136.144
+          }
+        ]
+      },
+      {
+        "id": "trace-78",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 187.452,
+            "y": 136.144
+          },
+          {
+            "x": 187.198,
+            "y": 136.398
+          }
+        ]
+      },
+      {
+        "id": "trace-79",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 187.198,
+            "y": 136.398
+          },
+          {
+            "x": 187.198,
+            "y": 142.494
+          }
+        ]
+      },
+      {
+        "id": "trace-80",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 187.198,
+            "y": 142.494
+          },
+          {
+            "x": 188.468,
+            "y": 143.764
+          }
+        ]
+      },
+      {
+        "id": "trace-81",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.468,
+            "y": 145.542
+          },
+          {
+            "x": 188.468,
+            "y": 143.764
+          }
+        ]
+      },
+      {
+        "id": "trace-82",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 196.088,
+            "y": 133.619998
+          },
+          {
+            "x": 196.088,
+            "y": 133.604
+          }
+        ]
+      },
+      {
+        "id": "trace-83",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 196.072002,
+            "y": 133.604
+          },
+          {
+            "x": 196.088,
+            "y": 133.619998
+          }
+        ]
+      },
+      {
+        "id": "trace-84",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.818,
+            "y": 133.604
+          },
+          {
+            "x": 196.072002,
+            "y": 133.604
+          }
+        ]
+      },
+      {
+        "id": "trace-85",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 129.54
+          },
+          {
+            "x": 199.644,
+            "y": 130.048
+          }
+        ]
+      },
+      {
+        "id": "trace-86",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 199.644,
+            "y": 130.048
+          },
+          {
+            "x": 198.882,
+            "y": 130.048
+          }
+        ]
+      },
+      {
+        "id": "trace-87",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.882,
+            "y": 130.048
+          },
+          {
+            "x": 198.882,
+            "y": 130.81
+          }
+        ]
+      },
+      {
+        "id": "trace-88",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.882,
+            "y": 130.81
+          },
+          {
+            "x": 196.088,
+            "y": 133.604
+          }
+        ]
+      },
+      {
+        "id": "trace-89",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 196.088,
+            "y": 133.604
+          },
+          {
+            "x": 196.088,
+            "y": 133.604
+          }
+        ]
+      },
+      {
+        "id": "trace-90",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.148,
+            "y": 129.418
+          },
+          {
+            "x": 200.152,
+            "y": 129.54
+          }
+        ]
+      },
+      {
+        "id": "trace-91",
+        "net": "Net-(IC1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.468,
+            "y": 145.542
+          },
+          {
+            "x": 188.38926,
+            "y": 145.542
+          }
+        ]
+      },
+      {
+        "id": "trace-92",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 178.38928,
+            "y": 150.622
+          },
+          {
+            "x": 178.38928,
+            "y": 150.54072
+          }
+        ]
+      },
+      {
+        "id": "trace-93",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 178.38928,
+            "y": 150.54072
+          },
+          {
+            "x": 181.864,
+            "y": 147.066
+          }
+        ]
+      },
+      {
+        "id": "trace-94",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 130.81
+          },
+          {
+            "x": 196.088,
+            "y": 130.81
+          }
+        ]
+      },
+      {
+        "id": "trace-95",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 191.516,
+            "y": 133.35
+          },
+          {
+            "x": 194.056,
+            "y": 130.81
+          }
+        ]
+      },
+      {
+        "id": "trace-96",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 187.198,
+            "y": 133.35
+          },
+          {
+            "x": 191.516,
+            "y": 133.35
+          }
+        ]
+      },
+      {
+        "id": "trace-97",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 181.864,
+            "y": 138.684
+          },
+          {
+            "x": 187.198,
+            "y": 133.35
+          }
+        ]
+      },
+      {
+        "id": "trace-98",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 181.864,
+            "y": 147.066
+          },
+          {
+            "x": 181.864,
+            "y": 138.684
+          }
+        ]
+      },
+      {
+        "id": "trace-99",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 178.308,
+            "y": 150.622
+          },
+          {
+            "x": 178.38928,
+            "y": 150.622
+          }
+        ]
+      },
+      {
+        "id": "trace-100",
+        "net": "Net-(IC1-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 178.308,
+            "y": 150.622
+          },
+          {
+            "x": 178.38928,
+            "y": 150.622
+          }
+        ]
+      },
+      {
+        "id": "trace-101",
+        "net": "Net-(IC1-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 185.42,
+            "y": 130.81
+          },
+          {
+            "x": 178.308,
+            "y": 137.922
+          }
+        ]
+      },
+      {
+        "id": "trace-102",
+        "net": "Net-(IC1-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 178.308,
+            "y": 137.922
+          },
+          {
+            "x": 178.308,
+            "y": 145.542
+          }
+        ]
+      },
+      {
+        "id": "trace-103",
+        "net": "Net-(IC1-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 178.308,
+            "y": 145.542
+          },
+          {
+            "x": 178.38928,
+            "y": 145.542
+          }
+        ]
+      },
+      {
+        "id": "trace-104",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.936,
+            "y": 165.608
+          },
+          {
+            "x": 203.962,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-105",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.962,
+            "y": 165.608
+          },
+          {
+            "x": 203.962,
+            "y": 162.814
+          }
+        ]
+      },
+      {
+        "id": "trace-106",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.962,
+            "y": 162.814
+          },
+          {
+            "x": 204.216,
+            "y": 162.56
+          }
+        ]
+      },
+      {
+        "id": "trace-107",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 204.216,
+            "y": 162.56
+          },
+          {
+            "x": 203.708,
+            "y": 162.052
+          }
+        ]
+      },
+      {
+        "id": "trace-108",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.708,
+            "y": 162.052
+          },
+          {
+            "x": 203.708,
+            "y": 146.304
+          }
+        ]
+      },
+      {
+        "id": "trace-109",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.708,
+            "y": 146.304
+          },
+          {
+            "x": 199.136,
+            "y": 141.732
+          }
+        ]
+      },
+      {
+        "id": "trace-110",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 199.136,
+            "y": 141.732
+          },
+          {
+            "x": 196.596,
+            "y": 141.732
+          }
+        ]
+      },
+      {
+        "id": "trace-111",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 196.596,
+            "y": 141.732
+          },
+          {
+            "x": 197.358,
+            "y": 141.732
+          }
+        ]
+      },
+      {
+        "id": "trace-112",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 197.358,
+            "y": 141.732
+          },
+          {
+            "x": 198.12,
+            "y": 140.97
+          }
+        ]
+      },
+      {
+        "id": "trace-113",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.12,
+            "y": 140.97
+          },
+          {
+            "x": 198.374,
+            "y": 140.97
+          }
+        ]
+      },
+      {
+        "id": "trace-114",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.374,
+            "y": 140.97
+          },
+          {
+            "x": 198.374,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-115",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.374,
+            "y": 137.414
+          },
+          {
+            "x": 197.866,
+            "y": 136.906
+          }
+        ]
+      },
+      {
+        "id": "trace-116",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 197.866,
+            "y": 136.906
+          },
+          {
+            "x": 197.866,
+            "y": 128.778
+          }
+        ]
+      },
+      {
+        "id": "trace-117",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 197.866,
+            "y": 128.778
+          },
+          {
+            "x": 197.866,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "id": "trace-118",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 197.866,
+            "y": 127
+          },
+          {
+            "x": 199.39,
+            "y": 125.476
+          }
+        ]
+      },
+      {
+        "id": "trace-119",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 199.39,
+            "y": 125.476
+          },
+          {
+            "x": 200.152,
+            "y": 125.476
+          }
+        ]
+      },
+      {
+        "id": "trace-120",
+        "net": "Net-(JP1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 125.476
+          },
+          {
+            "x": 200.148,
+            "y": 125.418
+          }
+        ]
+      },
+      {
+        "id": "trace-121",
+        "net": "Net-(P1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 210.058,
+            "y": 121.666
+          },
+          {
+            "x": 210.312,
+            "y": 121.92
+          }
+        ]
+      },
+      {
+        "id": "trace-122",
+        "net": "Net-(P1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 210.312,
+            "y": 121.92
+          },
+          {
+            "x": 210.312,
+            "y": 126.238
+          }
+        ]
+      },
+      {
+        "id": "trace-123",
+        "net": "Net-(P1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 210.312,
+            "y": 126.238
+          },
+          {
+            "x": 210.312,
+            "y": 128.016
+          }
+        ]
+      },
+      {
+        "id": "trace-124",
+        "net": "Net-(P1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 210.312,
+            "y": 128.016
+          },
+          {
+            "x": 211.836,
+            "y": 129.54
+          }
+        ]
+      },
+      {
+        "id": "trace-125",
+        "net": "Net-(P1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 211.836,
+            "y": 129.54
+          },
+          {
+            "x": 212.344,
+            "y": 129.54
+          }
+        ]
+      },
+      {
+        "id": "trace-126",
+        "net": "Net-(P1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.344,
+            "y": 129.54
+          },
+          {
+            "x": 212.348,
+            "y": 129.418
+          }
+        ]
+      },
+      {
+        "id": "trace-127",
+        "net": "Net-(P1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.348,
+            "y": 131.418
+          },
+          {
+            "x": 212.344,
+            "y": 131.318
+          }
+        ]
+      },
+      {
+        "id": "trace-128",
+        "net": "Net-(P1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.344,
+            "y": 131.318
+          },
+          {
+            "x": 211.836,
+            "y": 130.81
+          }
+        ]
+      },
+      {
+        "id": "trace-129",
+        "net": "Net-(P1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 211.836,
+            "y": 130.81
+          },
+          {
+            "x": 211.074,
+            "y": 130.81
+          }
+        ]
+      },
+      {
+        "id": "trace-130",
+        "net": "Net-(P1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 211.074,
+            "y": 130.81
+          },
+          {
+            "x": 209.804,
+            "y": 129.54
+          }
+        ]
+      },
+      {
+        "id": "trace-131",
+        "net": "Net-(P1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 209.804,
+            "y": 129.54
+          },
+          {
+            "x": 209.55,
+            "y": 129.54
+          }
+        ]
+      },
+      {
+        "id": "trace-132",
+        "net": "Net-(P1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 209.55,
+            "y": 129.54
+          },
+          {
+            "x": 208.788,
+            "y": 128.778
+          }
+        ]
+      },
+      {
+        "id": "trace-133",
+        "net": "Net-(P1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 208.788,
+            "y": 128.778
+          },
+          {
+            "x": 208.788,
+            "y": 124.968
+          }
+        ]
+      },
+      {
+        "id": "trace-134",
+        "net": "Net-(P1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 208.788,
+            "y": 124.968
+          },
+          {
+            "x": 207.518,
+            "y": 123.698
+          }
+        ]
+      },
+      {
+        "id": "trace-135",
+        "net": "Net-(P1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 207.518,
+            "y": 123.698
+          },
+          {
+            "x": 207.518,
+            "y": 121.666
+          }
+        ]
+      },
+      {
+        "id": "trace-136",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.09,
+            "y": 166.37
+          },
+          {
+            "x": 212.09,
+            "y": 163.576
+          }
+        ]
+      },
+      {
+        "id": "trace-137",
+        "net": "VCC",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 212.09,
+            "y": 163.576
+          },
+          {
+            "x": 209.804,
+            "y": 161.29
+          }
+        ]
+      },
+      {
+        "id": "trace-138",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 209.804,
+            "y": 161.29
+          },
+          {
+            "x": 209.296,
+            "y": 160.782
+          }
+        ]
+      },
+      {
+        "id": "trace-139",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 209.296,
+            "y": 160.782
+          },
+          {
+            "x": 209.296,
+            "y": 135.382
+          }
+        ]
+      },
+      {
+        "id": "trace-140",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 209.296,
+            "y": 135.382
+          },
+          {
+            "x": 208.28,
+            "y": 134.366
+          }
+        ]
+      },
+      {
+        "id": "trace-141",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 208.28,
+            "y": 134.366
+          },
+          {
+            "x": 208.28,
+            "y": 133.35
+          }
+        ]
+      },
+      {
+        "id": "trace-142",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 208.28,
+            "y": 133.35
+          },
+          {
+            "x": 207.264,
+            "y": 132.334
+          }
+        ]
+      },
+      {
+        "id": "trace-143",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 207.264,
+            "y": 132.334
+          },
+          {
+            "x": 207.264,
+            "y": 130.302
+          }
+        ]
+      },
+      {
+        "id": "trace-144",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 207.264,
+            "y": 130.302
+          },
+          {
+            "x": 207.01,
+            "y": 130.048
+          }
+        ]
+      },
+      {
+        "id": "trace-145",
+        "net": "VCC",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 130.048
+          },
+          {
+            "x": 207.01,
+            "y": 129.032
+          }
+        ]
+      },
+      {
+        "id": "trace-146",
+        "net": "VCC",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 129.032
+          },
+          {
+            "x": 207.01,
+            "y": 127.254
+          }
+        ]
+      },
+      {
+        "id": "trace-147",
+        "net": "VCC",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 207.01,
+            "y": 127.254
+          },
+          {
+            "x": 203.2,
+            "y": 123.444
+          }
+        ]
+      },
+      {
+        "id": "trace-148",
+        "net": "VCC",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.2,
+            "y": 123.444
+          },
+          {
+            "x": 203.2,
+            "y": 122.428
+          }
+        ]
+      },
+      {
+        "id": "trace-149",
+        "net": "VCC",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 203.2,
+            "y": 122.428
+          },
+          {
+            "x": 202.438,
+            "y": 121.666
+          }
+        ]
+      },
+      {
+        "id": "trace-150",
+        "net": "Net-(P2-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 168.656,
+            "y": 125.222
+          },
+          {
+            "x": 170.434,
+            "y": 125.222
+          }
+        ]
+      },
+      {
+        "id": "trace-151",
+        "net": "Net-(P2-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 170.434,
+            "y": 125.222
+          },
+          {
+            "x": 172.466,
+            "y": 127.254
+          }
+        ]
+      },
+      {
+        "id": "trace-152",
+        "net": "Net-(P2-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 172.466,
+            "y": 127.254
+          },
+          {
+            "x": 172.466,
+            "y": 149.098
+          }
+        ]
+      },
+      {
+        "id": "trace-153",
+        "net": "Net-(P2-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 172.466,
+            "y": 149.098
+          },
+          {
+            "x": 169.672,
+            "y": 151.892
+          }
+        ]
+      },
+      {
+        "id": "trace-154",
+        "net": "Net-(P2-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.672,
+            "y": 151.892
+          },
+          {
+            "x": 169.672,
+            "y": 152.146
+          }
+        ]
+      },
+      {
+        "id": "trace-155",
+        "net": "Net-(P2-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 179.832,
+            "y": 120.65
+          },
+          {
+            "x": 176.53,
+            "y": 123.952
+          }
+        ]
+      },
+      {
+        "id": "trace-156",
+        "net": "Net-(P2-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 176.53,
+            "y": 123.952
+          },
+          {
+            "x": 175.26,
+            "y": 125.222
+          }
+        ]
+      },
+      {
+        "id": "trace-157",
+        "net": "Net-(P2-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 175.26,
+            "y": 125.222
+          },
+          {
+            "x": 168.656,
+            "y": 125.222
+          }
+        ]
+      },
+      {
+        "id": "trace-158",
+        "net": "Net-(P2-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 185.42,
+            "y": 120.65
+          },
+          {
+            "x": 179.832,
+            "y": 120.65
+          }
+        ]
+      },
+      {
+        "id": "trace-159",
+        "net": "Net-(P2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.672,
+            "y": 147.146
+          },
+          {
+            "x": 169.672,
+            "y": 147.066
+          }
+        ]
+      },
+      {
+        "id": "trace-160",
+        "net": "Net-(P2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.672,
+            "y": 147.066
+          },
+          {
+            "x": 166.37,
+            "y": 150.368
+          }
+        ]
+      },
+      {
+        "id": "trace-161",
+        "net": "Net-(P2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 166.37,
+            "y": 150.368
+          },
+          {
+            "x": 166.37,
+            "y": 156.21
+          }
+        ]
+      },
+      {
+        "id": "trace-162",
+        "net": "Net-(P2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 169.672,
+            "y": 147.146
+          },
+          {
+            "x": 169.672,
+            "y": 142.146
+          }
+        ]
+      },
+      {
+        "id": "trace-163",
+        "net": "Net-(R1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 168.656,
+            "y": 122.682
+          },
+          {
+            "x": 168.91,
+            "y": 122.428
+          }
+        ]
+      },
+      {
+        "id": "trace-164",
+        "net": "Net-(R1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 122.428
+          },
+          {
+            "x": 186.436,
+            "y": 122.428
+          }
+        ]
+      },
+      {
+        "id": "trace-165",
+        "net": "Net-(R1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 186.436,
+            "y": 122.428
+          },
+          {
+            "x": 188.214,
+            "y": 120.65
+          }
+        ]
+      },
+      {
+        "id": "trace-166",
+        "net": "Net-(R1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.214,
+            "y": 120.65
+          },
+          {
+            "x": 190.754,
+            "y": 120.65
+          }
+        ]
+      },
+      {
+        "id": "trace-167",
+        "net": "Net-(R1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 190.754,
+            "y": 120.65
+          },
+          {
+            "x": 196.088,
+            "y": 120.65
+          }
+        ]
+      },
+      {
+        "id": "trace-168",
+        "net": "Net-(U1-Pad13)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.31,
+            "y": 128.778
+          },
+          {
+            "x": 193.294,
+            "y": 129.794
+          }
+        ]
+      },
+      {
+        "id": "trace-169",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 127.508
+          },
+          {
+            "x": 200.66,
+            "y": 127.508
+          }
+        ]
+      },
+      {
+        "id": "trace-170",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 201.422,
+            "y": 126.746
+          },
+          {
+            "x": 200.66,
+            "y": 127.508
+          }
+        ]
+      },
+      {
+        "id": "trace-171",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 201.422,
+            "y": 123.952
+          },
+          {
+            "x": 201.422,
+            "y": 126.746
+          }
+        ]
+      },
+      {
+        "id": "trace-172",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.882,
+            "y": 123.952
+          },
+          {
+            "x": 201.422,
+            "y": 123.952
+          }
+        ]
+      },
+      {
+        "id": "trace-173",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.882,
+            "y": 124.206
+          },
+          {
+            "x": 198.882,
+            "y": 123.952
+          }
+        ]
+      },
+      {
+        "id": "trace-174",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.31,
+            "y": 128.778
+          },
+          {
+            "x": 198.882,
+            "y": 124.206
+          }
+        ]
+      },
+      {
+        "id": "trace-175",
+        "net": "Net-(U1-Pad13)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.976,
+            "y": 141.224
+          },
+          {
+            "x": 188.976,
+            "y": 137.668
+          }
+        ]
+      },
+      {
+        "id": "trace-176",
+        "net": "Net-(U1-Pad13)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.468,
+            "y": 141.732
+          },
+          {
+            "x": 188.976,
+            "y": 141.224
+          }
+        ]
+      },
+      {
+        "id": "trace-177",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 191.516,
+            "y": 144.78
+          },
+          {
+            "x": 188.468,
+            "y": 141.732
+          }
+        ]
+      },
+      {
+        "id": "trace-178",
+        "net": "Net-(U1-Pad13)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 191.516,
+            "y": 152.654
+          },
+          {
+            "x": 191.516,
+            "y": 144.78
+          }
+        ]
+      },
+      {
+        "id": "trace-179",
+        "net": "Net-(U1-Pad13)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 155.194
+          },
+          {
+            "x": 191.516,
+            "y": 152.654
+          }
+        ]
+      },
+      {
+        "id": "trace-180",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.31,
+            "y": 155.448
+          },
+          {
+            "x": 194.056,
+            "y": 155.194
+          }
+        ]
+      },
+      {
+        "id": "trace-181",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.818,
+            "y": 155.448
+          },
+          {
+            "x": 194.31,
+            "y": 155.448
+          }
+        ]
+      },
+      {
+        "id": "trace-182",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 202.692,
+            "y": 163.322
+          },
+          {
+            "x": 194.818,
+            "y": 155.448
+          }
+        ]
+      },
+      {
+        "id": "trace-183",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 202.692,
+            "y": 163.322
+          },
+          {
+            "x": 202.692,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-184",
+        "net": "Net-(U1-Pad13)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.976,
+            "y": 135.636
+          },
+          {
+            "x": 188.976,
+            "y": 137.668
+          }
+        ]
+      },
+      {
+        "id": "trace-185",
+        "net": "Net-(U1-Pad13)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.294,
+            "y": 131.318
+          },
+          {
+            "x": 188.976,
+            "y": 135.636
+          }
+        ]
+      },
+      {
+        "id": "trace-186",
+        "net": "Net-(U1-Pad13)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.294,
+            "y": 129.794
+          },
+          {
+            "x": 193.294,
+            "y": 131.318
+          }
+        ]
+      },
+      {
+        "id": "trace-187",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 202.656,
+            "y": 165.608
+          },
+          {
+            "x": 202.692,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-188",
+        "net": "Net-(U1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 127.508
+          },
+          {
+            "x": 200.148,
+            "y": 127.418
+          }
+        ]
+      },
+      {
+        "id": "trace-189",
+        "net": "Net-(U1-Pad11)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.148,
+            "y": 131.418
+          },
+          {
+            "x": 200.152,
+            "y": 131.318
+          }
+        ]
+      },
+      {
+        "id": "trace-190",
+        "net": "Net-(U1-Pad11)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 131.318
+          },
+          {
+            "x": 200.406,
+            "y": 131.064
+          }
+        ]
+      },
+      {
+        "id": "trace-191",
+        "net": "Net-(U1-Pad11)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.406,
+            "y": 131.064
+          },
+          {
+            "x": 201.93,
+            "y": 131.064
+          }
+        ]
+      },
+      {
+        "id": "trace-192",
+        "net": "Net-(U1-Pad11)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 201.93,
+            "y": 131.064
+          },
+          {
+            "x": 200.152,
+            "y": 132.842
+          }
+        ]
+      },
+      {
+        "id": "trace-193",
+        "net": "Net-(U1-Pad11)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 132.842
+          },
+          {
+            "x": 200.152,
+            "y": 139.954
+          }
+        ]
+      },
+      {
+        "id": "trace-194",
+        "net": "Net-(U1-Pad11)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 139.954
+          },
+          {
+            "x": 202.184,
+            "y": 141.986
+          }
+        ]
+      },
+      {
+        "id": "trace-195",
+        "net": "Net-(U1-Pad11)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 202.184,
+            "y": 141.986
+          },
+          {
+            "x": 202.184,
+            "y": 164.338
+          }
+        ]
+      },
+      {
+        "id": "trace-196",
+        "net": "Net-(U1-Pad11)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 202.184,
+            "y": 164.338
+          },
+          {
+            "x": 200.66,
+            "y": 165.862
+          }
+        ]
+      },
+      {
+        "id": "trace-197",
+        "net": "Net-(U1-Pad11)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 165.862
+          },
+          {
+            "x": 200.66,
+            "y": 167.64
+          }
+        ]
+      },
+      {
+        "id": "trace-198",
+        "net": "Net-(U1-Pad11)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 167.64
+          },
+          {
+            "x": 200.152,
+            "y": 167.132
+          }
+        ]
+      },
+      {
+        "id": "trace-199",
+        "net": "Net-(U1-Pad11)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 167.132
+          },
+          {
+            "x": 200.152,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-200",
+        "net": "Net-(U1-Pad11)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 165.608
+          },
+          {
+            "x": 200.126,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-201",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 195.58,
+            "y": 134.62
+          },
+          {
+            "x": 194.564,
+            "y": 135.636
+          }
+        ]
+      },
+      {
+        "id": "trace-202",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.882,
+            "y": 165.608
+          },
+          {
+            "x": 198.882,
+            "y": 164.084
+          }
+        ]
+      },
+      {
+        "id": "trace-203",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.374,
+            "y": 163.576
+          },
+          {
+            "x": 198.882,
+            "y": 164.084
+          }
+        ]
+      },
+      {
+        "id": "trace-204",
+        "net": "Net-(U1-Pad10)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.374,
+            "y": 148.844
+          },
+          {
+            "x": 198.374,
+            "y": 163.576
+          }
+        ]
+      },
+      {
+        "id": "trace-205",
+        "net": "Net-(U1-Pad10)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 144.526
+          },
+          {
+            "x": 198.374,
+            "y": 148.844
+          }
+        ]
+      },
+      {
+        "id": "trace-206",
+        "net": "Net-(U1-Pad10)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.056,
+            "y": 144.018
+          },
+          {
+            "x": 194.056,
+            "y": 144.526
+          }
+        ]
+      },
+      {
+        "id": "trace-207",
+        "net": "Net-(U1-Pad10)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.802,
+            "y": 143.764
+          },
+          {
+            "x": 194.056,
+            "y": 144.018
+          }
+        ]
+      },
+      {
+        "id": "trace-208",
+        "net": "Net-(U1-Pad10)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 193.802,
+            "y": 143.256
+          },
+          {
+            "x": 193.802,
+            "y": 143.764
+          }
+        ]
+      },
+      {
+        "id": "trace-209",
+        "net": "Net-(U1-Pad10)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 191.516,
+            "y": 140.97
+          },
+          {
+            "x": 193.802,
+            "y": 143.256
+          }
+        ]
+      },
+      {
+        "id": "trace-210",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.374,
+            "y": 134.62
+          },
+          {
+            "x": 195.58,
+            "y": 134.62
+          }
+        ]
+      },
+      {
+        "id": "trace-211",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.882,
+            "y": 134.112
+          },
+          {
+            "x": 198.374,
+            "y": 134.62
+          }
+        ]
+      },
+      {
+        "id": "trace-212",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 199.39,
+            "y": 134.112
+          },
+          {
+            "x": 198.882,
+            "y": 134.112
+          }
+        ]
+      },
+      {
+        "id": "trace-213",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 199.39,
+            "y": 134.112
+          },
+          {
+            "x": 200.152,
+            "y": 133.35
+          }
+        ]
+      },
+      {
+        "id": "trace-214",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.722,
+            "y": 138.176
+          },
+          {
+            "x": 191.516,
+            "y": 140.97
+          }
+        ]
+      },
+      {
+        "id": "trace-215",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 188.722,
+            "y": 136.398
+          },
+          {
+            "x": 188.722,
+            "y": 138.176
+          }
+        ]
+      },
+      {
+        "id": "trace-216",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 189.484,
+            "y": 135.636
+          },
+          {
+            "x": 188.722,
+            "y": 136.398
+          }
+        ]
+      },
+      {
+        "id": "trace-217",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.564,
+            "y": 135.636
+          },
+          {
+            "x": 189.484,
+            "y": 135.636
+          }
+        ]
+      },
+      {
+        "id": "trace-218",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.148,
+            "y": 133.418
+          },
+          {
+            "x": 200.152,
+            "y": 133.35
+          }
+        ]
+      },
+      {
+        "id": "trace-219",
+        "net": "Net-(U1-Pad10)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 198.882,
+            "y": 165.608
+          },
+          {
+            "x": 198.846,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-220",
+        "net": "Net-(U1-Pad9)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.148,
+            "y": 135.418
+          },
+          {
+            "x": 200.152,
+            "y": 135.382
+          }
+        ]
+      },
+      {
+        "id": "trace-221",
+        "net": "Net-(U1-Pad9)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.152,
+            "y": 135.382
+          },
+          {
+            "x": 199.644,
+            "y": 135.89
+          }
+        ]
+      },
+      {
+        "id": "trace-222",
+        "net": "Net-(U1-Pad9)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 199.644,
+            "y": 135.89
+          },
+          {
+            "x": 196.342,
+            "y": 135.89
+          }
+        ]
+      },
+      {
+        "id": "trace-223",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 196.342,
+            "y": 135.89
+          },
+          {
+            "x": 194.818,
+            "y": 137.414
+          }
+        ]
+      },
+      {
+        "id": "trace-224",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.818,
+            "y": 137.414
+          },
+          {
+            "x": 194.818,
+            "y": 143.51
+          }
+        ]
+      },
+      {
+        "id": "trace-225",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 194.818,
+            "y": 143.51
+          },
+          {
+            "x": 200.914,
+            "y": 149.606
+          }
+        ]
+      },
+      {
+        "id": "trace-226",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.914,
+            "y": 149.606
+          },
+          {
+            "x": 200.914,
+            "y": 163.576
+          }
+        ]
+      },
+      {
+        "id": "trace-227",
+        "net": "Net-(U1-Pad9)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 200.914,
+            "y": 163.576
+          },
+          {
+            "x": 201.422,
+            "y": 164.084
+          }
+        ]
+      },
+      {
+        "id": "trace-228",
+        "net": "Net-(U1-Pad9)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 201.422,
+            "y": 164.084
+          },
+          {
+            "x": 201.422,
+            "y": 165.608
+          }
+        ]
+      },
+      {
+        "id": "trace-229",
+        "net": "Net-(U1-Pad9)",
+        "layer": "B.Cu",
+        "width": 0.5,
+        "points": [
+          {
+            "x": 201.422,
+            "y": 165.608
+          },
+          {
+            "x": 201.396,
+            "y": 165.608
+          }
+        ]
+      }
+    ],
+    "vias": [
+      {
+        "id": "via-0",
+        "net": "GND",
+        "x": 205.74,
+        "y": 167.64,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-1",
+        "net": "GND",
+        "x": 201.422,
+        "y": 139.192,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-2",
+        "net": "GND",
+        "x": 214.122,
+        "y": 126.492,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-3",
+        "net": "Net-(C1-Pad2)",
+        "x": 205.994,
+        "y": 131.064,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-4",
+        "net": "Net-(C1-Pad2)",
+        "x": 205.994,
+        "y": 136.652,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-5",
+        "net": "Net-(C1-Pad2)",
+        "x": 205.994,
+        "y": 163.576,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-6",
+        "net": "Net-(C1-Pad2)",
+        "x": 203.962,
+        "y": 136.144,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-7",
+        "net": "Net-(C1-Pad2)",
+        "x": 208.026,
+        "y": 136.144,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-8",
+        "net": "Net-(IC1-Pad1)",
+        "x": 187.452,
+        "y": 136.144,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-9",
+        "net": "Net-(JP1-Pad2)",
+        "x": 204.216,
+        "y": 162.56,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-10",
+        "net": "Net-(JP1-Pad2)",
+        "x": 203.708,
+        "y": 146.304,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-11",
+        "net": "Net-(JP1-Pad2)",
+        "x": 197.866,
+        "y": 128.778,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-12",
+        "net": "Net-(P1-Pad1)",
+        "x": 210.312,
+        "y": 126.238,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-13",
+        "net": "Net-(P1-Pad2)",
+        "x": 209.55,
+        "y": 129.54,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-14",
+        "net": "VCC",
+        "x": 212.09,
+        "y": 163.576,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-15",
+        "net": "VCC",
+        "x": 209.804,
+        "y": 161.29,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-16",
+        "net": "VCC",
+        "x": 207.01,
+        "y": 129.032,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-17",
+        "net": "Net-(P2-Pad1)",
+        "x": 176.53,
+        "y": 123.952,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-18",
+        "net": "Net-(U1-Pad13)",
+        "x": 194.31,
+        "y": 128.778,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-19",
+        "net": "Net-(U1-Pad13)",
+        "x": 188.468,
+        "y": 141.732,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-20",
+        "net": "Net-(U1-Pad13)",
+        "x": 191.516,
+        "y": 144.78,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-21",
+        "net": "Net-(U1-Pad13)",
+        "x": 194.056,
+        "y": 155.194,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-22",
+        "net": "Net-(U1-Pad11)",
+        "x": 201.93,
+        "y": 131.064,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-23",
+        "net": "Net-(U1-Pad11)",
+        "x": 200.66,
+        "y": 167.64,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-24",
+        "net": "Net-(U1-Pad10)",
+        "x": 198.374,
+        "y": 163.576,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-25",
+        "net": "Net-(U1-Pad10)",
+        "x": 191.516,
+        "y": 140.97,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-26",
+        "net": "Net-(U1-Pad9)",
+        "x": 196.342,
+        "y": 135.89,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-27",
+        "net": "Net-(U1-Pad9)",
+        "x": 200.914,
+        "y": 163.576,
+        "outerDiameter": 0.889,
+        "drillDiameter": 0,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      }
+    ],
+    "zones": [],
+    "nets": [
+      {
+        "name": "GND",
+        "class": "ground"
+      },
+      {
+        "name": "Net-(C1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(C2-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(C2-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC1-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC1-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(JP1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "VCC",
+        "class": "power"
+      },
+      {
+        "name": "Net-(P2-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P2-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad13)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad11)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad10)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad9)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad8)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad9)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "ESP_nRF_Relay_Relay_WiFi_nRF24__raw",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.566Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666566,
+  "updatedAt": 1773996666566
+}

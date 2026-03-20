@@ -1,0 +1,3394 @@
+{
+  "egb": 1,
+  "name": "LED-grid-8x8_LED grid 8x8__processed",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 68.58,
+      "height": 53.33999999999999,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 177.038,
+          "y": 74.549
+        },
+        {
+          "x": 175.514,
+          "y": 73.025
+        },
+        {
+          "x": 110.998,
+          "y": 73.025
+        },
+        {
+          "x": 110.998,
+          "y": 126.365
+        },
+        {
+          "x": 177.038,
+          "y": 126.365
+        },
+        {
+          "x": 177.038,
+          "y": 123.825
+        },
+        {
+          "x": 179.578,
+          "y": 121.285
+        },
+        {
+          "x": 179.578,
+          "y": 88.519
+        },
+        {
+          "x": 177.038,
+          "y": 85.979
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/P1",
+        "type": "connector",
+        "designator": "P1",
+        "value": "Power",
+        "package": "Socket_Strip_Arduino_1x08",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 138.938,
+        "y": 123.825,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/IOREF",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/Reset",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "+3V3",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "+5V",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "GND",
+            "x": 12.7,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "GND",
+            "x": 15.24,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "/Vin",
+            "x": 17.78,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 37.287,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/P2",
+        "type": "connector",
+        "designator": "P2",
+        "value": "Analog",
+        "package": "Socket_Strip_Arduino_1x06",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 161.798,
+        "y": 123.825,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/A0",
+            "x": 0,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/A1",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/A2",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/A3",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "/A4(SDA)",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "/A5(SCL)",
+            "x": 12.7,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 27.127,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/P3",
+        "type": "connector",
+        "designator": "P3",
+        "value": "Digital",
+        "package": "Socket_Strip_Arduino_1x10",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 129.794,
+        "y": 75.565,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/A5(SCL)2",
+            "x": 0,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/A4(SDA)2",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/AREF",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GND",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "/13(SCK)",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "/12(MISO)",
+            "x": 12.7,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "/11(**/MOSI)",
+            "x": 15.24,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "/10(**/SS)",
+            "x": 17.78,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "/9(**)",
+            "x": 20.32,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "/8",
+            "x": 22.86,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 47.447,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/P4",
+        "type": "connector",
+        "designator": "P4",
+        "value": "Digital",
+        "package": "Socket_Strip_Arduino_1x08",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 156.718,
+        "y": 75.565,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/7",
+            "x": 0,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/6(**)",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/5(**)",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/4",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "/3(**)",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "/2",
+            "x": 12.7,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "/1(Tx)",
+            "x": 15.24,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "/0(Rx)",
+            "x": 17.78,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 37.287,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/P5",
+        "type": "connector",
+        "designator": "P5",
+        "value": "CONN_1",
+        "package": "Arduino_1pin",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 124.968,
+        "y": 123.825,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P5-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 4.064,
+            "height": 4.064,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.048
+          }
+        ],
+        "bodyWidth": 4.064,
+        "bodyHeight": 4.064,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/P6",
+        "type": "connector",
+        "designator": "P6",
+        "value": "CONN_1",
+        "package": "Arduino_1pin",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 177.038,
+        "y": 118.745,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P6-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 4.064,
+            "height": 4.064,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.048
+          }
+        ],
+        "bodyWidth": 4.064,
+        "bodyHeight": 4.064,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/P7",
+        "type": "connector",
+        "designator": "P7",
+        "value": "CONN_1",
+        "package": "Arduino_1pin",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 126.238,
+        "y": 75.565,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P7-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 4.064,
+            "height": 4.064,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.048
+          }
+        ],
+        "bodyWidth": 4.064,
+        "bodyHeight": 4.064,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/P8",
+        "type": "connector",
+        "designator": "P8",
+        "value": "CONN_1",
+        "package": "Arduino_1pin",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 177.038,
+        "y": 90.805,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P8-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 4.064,
+            "height": 4.064,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.048
+          }
+        ],
+        "bodyWidth": 4.064,
+        "bodyHeight": 4.064,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/U1",
+        "type": "ic",
+        "designator": "U1",
+        "value": "74HC595",
+        "package": "DIP-16",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 164.973,
+        "y": 90.805,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(U1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(U1-Pad9)",
+            "x": 7.62,
+            "y": 17.78,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(U1-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "+5V",
+            "x": 7.62,
+            "y": 15.24,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(U1-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "/3(**)",
+            "x": 7.62,
+            "y": 12.7,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(U1-Pad4)",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "/4",
+            "x": 7.62,
+            "y": 10.16,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(U1-Pad5)",
+            "x": 0,
+            "y": 10.16,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "GND",
+            "x": 7.62,
+            "y": 7.62,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(U1-Pad6)",
+            "x": 0,
+            "y": 12.7,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "/2",
+            "x": 7.62,
+            "y": 5.08,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(U1-Pad7)",
+            "x": 0,
+            "y": 15.24,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "Net-(U1-Pad15)",
+            "x": 7.62,
+            "y": 2.54,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "GND",
+            "x": 0,
+            "y": 17.78,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "+5V",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 16.84,
+        "bodyHeight": 37.16,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/U2",
+        "type": "ic",
+        "designator": "U2",
+        "value": "74HC595",
+        "package": "DIP-16",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 130.048,
+        "y": 108.585,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(U2-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(U2-Pad9)",
+            "x": 7.62,
+            "y": 17.78,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(U2-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "+5V",
+            "x": 7.62,
+            "y": 15.24,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(U2-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "/3(**)",
+            "x": 7.62,
+            "y": 12.7,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(U2-Pad4)",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "/4",
+            "x": 7.62,
+            "y": 10.16,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(U2-Pad5)",
+            "x": 0,
+            "y": 10.16,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "GND",
+            "x": 7.62,
+            "y": 7.62,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(U2-Pad6)",
+            "x": 0,
+            "y": 12.7,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "Net-(U1-Pad9)",
+            "x": 7.62,
+            "y": 5.08,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(U2-Pad7)",
+            "x": 0,
+            "y": 15.24,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "Net-(U2-Pad15)",
+            "x": 7.62,
+            "y": 2.54,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "GND",
+            "x": 0,
+            "y": 17.78,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "+5V",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 16.84,
+        "bodyHeight": 37.16,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "PCBench/PCBench/LED-grid-8x8_LED grid 8x8__processed/U3",
+        "type": "ic",
+        "designator": "U3",
+        "value": "1088BS",
+        "package": "1088BS",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 147.574,
+        "y": 99.949,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(U2-Pad15)",
+            "x": -8.8,
+            "y": 12.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(U2-Pad1)",
+            "x": -6.26,
+            "y": 12.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(U2-Pad2)",
+            "x": -3.72,
+            "y": 12.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(U2-Pad3)",
+            "x": -1.18,
+            "y": 12.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(U2-Pad4)",
+            "x": 1.36,
+            "y": 12.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(U2-Pad5)",
+            "x": 3.9,
+            "y": 12.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(U2-Pad6)",
+            "x": 6.44,
+            "y": 12.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(U2-Pad7)",
+            "x": 8.98,
+            "y": 12.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(U1-Pad15)",
+            "x": 9,
+            "y": -12,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "Net-(U1-Pad1)",
+            "x": 6.44,
+            "y": -12,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "Net-(U1-Pad2)",
+            "x": 3.9,
+            "y": -12,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "Net-(U1-Pad3)",
+            "x": 1.36,
+            "y": -12,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "Net-(U1-Pad4)",
+            "x": -1.18,
+            "y": -12,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "Net-(U1-Pad5)",
+            "x": -3.72,
+            "y": -12,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "Net-(U1-Pad6)",
+            "x": -6.26,
+            "y": -12,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "Net-(U1-Pad7)",
+            "x": -8.8,
+            "y": -12,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 19.5,
+        "bodyHeight": 25.66,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.428,
+            "y": 108.585
+          },
+          {
+            "x": 122.428,
+            "y": 107.4581
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.428,
+            "y": 93.345
+          },
+          {
+            "x": 122.428,
+            "y": 94.4719
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.428,
+            "y": 94.4719
+          },
+          {
+            "x": 122.1463,
+            "y": 94.4719
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.1463,
+            "y": 94.4719
+          },
+          {
+            "x": 121.2786,
+            "y": 95.3396
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 121.2786,
+            "y": 95.3396
+          },
+          {
+            "x": 121.2786,
+            "y": 106.5422
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 121.2786,
+            "y": 106.5422
+          },
+          {
+            "x": 122.1945,
+            "y": 107.4581
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.1945,
+            "y": 107.4581
+          },
+          {
+            "x": 122.428,
+            "y": 107.4581
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.428,
+            "y": 108.585
+          },
+          {
+            "x": 123.5549,
+            "y": 108.585
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 123.5549,
+            "y": 108.585
+          },
+          {
+            "x": 124.6818,
+            "y": 109.7119
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 124.6818,
+            "y": 109.7119
+          },
+          {
+            "x": 134.3594,
+            "y": 109.7119
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 134.3594,
+            "y": 109.7119
+          },
+          {
+            "x": 147.9075,
+            "y": 123.26
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 147.9075,
+            "y": 123.26
+          },
+          {
+            "x": 147.9075,
+            "y": 123.825
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.593,
+            "y": 106.045
+          },
+          {
+            "x": 172.593,
+            "y": 107.1719
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 148.5857,
+            "y": 123.825
+          },
+          {
+            "x": 150.0083,
+            "y": 125.2476
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 150.0083,
+            "y": 125.2476
+          },
+          {
+            "x": 157.1327,
+            "y": 125.2476
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 157.1327,
+            "y": 125.2476
+          },
+          {
+            "x": 171.1784,
+            "y": 111.2019
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 171.1784,
+            "y": 111.2019
+          },
+          {
+            "x": 171.1784,
+            "y": 108.353
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 171.1784,
+            "y": 108.353
+          },
+          {
+            "x": 172.3595,
+            "y": 107.1719
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.3595,
+            "y": 107.1719
+          },
+          {
+            "x": 172.593,
+            "y": 107.1719
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 148.5857,
+            "y": 123.825
+          },
+          {
+            "x": 147.9075,
+            "y": 123.825
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 149.098,
+            "y": 123.825
+          },
+          {
+            "x": 148.5857,
+            "y": 123.825
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.593,
+            "y": 106.045
+          },
+          {
+            "x": 172.593,
+            "y": 104.9181
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.593,
+            "y": 90.805
+          },
+          {
+            "x": 172.593,
+            "y": 91.9319
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.593,
+            "y": 91.9319
+          },
+          {
+            "x": 172.8747,
+            "y": 91.9319
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.8747,
+            "y": 91.9319
+          },
+          {
+            "x": 173.7424,
+            "y": 92.7996
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 173.7424,
+            "y": 92.7996
+          },
+          {
+            "x": 173.7424,
+            "y": 104.0022
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 173.7424,
+            "y": 104.0022
+          },
+          {
+            "x": 172.8265,
+            "y": 104.9181
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "+5V",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.8265,
+            "y": 104.9181
+          },
+          {
+            "x": 172.593,
+            "y": 104.9181
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 164.973,
+            "y": 108.585
+          },
+          {
+            "x": 164.973,
+            "y": 107.4581
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.593,
+            "y": 98.425
+          },
+          {
+            "x": 172.593,
+            "y": 99.5519
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.593,
+            "y": 99.5519
+          },
+          {
+            "x": 172.3113,
+            "y": 99.5519
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.3113,
+            "y": 99.5519
+          },
+          {
+            "x": 166.3876,
+            "y": 105.4756
+          }
+        ]
+      },
+      {
+        "id": "trace-32",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 166.3876,
+            "y": 105.4756
+          },
+          {
+            "x": 166.3876,
+            "y": 106.277
+          }
+        ]
+      },
+      {
+        "id": "trace-33",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 166.3876,
+            "y": 106.277
+          },
+          {
+            "x": 165.2065,
+            "y": 107.4581
+          }
+        ]
+      },
+      {
+        "id": "trace-34",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 165.2065,
+            "y": 107.4581
+          },
+          {
+            "x": 164.973,
+            "y": 107.4581
+          }
+        ]
+      },
+      {
+        "id": "trace-35",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.2459,
+            "y": 110.2002
+          },
+          {
+            "x": 157.8611,
+            "y": 108.585
+          }
+        ]
+      },
+      {
+        "id": "trace-36",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 157.8611,
+            "y": 108.585
+          },
+          {
+            "x": 164.973,
+            "y": 108.585
+          }
+        ]
+      },
+      {
+        "id": "trace-37",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 155.3685,
+            "y": 123.825
+          },
+          {
+            "x": 155.3685,
+            "y": 111.0776
+          }
+        ]
+      },
+      {
+        "id": "trace-38",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 155.3685,
+            "y": 111.0776
+          },
+          {
+            "x": 156.2459,
+            "y": 110.2002
+          }
+        ]
+      },
+      {
+        "id": "trace-39",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.2459,
+            "y": 110.2002
+          },
+          {
+            "x": 137.414,
+            "y": 91.3684
+          }
+        ]
+      },
+      {
+        "id": "trace-40",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.414,
+            "y": 91.3684
+          },
+          {
+            "x": 137.414,
+            "y": 75.565
+          }
+        ]
+      },
+      {
+        "id": "trace-41",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 91.3684
+          },
+          {
+            "x": 137.414,
+            "y": 91.3684
+          }
+        ]
+      },
+      {
+        "id": "trace-42",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 91.3684
+          },
+          {
+            "x": 130.048,
+            "y": 91.9319
+          }
+        ]
+      },
+      {
+        "id": "trace-43",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 90.805
+          },
+          {
+            "x": 130.048,
+            "y": 91.3684
+          }
+        ]
+      },
+      {
+        "id": "trace-44",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 91.9319
+          },
+          {
+            "x": 129.7662,
+            "y": 91.9319
+          }
+        ]
+      },
+      {
+        "id": "trace-45",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 129.7662,
+            "y": 91.9319
+          },
+          {
+            "x": 128.9211,
+            "y": 92.777
+          }
+        ]
+      },
+      {
+        "id": "trace-46",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 128.9211,
+            "y": 92.777
+          },
+          {
+            "x": 128.9211,
+            "y": 93.5785
+          }
+        ]
+      },
+      {
+        "id": "trace-47",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 128.9211,
+            "y": 93.5785
+          },
+          {
+            "x": 122.6615,
+            "y": 99.8381
+          }
+        ]
+      },
+      {
+        "id": "trace-48",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.6615,
+            "y": 99.8381
+          },
+          {
+            "x": 122.428,
+            "y": 99.8381
+          }
+        ]
+      },
+      {
+        "id": "trace-49",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.428,
+            "y": 100.965
+          },
+          {
+            "x": 122.428,
+            "y": 99.8381
+          }
+        ]
+      },
+      {
+        "id": "trace-50",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 154.178,
+            "y": 123.825
+          },
+          {
+            "x": 155.3685,
+            "y": 123.825
+          }
+        ]
+      },
+      {
+        "id": "trace-51",
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 154.178,
+            "y": 123.825
+          },
+          {
+            "x": 151.638,
+            "y": 123.825
+          }
+        ]
+      },
+      {
+        "id": "trace-52",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.428,
+            "y": 98.425
+          },
+          {
+            "x": 126.492,
+            "y": 94.361
+          }
+        ]
+      },
+      {
+        "id": "trace-53",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 126.492,
+            "y": 94.361
+          },
+          {
+            "x": 126.492,
+            "y": 89.789
+          }
+        ]
+      },
+      {
+        "id": "trace-54",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 126.492,
+            "y": 89.789
+          },
+          {
+            "x": 128.524,
+            "y": 87.757
+          }
+        ]
+      },
+      {
+        "id": "trace-55",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 128.524,
+            "y": 87.757
+          },
+          {
+            "x": 135.382,
+            "y": 87.757
+          }
+        ]
+      },
+      {
+        "id": "trace-56",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 135.382,
+            "y": 87.757
+          },
+          {
+            "x": 159.512,
+            "y": 111.887
+          }
+        ]
+      },
+      {
+        "id": "trace-57",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 159.512,
+            "y": 111.887
+          },
+          {
+            "x": 165.1,
+            "y": 111.887
+          }
+        ]
+      },
+      {
+        "id": "trace-58",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 165.1,
+            "y": 111.887
+          },
+          {
+            "x": 168.91,
+            "y": 108.077
+          }
+        ]
+      },
+      {
+        "id": "trace-59",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 108.077
+          },
+          {
+            "x": 168.91,
+            "y": 104.648
+          }
+        ]
+      },
+      {
+        "id": "trace-60",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 104.648
+          },
+          {
+            "x": 172.593,
+            "y": 100.965
+          }
+        ]
+      },
+      {
+        "id": "trace-61",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 164.338,
+            "y": 75.565
+          },
+          {
+            "x": 164.338,
+            "y": 77.597
+          }
+        ]
+      },
+      {
+        "id": "trace-62",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 164.338,
+            "y": 77.597
+          },
+          {
+            "x": 174.498,
+            "y": 87.757
+          }
+        ]
+      },
+      {
+        "id": "trace-63",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 174.498,
+            "y": 87.757
+          },
+          {
+            "x": 174.498,
+            "y": 99.06
+          }
+        ]
+      },
+      {
+        "id": "trace-64",
+        "net": "/4",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 174.498,
+            "y": 99.06
+          },
+          {
+            "x": 172.593,
+            "y": 100.965
+          }
+        ]
+      },
+      {
+        "id": "trace-65",
+        "net": "/3(**)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.593,
+            "y": 103.505
+          },
+          {
+            "x": 174.498,
+            "y": 105.41
+          }
+        ]
+      },
+      {
+        "id": "trace-66",
+        "net": "/3(**)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 174.498,
+            "y": 105.41
+          },
+          {
+            "x": 174.498,
+            "y": 109.347
+          }
+        ]
+      },
+      {
+        "id": "trace-67",
+        "net": "/3(**)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 174.498,
+            "y": 109.347
+          },
+          {
+            "x": 167.64,
+            "y": 116.205
+          }
+        ]
+      },
+      {
+        "id": "trace-68",
+        "net": "/3(**)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 167.64,
+            "y": 116.205
+          },
+          {
+            "x": 124.46,
+            "y": 116.205
+          }
+        ]
+      },
+      {
+        "id": "trace-69",
+        "net": "/3(**)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 124.46,
+            "y": 116.205
+          },
+          {
+            "x": 118.364,
+            "y": 110.109
+          }
+        ]
+      },
+      {
+        "id": "trace-70",
+        "net": "/3(**)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 118.364,
+            "y": 110.109
+          },
+          {
+            "x": 118.364,
+            "y": 99.949
+          }
+        ]
+      },
+      {
+        "id": "trace-71",
+        "net": "/3(**)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 118.364,
+            "y": 99.949
+          },
+          {
+            "x": 122.428,
+            "y": 95.885
+          }
+        ]
+      },
+      {
+        "id": "trace-72",
+        "net": "/3(**)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 166.878,
+            "y": 75.565
+          },
+          {
+            "x": 166.878,
+            "y": 97.79
+          }
+        ]
+      },
+      {
+        "id": "trace-73",
+        "net": "/3(**)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 166.878,
+            "y": 97.79
+          },
+          {
+            "x": 172.593,
+            "y": 103.505
+          }
+        ]
+      },
+      {
+        "id": "trace-74",
+        "net": "/2",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 169.418,
+            "y": 75.565
+          },
+          {
+            "x": 169.418,
+            "y": 92.71
+          }
+        ]
+      },
+      {
+        "id": "trace-75",
+        "net": "/2",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 169.418,
+            "y": 92.71
+          },
+          {
+            "x": 172.593,
+            "y": 95.885
+          }
+        ]
+      },
+      {
+        "id": "trace-76",
+        "net": "Net-(U1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 154.014,
+            "y": 87.949
+          },
+          {
+            "x": 156.87,
+            "y": 90.805
+          }
+        ]
+      },
+      {
+        "id": "trace-77",
+        "net": "Net-(U1-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.87,
+            "y": 90.805
+          },
+          {
+            "x": 164.973,
+            "y": 90.805
+          }
+        ]
+      },
+      {
+        "id": "trace-78",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.593,
+            "y": 108.585
+          },
+          {
+            "x": 166.497,
+            "y": 114.681
+          }
+        ]
+      },
+      {
+        "id": "trace-79",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 166.497,
+            "y": 114.681
+          },
+          {
+            "x": 125.222,
+            "y": 114.681
+          }
+        ]
+      },
+      {
+        "id": "trace-80",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 125.222,
+            "y": 114.681
+          },
+          {
+            "x": 119.888,
+            "y": 109.347
+          }
+        ]
+      },
+      {
+        "id": "trace-81",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 119.888,
+            "y": 109.347
+          },
+          {
+            "x": 119.888,
+            "y": 106.045
+          }
+        ]
+      },
+      {
+        "id": "trace-82",
+        "net": "Net-(U1-Pad9)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 119.888,
+            "y": 106.045
+          },
+          {
+            "x": 122.428,
+            "y": 103.505
+          }
+        ]
+      },
+      {
+        "id": "trace-83",
+        "net": "Net-(U1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 151.474,
+            "y": 87.949
+          },
+          {
+            "x": 156.87,
+            "y": 93.345
+          }
+        ]
+      },
+      {
+        "id": "trace-84",
+        "net": "Net-(U1-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.87,
+            "y": 93.345
+          },
+          {
+            "x": 164.973,
+            "y": 93.345
+          }
+        ]
+      },
+      {
+        "id": "trace-85",
+        "net": "Net-(U1-Pad3)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 148.934,
+            "y": 87.949
+          },
+          {
+            "x": 156.87,
+            "y": 95.885
+          }
+        ]
+      },
+      {
+        "id": "trace-86",
+        "net": "Net-(U1-Pad3)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.87,
+            "y": 95.885
+          },
+          {
+            "x": 164.973,
+            "y": 95.885
+          }
+        ]
+      },
+      {
+        "id": "trace-87",
+        "net": "Net-(U1-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 146.394,
+            "y": 87.949
+          },
+          {
+            "x": 156.87,
+            "y": 98.425
+          }
+        ]
+      },
+      {
+        "id": "trace-88",
+        "net": "Net-(U1-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.87,
+            "y": 98.425
+          },
+          {
+            "x": 164.973,
+            "y": 98.425
+          }
+        ]
+      },
+      {
+        "id": "trace-89",
+        "net": "Net-(U1-Pad5)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 143.854,
+            "y": 87.949
+          },
+          {
+            "x": 156.87,
+            "y": 100.965
+          }
+        ]
+      },
+      {
+        "id": "trace-90",
+        "net": "Net-(U1-Pad5)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.87,
+            "y": 100.965
+          },
+          {
+            "x": 164.973,
+            "y": 100.965
+          }
+        ]
+      },
+      {
+        "id": "trace-91",
+        "net": "Net-(U1-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 141.314,
+            "y": 87.949
+          },
+          {
+            "x": 156.87,
+            "y": 103.505
+          }
+        ]
+      },
+      {
+        "id": "trace-92",
+        "net": "Net-(U1-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.87,
+            "y": 103.505
+          },
+          {
+            "x": 164.973,
+            "y": 103.505
+          }
+        ]
+      },
+      {
+        "id": "trace-93",
+        "net": "Net-(U1-Pad7)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 138.774,
+            "y": 87.949
+          },
+          {
+            "x": 156.87,
+            "y": 106.045
+          }
+        ]
+      },
+      {
+        "id": "trace-94",
+        "net": "Net-(U1-Pad7)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.87,
+            "y": 106.045
+          },
+          {
+            "x": 164.973,
+            "y": 106.045
+          }
+        ]
+      },
+      {
+        "id": "trace-95",
+        "net": "Net-(U1-Pad15)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 156.574,
+            "y": 87.949
+          },
+          {
+            "x": 167.197,
+            "y": 87.949
+          }
+        ]
+      },
+      {
+        "id": "trace-96",
+        "net": "Net-(U1-Pad15)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 167.197,
+            "y": 87.949
+          },
+          {
+            "x": 172.593,
+            "y": 93.345
+          }
+        ]
+      },
+      {
+        "id": "trace-97",
+        "net": "Net-(U2-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 108.585
+          },
+          {
+            "x": 137.87,
+            "y": 108.585
+          }
+        ]
+      },
+      {
+        "id": "trace-98",
+        "net": "Net-(U2-Pad1)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.87,
+            "y": 108.585
+          },
+          {
+            "x": 141.314,
+            "y": 112.029
+          }
+        ]
+      },
+      {
+        "id": "trace-99",
+        "net": "Net-(U2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 106.045
+          },
+          {
+            "x": 137.87,
+            "y": 106.045
+          }
+        ]
+      },
+      {
+        "id": "trace-100",
+        "net": "Net-(U2-Pad2)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.87,
+            "y": 106.045
+          },
+          {
+            "x": 143.854,
+            "y": 112.029
+          }
+        ]
+      },
+      {
+        "id": "trace-101",
+        "net": "Net-(U2-Pad3)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 103.505
+          },
+          {
+            "x": 137.87,
+            "y": 103.505
+          }
+        ]
+      },
+      {
+        "id": "trace-102",
+        "net": "Net-(U2-Pad3)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.87,
+            "y": 103.505
+          },
+          {
+            "x": 146.394,
+            "y": 112.029
+          }
+        ]
+      },
+      {
+        "id": "trace-103",
+        "net": "Net-(U2-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 100.965
+          },
+          {
+            "x": 137.87,
+            "y": 100.965
+          }
+        ]
+      },
+      {
+        "id": "trace-104",
+        "net": "Net-(U2-Pad4)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.87,
+            "y": 100.965
+          },
+          {
+            "x": 148.934,
+            "y": 112.029
+          }
+        ]
+      },
+      {
+        "id": "trace-105",
+        "net": "Net-(U2-Pad5)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 98.425
+          },
+          {
+            "x": 137.87,
+            "y": 98.425
+          }
+        ]
+      },
+      {
+        "id": "trace-106",
+        "net": "Net-(U2-Pad5)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.87,
+            "y": 98.425
+          },
+          {
+            "x": 151.474,
+            "y": 112.029
+          }
+        ]
+      },
+      {
+        "id": "trace-107",
+        "net": "Net-(U2-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 154.014,
+            "y": 112.029
+          },
+          {
+            "x": 137.87,
+            "y": 95.885
+          }
+        ]
+      },
+      {
+        "id": "trace-108",
+        "net": "Net-(U2-Pad6)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.87,
+            "y": 95.885
+          },
+          {
+            "x": 130.048,
+            "y": 95.885
+          }
+        ]
+      },
+      {
+        "id": "trace-109",
+        "net": "Net-(U2-Pad7)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 130.048,
+            "y": 93.345
+          },
+          {
+            "x": 137.87,
+            "y": 93.345
+          }
+        ]
+      },
+      {
+        "id": "trace-110",
+        "net": "Net-(U2-Pad7)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.87,
+            "y": 93.345
+          },
+          {
+            "x": 156.554,
+            "y": 112.029
+          }
+        ]
+      },
+      {
+        "id": "trace-111",
+        "net": "Net-(U2-Pad15)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 122.428,
+            "y": 106.045
+          },
+          {
+            "x": 128.412,
+            "y": 112.029
+          }
+        ]
+      },
+      {
+        "id": "trace-112",
+        "net": "Net-(U2-Pad15)",
+        "layer": "F.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 128.412,
+            "y": 112.029
+          },
+          {
+            "x": 138.774,
+            "y": 112.029
+          }
+        ]
+      }
+    ],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "/IOREF",
+        "class": "signal"
+      },
+      {
+        "name": "/Reset",
+        "class": "signal"
+      },
+      {
+        "name": "+5V",
+        "class": "power"
+      },
+      {
+        "name": "GND",
+        "class": "ground"
+      },
+      {
+        "name": "/Vin",
+        "class": "signal"
+      },
+      {
+        "name": "/A0",
+        "class": "signal"
+      },
+      {
+        "name": "/A1",
+        "class": "signal"
+      },
+      {
+        "name": "/A2",
+        "class": "signal"
+      },
+      {
+        "name": "/A3",
+        "class": "signal"
+      },
+      {
+        "name": "/AREF",
+        "class": "signal"
+      },
+      {
+        "name": "/A4(SDA)",
+        "class": "signal"
+      },
+      {
+        "name": "/A5(SCL)",
+        "class": "signal"
+      },
+      {
+        "name": "/9(**)",
+        "class": "signal"
+      },
+      {
+        "name": "/8",
+        "class": "signal"
+      },
+      {
+        "name": "/7",
+        "class": "signal"
+      },
+      {
+        "name": "/6(**)",
+        "class": "signal"
+      },
+      {
+        "name": "/5(**)",
+        "class": "signal"
+      },
+      {
+        "name": "/4",
+        "class": "signal"
+      },
+      {
+        "name": "/3(**)",
+        "class": "signal"
+      },
+      {
+        "name": "/2",
+        "class": "signal"
+      },
+      {
+        "name": "/1(Tx)",
+        "class": "signal"
+      },
+      {
+        "name": "/0(Rx)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P5-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P6-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P7-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P8-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "/13(SCK)",
+        "class": "signal"
+      },
+      {
+        "name": "/10(**/SS)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "+3V3",
+        "class": "power"
+      },
+      {
+        "name": "/12(MISO)",
+        "class": "signal"
+      },
+      {
+        "name": "/11(**/MOSI)",
+        "class": "signal"
+      },
+      {
+        "name": "/A5(SCL)2",
+        "class": "signal"
+      },
+      {
+        "name": "/A4(SDA)2",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad9)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad15)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad9)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad15)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "LED-grid-8x8_LED grid 8x8__processed",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.900Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666900,
+  "updatedAt": 1773996666900
+}

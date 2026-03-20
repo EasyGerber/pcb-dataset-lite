@@ -1,0 +1,822 @@
+{
+  "egb": 1,
+  "name": "FogDrive_attiny45__processed",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 19.049999999999997,
+      "height": 20.319999999999993,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 121.92,
+          "y": 92.71
+        },
+        {
+          "x": 121.92,
+          "y": 72.39
+        },
+        {
+          "x": 140.97,
+          "y": 72.39
+        },
+        {
+          "x": 140.97,
+          "y": 92.71
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/C1",
+        "type": "capacitor",
+        "designator": "C1",
+        "value": "10nF",
+        "package": "C_Disc_D3_P2.5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 137.16,
+        "y": 76.2,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+BATT",
+            "x": 0,
+            "y": 0,
+            "width": 1.3,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 2.5,
+            "y": 0,
+            "width": 1.3,
+            "height": 1.3,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8001
+          }
+        ],
+        "bodyWidth": 6.3,
+        "bodyHeight": 1.3,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/C2",
+        "type": "capacitor",
+        "designator": "C2",
+        "value": "10nF",
+        "package": "C_Disc_D3_P2.5",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 134.62,
+        "y": 88.9,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/Mira/AREF",
+            "x": 0,
+            "y": 0,
+            "width": 1.3,
+            "height": 1.3,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 2.5,
+            "y": 0,
+            "width": 1.3,
+            "height": 1.3,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8001
+          }
+        ],
+        "bodyWidth": 6.3,
+        "bodyHeight": 1.3,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/R1",
+        "type": "resistor",
+        "designator": "R1",
+        "value": "22kΩ",
+        "package": "Resistor_Horizontal_RM10mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 124.46,
+        "y": 78.74,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/Mira/FIRE",
+            "x": 0,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 22.319,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/R2",
+        "type": "resistor",
+        "designator": "R2",
+        "value": "100Ω",
+        "package": "Resistor_Horizontal_RM10mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 137.16,
+        "y": 91.44,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(D1-Pad2)",
+            "x": 0,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Mira/LED",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          }
+        ],
+        "bodyWidth": 22.319,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/Noname_1",
+        "type": "other",
+        "designator": "Noname_1",
+        "value": "Button",
+        "package": "WireConnection_1.50mmDrill",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 149.86,
+        "y": 72.39,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -10.16,
+            "y": 1.27,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Mira/BUTTON",
+            "x": -10.16,
+            "y": 6.35,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 21.82,
+        "bodyHeight": 14.2,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/D1",
+        "type": "diode",
+        "designator": "D1",
+        "value": "low current LED",
+        "package": "WireConnection_1.50mmDrill",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 128.27,
+        "y": 107.95,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 1.27,
+            "y": -19.05,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(D1-Pad2)",
+            "x": 1.27,
+            "y": -16.51,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 4.04,
+        "bodyHeight": 39.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/IC1",
+        "type": "other",
+        "designator": "IC1",
+        "value": "ATTINY45-P",
+        "package": "DIP-8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 127,
+        "y": 76.2,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(IC1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "/Mira/AREF",
+            "x": 7.62,
+            "y": 7.62,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Mira/FIRE",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "/Mira/LED",
+            "x": 7.62,
+            "y": 5.08,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(IC1-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "/Mira/BUTTON",
+            "x": 7.62,
+            "y": 2.54,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GND",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "+BATT",
+            "x": 7.62,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 16.84,
+        "bodyHeight": 16.84,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/Q1",
+        "type": "transistor",
+        "designator": "Q1",
+        "value": "RLB3034",
+        "package": "WireConnection_1.50mmDrill",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 111.76,
+        "y": 81.28,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/Mira/FIRE",
+            "x": 12.7,
+            "y": -5.08,
+            "width": 1.5,
+            "height": 1.5,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 26.9,
+        "bodyHeight": 11.66,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "PCBench/PCBench/FogDrive_attiny45__processed/Bat+",
+        "type": "other",
+        "designator": "Bat+",
+        "value": "",
+        "package": "SolderWirePad_single_0-8mmDrill",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 140.97,
+        "y": 76.2,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.99898,
+            "height": 1.99898,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8001
+          }
+        ],
+        "bodyWidth": 4.539,
+        "bodyHeight": 1.999,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "+BATT",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 139.7,
+            "y": 76.2
+          },
+          {
+            "x": 134.62,
+            "y": 76.2
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 129.54,
+            "y": 88.9
+          },
+          {
+            "x": 124.46,
+            "y": 88.9
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 127,
+            "y": 83.82
+          },
+          {
+            "x": 132.12,
+            "y": 83.82
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 132.12,
+            "y": 83.82
+          },
+          {
+            "x": 132.08,
+            "y": 83.82
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 132.08,
+            "y": 83.82
+          },
+          {
+            "x": 132.12,
+            "y": 83.82
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.16,
+            "y": 73.7
+          },
+          {
+            "x": 132.12,
+            "y": 73.7
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 132.12,
+            "y": 73.7
+          },
+          {
+            "x": 132.12,
+            "y": 83.82
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 132.12,
+            "y": 83.82
+          },
+          {
+            "x": 132.12,
+            "y": 88.9
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 132.12,
+            "y": 88.9
+          },
+          {
+            "x": 129.54,
+            "y": 88.9
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 139.7,
+            "y": 73.66
+          },
+          {
+            "x": 137.2,
+            "y": 73.66
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.2,
+            "y": 73.66
+          },
+          {
+            "x": 137.16,
+            "y": 73.7
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "/Mira/AREF",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 134.62,
+            "y": 83.82
+          },
+          {
+            "x": 134.62,
+            "y": 88.9
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "/Mira/BUTTON",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 139.7,
+            "y": 78.74
+          },
+          {
+            "x": 134.62,
+            "y": 78.74
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "Net-(D1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 129.54,
+            "y": 91.44
+          },
+          {
+            "x": 137.16,
+            "y": 91.44
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "/Mira/FIRE",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 127,
+            "y": 78.74
+          },
+          {
+            "x": 124.46,
+            "y": 78.74
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "/Mira/FIRE",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 124.46,
+            "y": 78.74
+          },
+          {
+            "x": 124.46,
+            "y": 76.2
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "/Mira/LED",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 137.16,
+            "y": 81.28
+          },
+          {
+            "x": 134.62,
+            "y": 81.28
+          }
+        ]
+      }
+    ],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "+BATT",
+        "class": "signal"
+      },
+      {
+        "name": "GND",
+        "class": "ground"
+      },
+      {
+        "name": "/Mira/AREF",
+        "class": "signal"
+      },
+      {
+        "name": "/Mira/BUTTON",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(D1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "/Mira/FIRE",
+        "class": "signal"
+      },
+      {
+        "name": "/Mira/LED",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IC1-Pad3)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "FogDrive_attiny45__processed",
+      "description": "",
+      "revision": "",
+      "author": "PCBench",
+      "date": "2026-03-20T08:51:06.659Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996666659,
+  "updatedAt": 1773996666659
+}
