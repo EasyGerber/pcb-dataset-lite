@@ -10,10 +10,10 @@ Each board lives in its own directory under `boards/{owner}/{repo}/{board_name}/
 
 ```
 boards/OLIMEX/ESP32-EVB/ESP32-EVB_Rev_K/
-├── board.egb          # Normalized EasyGerber format
-├── metadata.json      # Source, license, stats
-└── raw/               # Original design files
-    └── ESP32-EVB_Rev_K.kicad_pcb
+├── normalized.egb    # Normalized EasyGerber format
+├── metadata.json     # Source, license, stats
+├── raw.kicad_pcb     # Original PCB design file
+└── raw.kicad_sch     # Original schematic (if available)
 ```
 
 ## License
