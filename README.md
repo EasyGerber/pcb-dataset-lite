@@ -6,10 +6,10 @@ This is the public subset of a larger dataset used by [EasyGerber](https://easyg
 
 ## Structure
 
-Each board lives in its own directory under `boards/{owner}/{repo}/{board_name}/`:
+Each board lives in its own directory under `boards/{owner}__{board_name}/`:
 
 ```
-boards/OLIMEX/ESP32-EVB/ESP32-EVB_Rev_K/
+boards/OLIMEX__ESP32-EVB_Rev_K/
 ├── normalized.egb    # Normalized EasyGerber format
 ├── metadata.json     # Source, license, stats
 ├── raw.kicad_pcb     # Original PCB design file
