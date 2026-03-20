@@ -6,16 +6,18 @@ This is the public subset of a larger dataset used by [EasyGerber](https://easyg
 
 ## Structure
 
+Each board lives in its own directory under `boards/{owner}/{repo}/{board_name}/`:
+
 ```
-pcb-dataset-lite/
-├── schema/       # Normalized data format specification
-├── raw/          # Original design files as-downloaded
-├── normalized/   # Processed into unified format
-└── metadata/     # Provenance, license, and stats per board
+boards/OLIMEX/ESP32-EVB/ESP32-EVB_Rev_K/
+├── board.egb          # Normalized EasyGerber format
+├── metadata.json      # Source, license, stats
+└── raw/               # Original design files
+    └── ESP32-EVB_Rev_K.kicad_pcb
 ```
 
 ## License
 
 This database is licensed under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/).
 
-Individual PCB designs retain their original licenses — see `metadata/` for per-board provenance and license info.
+Individual PCB designs retain their original licenses — see each board's `metadata.json` for provenance and license info.
