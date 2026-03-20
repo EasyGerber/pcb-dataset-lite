@@ -1,0 +1,4259 @@
+{
+  "egb": 1,
+  "name": "PSLab-GroveShield",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 62.76339999999999,
+      "height": 53.3146,
+      "layers": 4,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 145.9056,
+          "y": 108.881
+        },
+        {
+          "x": 153.678,
+          "y": 101.1086
+        },
+        {
+          "x": 153.7034,
+          "y": 60.2654
+        },
+        {
+          "x": 90.94,
+          "y": 60.27
+        },
+        {
+          "x": 90.94,
+          "y": 113.58
+        },
+        {
+          "x": 145.9056,
+          "y": 113.58
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J6",
+        "type": "connector",
+        "designator": "J6",
+        "value": "I2C-1",
+        "package": "Pin_Header_Straight_1x04_Pitch2.54mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 131.43,
+        "y": 62.75,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SDA",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J16",
+        "type": "connector",
+        "designator": "J16",
+        "value": "I2C-2",
+        "package": "Pin_Header_Straight_1x04_Pitch2.54mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 143.85,
+        "y": 62.75,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SDA",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J5",
+        "type": "connector",
+        "designator": "J5",
+        "value": "Bluetooth",
+        "package": "Pin_Header_Straight_1x06_Pitch2.54mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 125.148,
+        "y": 89.611,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J5-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "+5V",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "GND",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "TxD2",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "RxD2",
+            "x": 0,
+            "y": 10.16,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(J5-Pad6)",
+            "x": 0,
+            "y": 12.7,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 27.1,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/MH1",
+        "type": "mounting_hole",
+        "designator": "MH1",
+        "value": "M",
+        "package": "MountingHole_3.2mm_M3_DIN965_Pad",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 104.88,
+        "y": 111.02,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 5.6,
+            "height": 5.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          }
+        ],
+        "bodyWidth": 5.6,
+        "bodyHeight": 5.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/MH3",
+        "type": "mounting_hole",
+        "designator": "MH3",
+        "value": "M",
+        "package": "MountingHole_3.2mm_M3_DIN965_Pad",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 106.15,
+        "y": 62.77,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 5.6,
+            "height": 5.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 3.2
+          }
+        ],
+        "bodyWidth": 5.6,
+        "bodyHeight": 5.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J9",
+        "type": "connector",
+        "designator": "J9",
+        "value": "SPI Main",
+        "package": "Pin_Header_Straight_1x06_Pitch2.54mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 126.63,
+        "y": 62.75,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "SCK",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "SDO",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "SDI",
+            "x": 0,
+            "y": 10.16,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "CS",
+            "x": 0,
+            "y": 12.7,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 27.1,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J15",
+        "type": "connector",
+        "designator": "J15",
+        "value": "External Power",
+        "package": "PinSocket_1x03_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 119.56,
+        "y": 111.074,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+5V",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J15-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "GND",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 11.86,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/SW1",
+        "type": "switch",
+        "designator": "SW1",
+        "value": "Power Route",
+        "package": "SW_CuK_JS202011CQN_DPDT_Straight",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 93.906,
+        "y": 108.6356,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "InP",
+            "x": 0,
+            "y": 0,
+            "width": 1.4,
+            "height": 1.4,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "+5V",
+            "x": 2.5,
+            "y": 0,
+            "width": 1.4,
+            "height": 1.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "ExP",
+            "x": 5,
+            "y": 0,
+            "width": 1.4,
+            "height": 1.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "InP",
+            "x": 0,
+            "y": 3.3,
+            "width": 1.4,
+            "height": 1.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "+5V",
+            "x": 2.5,
+            "y": 3.3,
+            "width": 1.4,
+            "height": 1.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "ExP",
+            "x": 5,
+            "y": 3.3,
+            "width": 1.4,
+            "height": 1.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          }
+        ],
+        "bodyWidth": 11.4,
+        "bodyHeight": 8,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J7",
+        "type": "connector",
+        "designator": "J7",
+        "value": "UART/ESP",
+        "package": "PinSocket_1x05_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 133.5808,
+        "y": 111.074,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "IOut",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "TxD2",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "RxD2",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GND",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 10.16,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 22.02,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J1",
+        "type": "connector",
+        "designator": "J1",
+        "value": "I2C G6",
+        "package": "PinSocket_1x04_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 133.7644,
+        "y": 86.1734,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SDA",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J3",
+        "type": "connector",
+        "designator": "J3",
+        "value": "I2C G5",
+        "package": "PinSocket_1x04_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 142.1464,
+        "y": 86.1734,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SDA",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J4",
+        "type": "connector",
+        "designator": "J4",
+        "value": "I2C G4",
+        "package": "PinSocket_1x04_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 149.995,
+        "y": 86.1734,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SDA",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J8",
+        "type": "connector",
+        "designator": "J8",
+        "value": "I2C G3",
+        "package": "PinSocket_1x04_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 134,
+        "y": 68,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SDA",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J10",
+        "type": "connector",
+        "designator": "J10",
+        "value": "I2C G2",
+        "package": "PinSocket_1x04_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 142,
+        "y": 68,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SDA",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J11",
+        "type": "connector",
+        "designator": "J11",
+        "value": "I2C G1",
+        "package": "PinSocket_1x04_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 150,
+        "y": 68,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SDA",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J12",
+        "type": "connector",
+        "designator": "J12",
+        "value": "SPI G2",
+        "package": "PinSocket_1x06_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 107.7675,
+        "y": 89.45,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "IOut",
+            "x": 0,
+            "y": 12.7,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "SDI",
+            "x": 0,
+            "y": 10.16,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "SDO",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "SCK",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 27.1,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J13",
+        "type": "connector",
+        "designator": "J13",
+        "value": "ESP",
+        "package": "PinSocket_2x04_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 94.6992,
+        "y": 102.023,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "RxD2",
+            "x": -2.54,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J13-Pad3)",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Vdd",
+            "x": -2.54,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(J13-Pad5)",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(J13-Pad6)",
+            "x": -2.54,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "TxD2",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Vdd",
+            "x": -2.54,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 6.78,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J14",
+        "type": "connector",
+        "designator": "J14",
+        "value": "UART G1",
+        "package": "PinSocket_1x04_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 94.9532,
+        "y": 64.8755,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "TxD2",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "RxD2",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "GND",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 16.94,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "fossasia/pslab-grove-shield/PSLab-GroveShield/J17",
+        "type": "connector",
+        "designator": "J17",
+        "value": "SPI G1",
+        "package": "PinSocket_1x06_P2.54mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 117.1274,
+        "y": 89.5262,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Vdd",
+            "x": 0,
+            "y": 0,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "SCK",
+            "x": 0,
+            "y": 5.08,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "SDO",
+            "x": 0,
+            "y": 7.62,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "SDI",
+            "x": 0,
+            "y": 10.16,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "CS",
+            "x": 0,
+            "y": 12.7,
+            "width": 1.7,
+            "height": 1.7,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 1.7,
+        "bodyHeight": 27.1,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 125.148,
+            "y": 87.355878
+          },
+          {
+            "x": 125.148,
+            "y": 87.071
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 119.56,
+            "y": 92.943878
+          },
+          {
+            "x": 125.148,
+            "y": 87.355878
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 119.56,
+            "y": 111.074
+          },
+          {
+            "x": 119.56,
+            "y": 92.943878
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 99.674433,
+            "y": 107.911599
+          },
+          {
+            "x": 116.397599,
+            "y": 107.911599
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 97.3957,
+            "y": 108.6356
+          },
+          {
+            "x": 98.3949,
+            "y": 107.6364
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 96.406,
+            "y": 108.6356
+          },
+          {
+            "x": 97.3957,
+            "y": 108.6356
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 99.390033,
+            "y": 107.627199
+          },
+          {
+            "x": 99.674433,
+            "y": 107.911599
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 98.3949,
+            "y": 107.6364
+          },
+          {
+            "x": 98.403833,
+            "y": 107.645333
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 116.397599,
+            "y": 107.911599
+          },
+          {
+            "x": 119.56,
+            "y": 111.074
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 98.403833,
+            "y": 107.645333
+          },
+          {
+            "x": 98.421967,
+            "y": 107.627199
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 98.421967,
+            "y": 107.627199
+          },
+          {
+            "x": 99.390033,
+            "y": 107.627199
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "SCK",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 121.55,
+            "y": 80.0236
+          },
+          {
+            "x": 117.1274,
+            "y": 84.4462
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "SCK",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 121.55,
+            "y": 62.75
+          },
+          {
+            "x": 121.55,
+            "y": 80.0236
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "SCK",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 117.0512,
+            "y": 84.37
+          },
+          {
+            "x": 117.1274,
+            "y": 84.4462
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "SCK",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.7675,
+            "y": 84.37
+          },
+          {
+            "x": 117.0512,
+            "y": 84.37
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "SDO",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 119.01,
+            "y": 80.0236
+          },
+          {
+            "x": 117.1274,
+            "y": 81.9062
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "SDO",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 119.01,
+            "y": 62.75
+          },
+          {
+            "x": 119.01,
+            "y": 80.0236
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "SDO",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.8437,
+            "y": 81.9062
+          },
+          {
+            "x": 107.7675,
+            "y": 81.83
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "SDO",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 117.1274,
+            "y": 81.9062
+          },
+          {
+            "x": 107.8437,
+            "y": 81.9062
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "SDI",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 118.285801,
+            "y": 78.207799
+          },
+          {
+            "x": 117.1274,
+            "y": 79.3662
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "SDI",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 118.285801,
+            "y": 64.565801
+          },
+          {
+            "x": 118.285801,
+            "y": 78.207799
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "SDI",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 116.47,
+            "y": 62.75
+          },
+          {
+            "x": 118.285801,
+            "y": 64.565801
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "SDI",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 117.0512,
+            "y": 79.29
+          },
+          {
+            "x": 117.1274,
+            "y": 79.3662
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "SDI",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.7675,
+            "y": 79.29
+          },
+          {
+            "x": 117.0512,
+            "y": 79.29
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "CS",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 113.93,
+            "y": 73.6288
+          },
+          {
+            "x": 117.1274,
+            "y": 76.8262
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "CS",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 113.93,
+            "y": 62.75
+          },
+          {
+            "x": 113.93,
+            "y": 73.6288
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "ExP",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 98.906,
+            "y": 108.6356
+          },
+          {
+            "x": 98.906,
+            "y": 111.9356
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "IOut",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 133.5808,
+            "y": 110.02811
+          },
+          {
+            "x": 133.5808,
+            "y": 111.074
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "IOut",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 108.925901,
+            "y": 85.373211
+          },
+          {
+            "x": 133.5808,
+            "y": 110.02811
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "IOut",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 108.925901,
+            "y": 77.908401
+          },
+          {
+            "x": 108.925901,
+            "y": 85.373211
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "IOut",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.7675,
+            "y": 76.75
+          },
+          {
+            "x": 108.925901,
+            "y": 77.908401
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 123.989599,
+            "y": 83.149401
+          },
+          {
+            "x": 125.148,
+            "y": 81.991
+          }
+        ]
+      },
+      {
+        "id": "trace-32",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 123.989599,
+            "y": 84.919123
+          },
+          {
+            "x": 123.989599,
+            "y": 83.149401
+          }
+        ]
+      },
+      {
+        "id": "trace-33",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 106.885722,
+            "y": 102.023
+          },
+          {
+            "x": 123.989599,
+            "y": 84.919123
+          }
+        ]
+      },
+      {
+        "id": "trace-34",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 102.3192,
+            "y": 102.023
+          },
+          {
+            "x": 106.885722,
+            "y": 102.023
+          }
+        ]
+      },
+      {
+        "id": "trace-35",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 126.306401,
+            "y": 80.832599
+          },
+          {
+            "x": 125.148,
+            "y": 81.991
+          }
+        ]
+      },
+      {
+        "id": "trace-36",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 126.306401,
+            "y": 65.568769
+          },
+          {
+            "x": 126.306401,
+            "y": 80.832599
+          }
+        ]
+      },
+      {
+        "id": "trace-37",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 125.248401,
+            "y": 62.193967
+          },
+          {
+            "x": 125.248401,
+            "y": 64.510769
+          }
+        ]
+      },
+      {
+        "id": "trace-38",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 125.248401,
+            "y": 64.510769
+          },
+          {
+            "x": 126.306401,
+            "y": 65.568769
+          }
+        ]
+      },
+      {
+        "id": "trace-39",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 124.185223,
+            "y": 61.130789
+          },
+          {
+            "x": 125.248401,
+            "y": 62.193967
+          }
+        ]
+      },
+      {
+        "id": "trace-40",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 113.183094,
+            "y": 61.130789
+          },
+          {
+            "x": 124.185223,
+            "y": 61.130789
+          }
+        ]
+      },
+      {
+        "id": "trace-41",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.359194,
+            "y": 66.95469
+          },
+          {
+            "x": 113.183094,
+            "y": 61.130789
+          }
+        ]
+      },
+      {
+        "id": "trace-42",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 98.18719,
+            "y": 66.95469
+          },
+          {
+            "x": 107.359194,
+            "y": 66.95469
+          }
+        ]
+      },
+      {
+        "id": "trace-43",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 96.108,
+            "y": 64.8755
+          },
+          {
+            "x": 98.18719,
+            "y": 66.95469
+          }
+        ]
+      },
+      {
+        "id": "trace-44",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 94.9532,
+            "y": 64.8755
+          },
+          {
+            "x": 96.108,
+            "y": 64.8755
+          }
+        ]
+      },
+      {
+        "id": "trace-45",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 136.1208,
+            "y": 111.074
+          },
+          {
+            "x": 125.3807,
+            "y": 100.3339
+          }
+        ]
+      },
+      {
+        "id": "trace-46",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 125.3807,
+            "y": 100.3339
+          },
+          {
+            "x": 122.7535,
+            "y": 100.3339
+          }
+        ]
+      },
+      {
+        "id": "trace-47",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 122.7535,
+            "y": 100.3339
+          },
+          {
+            "x": 118.2069,
+            "y": 100.3339
+          }
+        ]
+      },
+      {
+        "id": "trace-48",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 118.2069,
+            "y": 100.3339
+          },
+          {
+            "x": 116.2384,
+            "y": 102.3024
+          }
+        ]
+      },
+      {
+        "id": "trace-49",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 116.2384,
+            "y": 102.3024
+          },
+          {
+            "x": 116.1114,
+            "y": 102.3024
+          }
+        ]
+      },
+      {
+        "id": "trace-50",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 116.1114,
+            "y": 102.3024
+          },
+          {
+            "x": 115.9717,
+            "y": 102.4421
+          }
+        ]
+      },
+      {
+        "id": "trace-51",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 102.7383,
+            "y": 102.4421
+          },
+          {
+            "x": 102.3192,
+            "y": 102.023
+          }
+        ]
+      },
+      {
+        "id": "trace-52",
+        "net": "TxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 115.9717,
+            "y": 102.4421
+          },
+          {
+            "x": 102.7383,
+            "y": 102.4421
+          }
+        ]
+      },
+      {
+        "id": "trace-53",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 93.794799,
+            "y": 68.573901
+          },
+          {
+            "x": 94.9532,
+            "y": 67.4155
+          }
+        ]
+      },
+      {
+        "id": "trace-54",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 93.794799,
+            "y": 98.863477
+          },
+          {
+            "x": 93.794799,
+            "y": 68.573901
+          }
+        ]
+      },
+      {
+        "id": "trace-55",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 95.857601,
+            "y": 100.926279
+          },
+          {
+            "x": 93.794799,
+            "y": 98.863477
+          }
+        ]
+      },
+      {
+        "id": "trace-56",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 95.857601,
+            "y": 103.404599
+          },
+          {
+            "x": 95.857601,
+            "y": 100.926279
+          }
+        ]
+      },
+      {
+        "id": "trace-57",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 94.6992,
+            "y": 104.563
+          },
+          {
+            "x": 95.857601,
+            "y": 103.404599
+          }
+        ]
+      },
+      {
+        "id": "trace-58",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.550066,
+            "y": 67.4155
+          },
+          {
+            "x": 113.373967,
+            "y": 61.591599
+          }
+        ]
+      },
+      {
+        "id": "trace-59",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 94.9532,
+            "y": 67.4155
+          },
+          {
+            "x": 107.550066,
+            "y": 67.4155
+          }
+        ]
+      },
+      {
+        "id": "trace-60",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 122.931599,
+            "y": 77.234599
+          },
+          {
+            "x": 125.148,
+            "y": 79.451
+          }
+        ]
+      },
+      {
+        "id": "trace-61",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 122.931599,
+            "y": 62.193967
+          },
+          {
+            "x": 122.931599,
+            "y": 77.234599
+          }
+        ]
+      },
+      {
+        "id": "trace-62",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 122.329231,
+            "y": 61.591599
+          },
+          {
+            "x": 122.931599,
+            "y": 62.193967
+          }
+        ]
+      },
+      {
+        "id": "trace-63",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 113.373967,
+            "y": 61.591599
+          },
+          {
+            "x": 122.329231,
+            "y": 61.591599
+          }
+        ]
+      },
+      {
+        "id": "trace-64",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.550067,
+            "y": 67.4155
+          },
+          {
+            "x": 113.373967,
+            "y": 61.591599
+          }
+        ]
+      },
+      {
+        "id": "trace-65",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 95.238078,
+            "y": 67.4155
+          },
+          {
+            "x": 107.550067,
+            "y": 67.4155
+          }
+        ]
+      },
+      {
+        "id": "trace-66",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 93.794799,
+            "y": 65.972221
+          },
+          {
+            "x": 95.238078,
+            "y": 67.4155
+          }
+        ]
+      },
+      {
+        "id": "trace-67",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 93.794799,
+            "y": 63.778779
+          },
+          {
+            "x": 93.794799,
+            "y": 65.972221
+          }
+        ]
+      },
+      {
+        "id": "trace-68",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 93.856479,
+            "y": 63.717099
+          },
+          {
+            "x": 93.794799,
+            "y": 63.778779
+          }
+        ]
+      },
+      {
+        "id": "trace-69",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 96.049921,
+            "y": 63.717099
+          },
+          {
+            "x": 93.856479,
+            "y": 63.717099
+          }
+        ]
+      },
+      {
+        "id": "trace-70",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 98.826702,
+            "y": 66.49388
+          },
+          {
+            "x": 96.049921,
+            "y": 63.717099
+          }
+        ]
+      },
+      {
+        "id": "trace-71",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.168321,
+            "y": 66.49388
+          },
+          {
+            "x": 98.826702,
+            "y": 66.49388
+          }
+        ]
+      },
+      {
+        "id": "trace-72",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 112.992221,
+            "y": 60.669979
+          },
+          {
+            "x": 107.168321,
+            "y": 66.49388
+          }
+        ]
+      },
+      {
+        "id": "trace-73",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 133.604413,
+            "y": 60.669979
+          },
+          {
+            "x": 112.992221,
+            "y": 60.669979
+          }
+        ]
+      },
+      {
+        "id": "trace-74",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 135.128401,
+            "y": 62.193967
+          },
+          {
+            "x": 133.604413,
+            "y": 60.669979
+          }
+        ]
+      },
+      {
+        "id": "trace-75",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 135.128401,
+            "y": 63.306033
+          },
+          {
+            "x": 135.128401,
+            "y": 62.193967
+          }
+        ]
+      },
+      {
+        "id": "trace-76",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 127.597528,
+            "y": 70.836906
+          },
+          {
+            "x": 135.128401,
+            "y": 63.306033
+          }
+        ]
+      },
+      {
+        "id": "trace-77",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 127.597528,
+            "y": 82.68384
+          },
+          {
+            "x": 127.597528,
+            "y": 70.836906
+          }
+        ]
+      },
+      {
+        "id": "trace-78",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 126.306401,
+            "y": 83.974967
+          },
+          {
+            "x": 127.597528,
+            "y": 82.68384
+          }
+        ]
+      },
+      {
+        "id": "trace-79",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 126.306401,
+            "y": 98.719601
+          },
+          {
+            "x": 126.306401,
+            "y": 83.974967
+          }
+        ]
+      },
+      {
+        "id": "trace-80",
+        "net": "RxD2",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 138.6608,
+            "y": 111.074
+          },
+          {
+            "x": 126.306401,
+            "y": 98.719601
+          }
+        ]
+      },
+      {
+        "id": "trace-81",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 142,
+            "y": 70.54
+          },
+          {
+            "x": 134,
+            "y": 70.54
+          }
+        ]
+      },
+      {
+        "id": "trace-82",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 142,
+            "y": 70.54
+          },
+          {
+            "x": 150,
+            "y": 70.54
+          }
+        ]
+      },
+      {
+        "id": "trace-83",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 143.85,
+            "y": 68.69
+          },
+          {
+            "x": 143.85,
+            "y": 62.75
+          }
+        ]
+      },
+      {
+        "id": "trace-84",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 142,
+            "y": 70.54
+          },
+          {
+            "x": 143.85,
+            "y": 68.69
+          }
+        ]
+      },
+      {
+        "id": "trace-85",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 149.995,
+            "y": 88.7134
+          },
+          {
+            "x": 142.1464,
+            "y": 88.7134
+          }
+        ]
+      },
+      {
+        "id": "trace-86",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 133.7644,
+            "y": 88.7134
+          },
+          {
+            "x": 142.1464,
+            "y": 88.7134
+          }
+        ]
+      },
+      {
+        "id": "trace-87",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 101.160799,
+            "y": 96.056701
+          },
+          {
+            "x": 107.7675,
+            "y": 89.45
+          }
+        ]
+      },
+      {
+        "id": "trace-88",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 101.160799,
+            "y": 103.404599
+          },
+          {
+            "x": 101.160799,
+            "y": 96.056701
+          }
+        ]
+      },
+      {
+        "id": "trace-89",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 102.3192,
+            "y": 104.563
+          },
+          {
+            "x": 101.160799,
+            "y": 103.404599
+          }
+        ]
+      },
+      {
+        "id": "trace-90",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 101.160799,
+            "y": 105.721401
+          },
+          {
+            "x": 102.3192,
+            "y": 104.563
+          }
+        ]
+      },
+      {
+        "id": "trace-91",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 98.397601,
+            "y": 105.721401
+          },
+          {
+            "x": 101.160799,
+            "y": 105.721401
+          }
+        ]
+      },
+      {
+        "id": "trace-92",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 97.2392,
+            "y": 104.563
+          },
+          {
+            "x": 98.397601,
+            "y": 105.721401
+          }
+        ]
+      },
+      {
+        "id": "trace-93",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 94.9532,
+            "y": 76.6357
+          },
+          {
+            "x": 107.7675,
+            "y": 89.45
+          }
+        ]
+      },
+      {
+        "id": "trace-94",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 94.9532,
+            "y": 72.4955
+          },
+          {
+            "x": 94.9532,
+            "y": 76.6357
+          }
+        ]
+      },
+      {
+        "id": "trace-95",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 127.788401,
+            "y": 63.908401
+          },
+          {
+            "x": 132.811599,
+            "y": 63.908401
+          }
+        ]
+      },
+      {
+        "id": "trace-96",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 132.811599,
+            "y": 63.908401
+          },
+          {
+            "x": 133.97,
+            "y": 62.75
+          }
+        ]
+      },
+      {
+        "id": "trace-97",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 126.63,
+            "y": 62.75
+          },
+          {
+            "x": 127.788401,
+            "y": 63.908401
+          }
+        ]
+      },
+      {
+        "id": "trace-98",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 134,
+            "y": 70.54
+          },
+          {
+            "x": 137.4601,
+            "y": 67.0799
+          }
+        ]
+      },
+      {
+        "id": "trace-99",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 137.4601,
+            "y": 67.0799
+          },
+          {
+            "x": 137.4601,
+            "y": 65.5994
+          }
+        ]
+      },
+      {
+        "id": "trace-100",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 134.6107,
+            "y": 62.75
+          },
+          {
+            "x": 133.97,
+            "y": 62.75
+          }
+        ]
+      },
+      {
+        "id": "trace-101",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 137.4601,
+            "y": 65.5994
+          },
+          {
+            "x": 134.6107,
+            "y": 62.75
+          }
+        ]
+      },
+      {
+        "id": "trace-102",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 140.987999,
+            "y": 91.809433
+          },
+          {
+            "x": 140.987999,
+            "y": 89.871801
+          }
+        ]
+      },
+      {
+        "id": "trace-103",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 141.590367,
+            "y": 92.411801
+          },
+          {
+            "x": 140.987999,
+            "y": 91.809433
+          }
+        ]
+      },
+      {
+        "id": "trace-104",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 142.479235,
+            "y": 92.411801
+          },
+          {
+            "x": 141.590367,
+            "y": 92.411801
+          }
+        ]
+      },
+      {
+        "id": "trace-105",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 140.987999,
+            "y": 89.871801
+          },
+          {
+            "x": 142.1464,
+            "y": 88.7134
+          }
+        ]
+      },
+      {
+        "id": "trace-106",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 143.7408,
+            "y": 93.673366
+          },
+          {
+            "x": 142.479235,
+            "y": 92.411801
+          }
+        ]
+      },
+      {
+        "id": "trace-107",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 143.7408,
+            "y": 111.074
+          },
+          {
+            "x": 143.7408,
+            "y": 93.673366
+          }
+        ]
+      },
+      {
+        "id": "trace-108",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 117.0512,
+            "y": 89.45
+          },
+          {
+            "x": 117.1274,
+            "y": 89.5262
+          }
+        ]
+      },
+      {
+        "id": "trace-109",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 107.7675,
+            "y": 89.45
+          },
+          {
+            "x": 117.0512,
+            "y": 89.45
+          }
+        ]
+      },
+      {
+        "id": "trace-110",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 117.1274,
+            "y": 89.5262
+          },
+          {
+            "x": 117.1274,
+            "y": 88.7134
+          }
+        ]
+      },
+      {
+        "id": "trace-111",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 117.1274,
+            "y": 88.7134
+          },
+          {
+            "x": 120.0484,
+            "y": 85.7924
+          }
+        ]
+      },
+      {
+        "id": "trace-112",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 120.0484,
+            "y": 86.766522
+          },
+          {
+            "x": 125.424278,
+            "y": 92.1424
+          }
+        ]
+      },
+      {
+        "id": "trace-113",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 120.0484,
+            "y": 85.7924
+          },
+          {
+            "x": 120.0484,
+            "y": 86.766522
+          }
+        ]
+      },
+      {
+        "id": "trace-114",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 125.424278,
+            "y": 92.1424
+          },
+          {
+            "x": 128.151,
+            "y": 92.1424
+          }
+        ]
+      },
+      {
+        "id": "trace-115",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 130.3354,
+            "y": 92.1424
+          },
+          {
+            "x": 133.7644,
+            "y": 88.7134
+          }
+        ]
+      },
+      {
+        "id": "trace-116",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 128.151,
+            "y": 92.1424
+          },
+          {
+            "x": 130.3354,
+            "y": 92.1424
+          }
+        ]
+      },
+      {
+        "id": "trace-117",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 151.6333,
+            "y": 88.7134
+          },
+          {
+            "x": 149.995,
+            "y": 88.7134
+          }
+        ]
+      },
+      {
+        "id": "trace-118",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 150.4268,
+            "y": 79.2011
+          },
+          {
+            "x": 147.6836,
+            "y": 76.4579
+          }
+        ]
+      },
+      {
+        "id": "trace-119",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 147.6836,
+            "y": 72.8564
+          },
+          {
+            "x": 150,
+            "y": 70.54
+          }
+        ]
+      },
+      {
+        "id": "trace-120",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 147.6836,
+            "y": 76.4579
+          },
+          {
+            "x": 147.6836,
+            "y": 72.8564
+          }
+        ]
+      },
+      {
+        "id": "trace-121",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 150.4268,
+            "y": 79.2011
+          },
+          {
+            "x": 150.4268,
+            "y": 81.9697
+          }
+        ]
+      },
+      {
+        "id": "trace-122",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 150.4268,
+            "y": 81.9697
+          },
+          {
+            "x": 152.0524,
+            "y": 83.5953
+          }
+        ]
+      },
+      {
+        "id": "trace-123",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 152.0524,
+            "y": 88.2943
+          },
+          {
+            "x": 151.6333,
+            "y": 88.7134
+          }
+        ]
+      },
+      {
+        "id": "trace-124",
+        "net": "Vdd",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 152.0524,
+            "y": 83.5953
+          },
+          {
+            "x": 152.0524,
+            "y": 88.2943
+          }
+        ]
+      },
+      {
+        "id": "trace-125",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 134,
+            "y": 73.08
+          },
+          {
+            "x": 142,
+            "y": 73.08
+          }
+        ]
+      },
+      {
+        "id": "trace-126",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 150,
+            "y": 73.08
+          },
+          {
+            "x": 142,
+            "y": 73.08
+          }
+        ]
+      },
+      {
+        "id": "trace-127",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 151.47,
+            "y": 71.61
+          },
+          {
+            "x": 151.47,
+            "y": 62.75
+          }
+        ]
+      },
+      {
+        "id": "trace-128",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 150,
+            "y": 73.08
+          },
+          {
+            "x": 151.47,
+            "y": 71.61
+          }
+        ]
+      },
+      {
+        "id": "trace-129",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 149.344905,
+            "y": 60.624905
+          },
+          {
+            "x": 151.47,
+            "y": 62.75
+          }
+        ]
+      },
+      {
+        "id": "trace-130",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 138.635095,
+            "y": 60.624905
+          },
+          {
+            "x": 149.344905,
+            "y": 60.624905
+          }
+        ]
+      },
+      {
+        "id": "trace-131",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 136.51,
+            "y": 62.75
+          },
+          {
+            "x": 138.635095,
+            "y": 60.624905
+          }
+        ]
+      },
+      {
+        "id": "trace-132",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 149.995,
+            "y": 91.2534
+          },
+          {
+            "x": 142.1464,
+            "y": 91.2534
+          }
+        ]
+      },
+      {
+        "id": "trace-133",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 133.7644,
+            "y": 91.2534
+          },
+          {
+            "x": 133.9295,
+            "y": 91.4185
+          }
+        ]
+      },
+      {
+        "id": "trace-134",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 141.9813,
+            "y": 91.4185
+          },
+          {
+            "x": 142.1464,
+            "y": 91.2534
+          }
+        ]
+      },
+      {
+        "id": "trace-135",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 133.9295,
+            "y": 91.4185
+          },
+          {
+            "x": 141.9813,
+            "y": 91.4185
+          }
+        ]
+      },
+      {
+        "id": "trace-136",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 152.51321,
+            "y": 88.73519
+          },
+          {
+            "x": 152.51321,
+            "y": 75.24231
+          }
+        ]
+      },
+      {
+        "id": "trace-137",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 149.995,
+            "y": 91.2534
+          },
+          {
+            "x": 152.51321,
+            "y": 88.73519
+          }
+        ]
+      },
+      {
+        "id": "trace-138",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 150.3509,
+            "y": 73.08
+          },
+          {
+            "x": 150,
+            "y": 73.08
+          }
+        ]
+      },
+      {
+        "id": "trace-139",
+        "net": "/SDA",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 152.51321,
+            "y": 75.24231
+          },
+          {
+            "x": 150.3509,
+            "y": 73.08
+          }
+        ]
+      },
+      {
+        "id": "trace-140",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 134,
+            "y": 75.62
+          },
+          {
+            "x": 142,
+            "y": 75.62
+          }
+        ]
+      },
+      {
+        "id": "trace-141",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 142,
+            "y": 75.62
+          },
+          {
+            "x": 150,
+            "y": 75.62
+          }
+        ]
+      },
+      {
+        "id": "trace-142",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 147.771599,
+            "y": 61.591599
+          },
+          {
+            "x": 140.208401,
+            "y": 61.591599
+          }
+        ]
+      },
+      {
+        "id": "trace-143",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 140.208401,
+            "y": 61.591599
+          },
+          {
+            "x": 139.05,
+            "y": 62.75
+          }
+        ]
+      },
+      {
+        "id": "trace-144",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 148.93,
+            "y": 62.75
+          },
+          {
+            "x": 147.771599,
+            "y": 61.591599
+          }
+        ]
+      },
+      {
+        "id": "trace-145",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 132.841599,
+            "y": 74.461599
+          },
+          {
+            "x": 134,
+            "y": 75.62
+          }
+        ]
+      },
+      {
+        "id": "trace-146",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 132.841599,
+            "y": 66.903279
+          },
+          {
+            "x": 132.841599,
+            "y": 74.461599
+          }
+        ]
+      },
+      {
+        "id": "trace-147",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 135.836477,
+            "y": 63.908401
+          },
+          {
+            "x": 132.841599,
+            "y": 66.903279
+          }
+        ]
+      },
+      {
+        "id": "trace-148",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 137.891599,
+            "y": 63.908401
+          },
+          {
+            "x": 135.836477,
+            "y": 63.908401
+          }
+        ]
+      },
+      {
+        "id": "trace-149",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 139.05,
+            "y": 62.75
+          },
+          {
+            "x": 137.891599,
+            "y": 63.908401
+          }
+        ]
+      },
+      {
+        "id": "trace-150",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 133.7644,
+            "y": 93.7934
+          },
+          {
+            "x": 142.1464,
+            "y": 93.7934
+          }
+        ]
+      },
+      {
+        "id": "trace-151",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 149.995,
+            "y": 93.7934
+          },
+          {
+            "x": 142.1464,
+            "y": 93.7934
+          }
+        ]
+      },
+      {
+        "id": "trace-152",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 151.153401,
+            "y": 76.773401
+          },
+          {
+            "x": 150,
+            "y": 75.62
+          }
+        ]
+      },
+      {
+        "id": "trace-153",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 151.153401,
+            "y": 92.634999
+          },
+          {
+            "x": 151.153401,
+            "y": 76.773401
+          }
+        ]
+      },
+      {
+        "id": "trace-154",
+        "net": "/SCL",
+        "layer": "F.Cu",
+        "width": 0.3048,
+        "points": [
+          {
+            "x": 149.995,
+            "y": 93.7934
+          },
+          {
+            "x": 151.153401,
+            "y": 92.634999
+          }
+        ]
+      }
+    ],
+    "vias": [
+      {
+        "id": "via-0",
+        "net": "TxD2",
+        "x": 122.7535,
+        "y": 100.3339,
+        "outerDiameter": 0.9144,
+        "drillDiameter": 0.4064,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-1",
+        "net": "TxD2",
+        "x": 115.9717,
+        "y": 102.4421,
+        "outerDiameter": 0.9144,
+        "drillDiameter": 0.4064,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-2",
+        "net": "Vdd",
+        "x": 137.4601,
+        "y": 65.5994,
+        "outerDiameter": 0.9144,
+        "drillDiameter": 0.4064,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-3",
+        "net": "Vdd",
+        "x": 120.0484,
+        "y": 85.7924,
+        "outerDiameter": 0.9144,
+        "drillDiameter": 0.4064,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "via-4",
+        "net": "Vdd",
+        "x": 128.151,
+        "y": 92.1424,
+        "outerDiameter": 0.9144,
+        "drillDiameter": 0.4064,
+        "tented": true,
+        "connectedLayers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "B.Cu"
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "id": "zone-0",
+        "net": "InP",
+        "layer": "F.Cu",
+        "points": [
+          {
+            "x": 94.7696,
+            "y": 112.8012
+          },
+          {
+            "x": 93.0424,
+            "y": 112.8012
+          },
+          {
+            "x": 93.0424,
+            "y": 107.772
+          },
+          {
+            "x": 94.7696,
+            "y": 107.772
+          }
+        ],
+        "priority": 1
+      },
+      {
+        "id": "zone-1",
+        "net": "+5V",
+        "layer": "F.Cu",
+        "points": [
+          {
+            "x": 97.2588,
+            "y": 112.815773
+          },
+          {
+            "x": 95.5316,
+            "y": 112.815773
+          },
+          {
+            "x": 95.5316,
+            "y": 107.786573
+          },
+          {
+            "x": 97.2588,
+            "y": 107.786573
+          }
+        ],
+        "priority": 1
+      },
+      {
+        "id": "zone-2",
+        "net": "ExP",
+        "layer": "F.Cu",
+        "points": [
+          {
+            "x": 99.7734,
+            "y": 112.86243
+          },
+          {
+            "x": 98.0462,
+            "y": 112.86243
+          },
+          {
+            "x": 98.0462,
+            "y": 107.83323
+          },
+          {
+            "x": 99.7734,
+            "y": 107.83323
+          }
+        ],
+        "priority": 1
+      },
+      {
+        "id": "zone-3",
+        "net": "GND",
+        "layer": "F.Cu",
+        "points": [
+          {
+            "x": 153.7161,
+            "y": 60.2781
+          },
+          {
+            "x": 153.678,
+            "y": 101.1086
+          },
+          {
+            "x": 145.9056,
+            "y": 108.881
+          },
+          {
+            "x": 145.9056,
+            "y": 113.58
+          },
+          {
+            "x": 90.94,
+            "y": 113.58
+          },
+          {
+            "x": 90.9527,
+            "y": 60.2654
+          }
+        ],
+        "priority": 0
+      }
+    ],
+    "nets": [
+      {
+        "name": "GND",
+        "class": "ground"
+      },
+      {
+        "name": "+5V",
+        "class": "power"
+      },
+      {
+        "name": "SCK",
+        "class": "signal"
+      },
+      {
+        "name": "SDO",
+        "class": "signal"
+      },
+      {
+        "name": "SDI",
+        "class": "signal"
+      },
+      {
+        "name": "CS",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J5-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J5-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "ExP",
+        "class": "signal"
+      },
+      {
+        "name": "InP",
+        "class": "signal"
+      },
+      {
+        "name": "IOut",
+        "class": "signal"
+      },
+      {
+        "name": "TxD2",
+        "class": "signal"
+      },
+      {
+        "name": "RxD2",
+        "class": "signal"
+      },
+      {
+        "name": "Vdd",
+        "class": "power"
+      },
+      {
+        "name": "/SDA",
+        "class": "signal"
+      },
+      {
+        "name": "/SCL",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J15-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J13-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J13-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J13-Pad6)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "PSLab-GroveShield",
+      "description": "",
+      "revision": "",
+      "author": "fossasia",
+      "date": "2026-03-20T08:42:11.428Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996131428,
+  "updatedAt": 1773996131428
+}

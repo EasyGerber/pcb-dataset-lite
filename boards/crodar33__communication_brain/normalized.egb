@@ -1,0 +1,1907 @@
+{
+  "egb": 1,
+  "name": "communication_brain",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 0,
+      "height": 0,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "crodar33/CommandPoint/communication_brain/U5",
+        "type": "ic",
+        "designator": "U5",
+        "value": "MCP2515-xSO",
+        "package": "SOIC-18",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 115.57,
+        "y": 168.91,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "18",
+            "signalName": "18",
+            "netName": "+3V3",
+            "x": 4.65,
+            "y": -5.08,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "17",
+            "signalName": "17",
+            "netName": "Net-(U5-Pad17)",
+            "x": 4.65,
+            "y": -3.81,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "/CS",
+            "x": 4.65,
+            "y": -2.54,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "/SO",
+            "x": 4.65,
+            "y": -1.27,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "/SI",
+            "x": 4.65,
+            "y": 0,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "/SCK",
+            "x": 4.65,
+            "y": 1.27,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "Net-(U5-Pad12)",
+            "x": 4.65,
+            "y": 2.54,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "Net-(U5-Pad11)",
+            "x": 4.65,
+            "y": 3.81,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "Net-(U5-Pad10)",
+            "x": 4.65,
+            "y": 5.08,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "+3V3",
+            "x": -4.65,
+            "y": 5.08,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(U5-Pad8)",
+            "x": -4.65,
+            "y": 3.81,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(U5-Pad7)",
+            "x": -4.65,
+            "y": 2.54,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(U5-Pad6)",
+            "x": -4.65,
+            "y": 1.27,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(U5-Pad5)",
+            "x": -4.65,
+            "y": 0,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(U5-Pad4)",
+            "x": -4.65,
+            "y": -1.27,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(U5-Pad3)",
+            "x": -4.65,
+            "y": -2.54,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J4-Pad1)",
+            "x": -4.65,
+            "y": -3.81,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J4-Pad2)",
+            "x": -4.65,
+            "y": -5.08,
+            "width": 2.05,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 11.35,
+        "bodyHeight": 10.76,
+        "bodyHeight3D": 1.75
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/U4",
+        "type": "ic",
+        "designator": "U4",
+        "value": "MAX485E",
+        "package": "SOIC-8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 143.72,
+        "y": 145.415,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "+3V3",
+            "x": 3.6,
+            "y": -1.905,
+            "width": 1.6,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(J3-Pad1)",
+            "x": 3.6,
+            "y": -0.635,
+            "width": 1.6,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(J3-Pad2)",
+            "x": 3.6,
+            "y": 0.635,
+            "width": 1.6,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "-BATT",
+            "x": 3.6,
+            "y": 1.905,
+            "width": 1.6,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(U3-Pad7)",
+            "x": -3.6,
+            "y": 1.905,
+            "width": 1.6,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(R8-Pad1)",
+            "x": -3.6,
+            "y": 0.635,
+            "width": 1.6,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R8-Pad1)",
+            "x": -3.6,
+            "y": -0.635,
+            "width": 1.6,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(R6-Pad2)",
+            "x": -3.6,
+            "y": -1.905,
+            "width": 1.6,
+            "height": 0.6,
+            "shape": "roundrect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 8.8,
+        "bodyHeight": 4.41,
+        "bodyHeight3D": 1.75
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/U3",
+        "type": "ic",
+        "designator": "U3",
+        "value": "ESP-12E",
+        "package": "ESP-12E",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 86.36,
+        "y": 134.62,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "22",
+            "signalName": "22",
+            "netName": "/TXD",
+            "x": 7.6,
+            "y": -3.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "21",
+            "signalName": "21",
+            "netName": "/RXD",
+            "x": 7.6,
+            "y": -1.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "20",
+            "signalName": "20",
+            "netName": "Net-(U3-Pad20)",
+            "x": 7.6,
+            "y": 0.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "19",
+            "signalName": "19",
+            "netName": "Net-(U3-Pad19)",
+            "x": 7.6,
+            "y": 2.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "18",
+            "signalName": "18",
+            "netName": "Net-(R5-Pad2)",
+            "x": 7.6,
+            "y": 4.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "17",
+            "signalName": "17",
+            "netName": "Net-(R6-Pad2)",
+            "x": 7.6,
+            "y": 6.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "Net-(R7-Pad1)",
+            "x": 7.6,
+            "y": 8.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "-BATT",
+            "x": 7.6,
+            "y": 10.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "/SCK",
+            "x": 5,
+            "y": 12,
+            "width": 1,
+            "height": 1.8,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "/SI",
+            "x": 3,
+            "y": 12,
+            "width": 1,
+            "height": 1.8,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "Net-(U3-Pad12)",
+            "x": 1,
+            "y": 12,
+            "width": 1,
+            "height": 1.8,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "Net-(U3-Pad11)",
+            "x": -1,
+            "y": 12,
+            "width": 1,
+            "height": 1.8,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "/SO",
+            "x": -3,
+            "y": 12,
+            "width": 1,
+            "height": 1.8,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "/CS",
+            "x": -5,
+            "y": 12,
+            "width": 1,
+            "height": 1.8,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "+3V3",
+            "x": -7.6,
+            "y": 10.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(U3-Pad7)",
+            "x": -7.6,
+            "y": 8.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(R8-Pad1)",
+            "x": -7.6,
+            "y": 6.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(U3-Pad5)",
+            "x": -7.6,
+            "y": 4.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(U3-Pad4)",
+            "x": -7.6,
+            "y": 2.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(R3-Pad2)",
+            "x": -7.6,
+            "y": 0.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(U3-Pad2)",
+            "x": -7.6,
+            "y": -1.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(R4-Pad2)",
+            "x": -7.6,
+            "y": -3.5,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "smd",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 17.7,
+        "bodyHeight": 25.8,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/U2",
+        "type": "ic",
+        "designator": "U2",
+        "value": "L78L33_TO92",
+        "package": "TO-92_Inline",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 104.14,
+        "y": 80.01,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+3V3",
+            "x": 0,
+            "y": 0,
+            "width": 1.05,
+            "height": 1.5,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.75
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "+5V",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.05,
+            "height": 1.5,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.75
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.05,
+            "height": 1.5,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.75
+          }
+        ],
+        "bodyWidth": 6.13,
+        "bodyHeight": 1.5,
+        "bodyHeight3D": 4.5
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/U1",
+        "type": "ic",
+        "designator": "U1",
+        "value": "LM2576HVT-ADJ",
+        "package": "TO-220",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 74.93,
+        "y": 64.77,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "-BATT",
+            "x": 6.8,
+            "y": 0,
+            "width": 1.275,
+            "height": 1.8,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(R1-Pad1)",
+            "x": 5.1,
+            "y": 0,
+            "width": 1.275,
+            "height": 1.8,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "-BATT",
+            "x": 3.4,
+            "y": 0,
+            "width": 1.275,
+            "height": 1.8,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(D1-Pad1)",
+            "x": 1.7,
+            "y": 0,
+            "width": 1.275,
+            "height": 1.8,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+BATT",
+            "x": 0,
+            "y": 0,
+            "width": 1.275,
+            "height": 1.8,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          }
+        ],
+        "bodyWidth": 14.875,
+        "bodyHeight": 1.8,
+        "bodyHeight3D": 10
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/SW2",
+        "type": "switch",
+        "designator": "SW2",
+        "value": "Programm",
+        "package": "SW_PUSH_6mm_H5mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 54.61,
+        "y": 142.24,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-BATT",
+            "x": 6.5,
+            "y": 0,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 6.5,
+            "y": 4.5,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-BATT",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 0,
+            "y": 4.5,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          }
+        ],
+        "bodyWidth": 15,
+        "bodyHeight": 11,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/SW1",
+        "type": "switch",
+        "designator": "SW1",
+        "value": "Reset",
+        "package": "SW_PUSH_6mm_H5mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 54.46,
+        "y": 123.77,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-BATT",
+            "x": 6.5,
+            "y": 0,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 6.5,
+            "y": 4.5,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-BATT",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 0,
+            "y": 4.5,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.1
+          }
+        ],
+        "bodyWidth": 15,
+        "bodyHeight": 11,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/R8",
+        "type": "resistor",
+        "designator": "R8",
+        "value": "10k",
+        "package": "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 138.43,
+        "y": 162.56,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(R8-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 21.92,
+        "bodyHeight": 1.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/R7",
+        "type": "resistor",
+        "designator": "R7",
+        "value": "10k",
+        "package": "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 107.95,
+        "y": 134.62,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(R7-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 21.92,
+        "bodyHeight": 1.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/R6",
+        "type": "resistor",
+        "designator": "R6",
+        "value": "10k",
+        "package": "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 100.33,
+        "y": 115.57,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R6-Pad2)",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+3V3",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 21.92,
+        "bodyHeight": 1.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/R5",
+        "type": "resistor",
+        "designator": "R5",
+        "value": "10k",
+        "package": "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 74.93,
+        "y": 113.03,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R5-Pad2)",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+3V3",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 21.92,
+        "bodyHeight": 1.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/R4",
+        "type": "resistor",
+        "designator": "R4",
+        "value": "10k",
+        "package": "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 66.04,
+        "y": 119.38,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R4-Pad2)",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+3V3",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 21.92,
+        "bodyHeight": 1.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/R3",
+        "type": "resistor",
+        "designator": "R3",
+        "value": "10k",
+        "package": "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 91.44,
+        "y": 105.41,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R3-Pad2)",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+3V3",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 21.92,
+        "bodyHeight": 1.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/R2",
+        "type": "resistor",
+        "designator": "R2",
+        "value": "1.8k",
+        "package": "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 92.71,
+        "y": 69.85,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R1-Pad1)",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+5V",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 21.92,
+        "bodyHeight": 1.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/R1",
+        "type": "resistor",
+        "designator": "R1",
+        "value": "5.6k",
+        "package": "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 72.39,
+        "y": 80.01,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 10.16,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(R1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 1.6,
+            "height": 1.6,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 21.92,
+        "bodyHeight": 1.6,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/L1",
+        "type": "inductor",
+        "designator": "L1",
+        "value": "100mH",
+        "package": "Choke_Schaffner_RN202-04-8.8x18.2mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 114.3,
+        "y": 44.45,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "",
+            "x": 5.1,
+            "y": 15.2,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": 0,
+            "y": 15.2,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "+5V",
+            "x": 5.1,
+            "y": 0,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(D1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 2,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.9
+          }
+        ],
+        "bodyWidth": 12.2,
+        "bodyHeight": 32.4,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/J4",
+        "type": "connector",
+        "designator": "J4",
+        "value": "CAN",
+        "package": "TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 86.36,
+        "y": 167.64,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J4-Pad2)",
+            "x": 3.5,
+            "y": 0,
+            "width": 2.4,
+            "height": 2.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.2
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J4-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.4,
+            "height": 2.4,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.2
+          }
+        ],
+        "bodyWidth": 9.4,
+        "bodyHeight": 2.4,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/J3",
+        "type": "connector",
+        "designator": "J3",
+        "value": "RS485",
+        "package": "TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 166.68,
+        "y": 139.7,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J3-Pad2)",
+            "x": 3.5,
+            "y": 0,
+            "width": 2.4,
+            "height": 2.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.2
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J3-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.4,
+            "height": 2.4,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.2
+          }
+        ],
+        "bodyWidth": 9.4,
+        "bodyHeight": 2.4,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/J2",
+        "type": "connector",
+        "designator": "J2",
+        "value": "Batt",
+        "package": "TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 60,
+        "y": 41.91,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "+BATT",
+            "x": 3.5,
+            "y": 0,
+            "width": 2.4,
+            "height": 2.4,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.2
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "-BATT",
+            "x": 0,
+            "y": 0,
+            "width": 2.4,
+            "height": 2.4,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.2
+          }
+        ],
+        "bodyWidth": 9.4,
+        "bodyHeight": 2.4,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/J1",
+        "type": "connector",
+        "designator": "J1",
+        "value": "UART",
+        "package": "PinHeader_1x02_P2.00mm_Vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 113.03,
+        "y": 124.46,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/TXD",
+            "x": 0,
+            "y": 2,
+            "width": 1.35,
+            "height": 1.35,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/RXD",
+            "x": 0,
+            "y": 0,
+            "width": 1.35,
+            "height": 1.35,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8
+          }
+        ],
+        "bodyWidth": 1.35,
+        "bodyHeight": 5.35,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/D1",
+        "type": "diode",
+        "designator": "D1",
+        "value": "1N5822",
+        "package": "D_DO-201AD_P15.24mm_Horizontal",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 82.55,
+        "y": 50.8,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 15.24,
+            "y": 0,
+            "width": 3.2,
+            "height": 3.2,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.6
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(D1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 3.2,
+            "height": 3.2,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.6
+          }
+        ],
+        "bodyWidth": 33.68,
+        "bodyHeight": 3.2,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/C3",
+        "type": "capacitor",
+        "designator": "C3",
+        "value": "0.1mF",
+        "package": "C_Disc_D7.5mm_W5.0mm_P5.00mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 127,
+        "y": 81.28,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 5,
+            "y": 0,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+3V3",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          }
+        ],
+        "bodyWidth": 12,
+        "bodyHeight": 2,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/C2",
+        "type": "capacitor",
+        "designator": "C2",
+        "value": "1000mF",
+        "package": "C_Radial_D5.0mm_H5.0mm_P2.00mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 118.11,
+        "y": 69.85,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 2,
+            "y": 0,
+            "width": 1.2,
+            "height": 1.2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.6
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+5V",
+            "x": 0,
+            "y": 0,
+            "width": 1.2,
+            "height": 1.2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.6
+          }
+        ],
+        "bodyWidth": 5.2,
+        "bodyHeight": 1.2,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "crodar33/CommandPoint/communication_brain/C1",
+        "type": "capacitor",
+        "designator": "C1",
+        "value": "100mF",
+        "package": "C_Radial_D5.0mm_H5.0mm_P2.00mm",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 156.75,
+        "y": 127,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "-BATT",
+            "x": 2,
+            "y": 0,
+            "width": 1.2,
+            "height": 1.2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.6
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "+BATT",
+            "x": 0,
+            "y": 0,
+            "width": 1.2,
+            "height": 1.2,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.6
+          }
+        ],
+        "bodyWidth": 5.2,
+        "bodyHeight": 1.2,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "-BATT",
+        "class": "signal"
+      },
+      {
+        "name": "+BATT",
+        "class": "signal"
+      },
+      {
+        "name": "+5V",
+        "class": "power"
+      },
+      {
+        "name": "+3V3",
+        "class": "power"
+      },
+      {
+        "name": "Net-(D1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "/TXD",
+        "class": "signal"
+      },
+      {
+        "name": "/RXD",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J3-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J3-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J4-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J4-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R3-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R4-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R5-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R6-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R7-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R8-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad20)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad19)",
+        "class": "signal"
+      },
+      {
+        "name": "/SCK",
+        "class": "signal"
+      },
+      {
+        "name": "/SI",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad12)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad11)",
+        "class": "signal"
+      },
+      {
+        "name": "/SO",
+        "class": "signal"
+      },
+      {
+        "name": "/CS",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U3-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad17)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad12)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad11)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad10)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad8)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U5-Pad3)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "communication_brain",
+      "description": "",
+      "revision": "",
+      "author": "crodar33",
+      "date": "2026-03-20T08:42:11.438Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996131437,
+  "updatedAt": 1773996131437
+}

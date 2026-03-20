@@ -1,0 +1,1808 @@
+{
+  "egb": 1,
+  "name": "ir-switcher",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 40.639999999999986,
+      "height": 43.18000000000001,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 142.24,
+          "y": 106.68
+        },
+        {
+          "x": 142.24,
+          "y": 63.5
+        },
+        {
+          "x": 182.88,
+          "y": 63.5
+        },
+        {
+          "x": 182.88,
+          "y": 106.68
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "nenadalm/diy/ir-switcher/IR_CUT1",
+        "type": "other",
+        "designator": "IR_CUT1",
+        "value": "CONN_2",
+        "package": "Pin_Header_Straight_1x02",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 176.53,
+        "y": 87.63,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(IR_CUT1-Pad1)",
+            "x": -1.27,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IR_CUT1-Pad2)",
+            "x": 1.27,
+            "y": 0,
+            "width": 2.032,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 4.572,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/LIGHT_SENS1",
+        "type": "inductor",
+        "designator": "LIGHT_SENS1",
+        "value": "CONN_5",
+        "package": "Pin_Header_Straight_1x05",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 151.13,
+        "y": 73.66,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "GND",
+            "x": -5.08,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/SDA",
+            "x": -2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SCL",
+            "x": 0,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "GND",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "/3.3V",
+            "x": 5.08,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 11.887,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/R1",
+        "type": "resistor",
+        "designator": "R1",
+        "value": "470R",
+        "package": "R3",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 162.56,
+        "y": 77.47,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(Q1-PadB)",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/GPIO1",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/R2",
+        "type": "resistor",
+        "designator": "R2",
+        "value": "470R",
+        "package": "R3",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 160.02,
+        "y": 77.47,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(Q2-PadB)",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "/GPIO2",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/R3",
+        "type": "resistor",
+        "designator": "R3",
+        "value": "100R",
+        "package": "R3",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 161.29,
+        "y": 96.52,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(Q1-PadC)",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R3-Pad2)",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/R4",
+        "type": "resistor",
+        "designator": "R4",
+        "value": "100R",
+        "package": "R3",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 162.56,
+        "y": 90.17,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(Q2-PadC)",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(R4-Pad2)",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/U1",
+        "type": "ic",
+        "designator": "U1",
+        "value": "opto_relay_8",
+        "package": "DIP-8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 168.91,
+        "y": 90.17,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/5V",
+            "x": -3.81,
+            "y": 3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(U1-Pad2)",
+            "x": -1.27,
+            "y": 3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(U1-Pad2)",
+            "x": 1.27,
+            "y": 3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(R3-Pad2)",
+            "x": 3.81,
+            "y": 3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "/5V",
+            "x": 3.81,
+            "y": -3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(IR_CUT1-Pad1)",
+            "x": 1.27,
+            "y": -3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "GND",
+            "x": -1.27,
+            "y": -3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(IR_CUT1-Pad2)",
+            "x": -3.81,
+            "y": -3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 9.017,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/U2",
+        "type": "ic",
+        "designator": "U2",
+        "value": "opto_relay_8",
+        "package": "DIP-8",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 168.91,
+        "y": 77.47,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/5V",
+            "x": -3.81,
+            "y": 3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(U2-Pad2)",
+            "x": -1.27,
+            "y": 3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(U2-Pad2)",
+            "x": 1.27,
+            "y": 3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(R4-Pad2)",
+            "x": 3.81,
+            "y": 3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(IR_CUT1-Pad2)",
+            "x": 3.81,
+            "y": -3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "/5V",
+            "x": 1.27,
+            "y": -3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(IR_CUT1-Pad1)",
+            "x": -1.27,
+            "y": -3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "GND",
+            "x": -3.81,
+            "y": -3.81,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 9.017,
+        "bodyHeight": 9.017,
+        "bodyHeight3D": 3.5
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/P1",
+        "type": "connector",
+        "designator": "P1",
+        "value": "CONN_8",
+        "package": "Pin_Header_Straight_1x08",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 160.02,
+        "y": 68.58,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "/3.3V",
+            "x": -8.89,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "GND",
+            "x": -6.35,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "/SCL",
+            "x": -3.81,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "/SDA",
+            "x": -1.27,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "/GPIO2",
+            "x": 1.27,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "/GPIO1",
+            "x": 3.81,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "/5V",
+            "x": 6.35,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "GND",
+            "x": 8.89,
+            "y": 0,
+            "width": 1.7272,
+            "height": 2.032,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 19.507,
+        "bodyHeight": 2.032,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/Q1",
+        "type": "transistor",
+        "designator": "Q1",
+        "value": "BC237",
+        "package": "TO-92",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 151.13,
+        "y": 96.52,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "B",
+            "signalName": "B",
+            "netName": "Net-(Q1-PadB)",
+            "x": 0,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "E",
+            "signalName": "E",
+            "netName": "GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "C",
+            "signalName": "C",
+            "netName": "Net-(Q1-PadC)",
+            "x": 0,
+            "y": -2.54,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 1.524,
+        "bodyHeight": 6.604,
+        "bodyHeight3D": 4.5
+      },
+      {
+        "id": "nenadalm/diy/ir-switcher/Q2",
+        "type": "transistor",
+        "designator": "Q2",
+        "value": "BC237",
+        "package": "TO-92",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 168.91,
+        "y": 100.33,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "B",
+            "signalName": "B",
+            "netName": "Net-(Q2-PadB)",
+            "x": 0,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "E",
+            "signalName": "E",
+            "netName": "GND",
+            "x": 0,
+            "y": 2.54,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "C",
+            "signalName": "C",
+            "netName": "Net-(Q2-PadC)",
+            "x": 0,
+            "y": -2.54,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 1.524,
+        "bodyHeight": 6.604,
+        "bodyHeight3D": 4.5
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "Net-(IR_CUT1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 172.72,
+            "y": 76.2
+          },
+          {
+            "x": 179.07,
+            "y": 76.2
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "Net-(IR_CUT1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 179.07,
+            "y": 76.2
+          },
+          {
+            "x": 179.07,
+            "y": 88.9
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "Net-(IR_CUT1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 179.07,
+            "y": 88.9
+          },
+          {
+            "x": 176.53,
+            "y": 88.9
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "Net-(IR_CUT1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 172.72,
+            "y": 91.44
+          },
+          {
+            "x": 173.99,
+            "y": 91.44
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "Net-(IR_CUT1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 173.99,
+            "y": 91.44
+          },
+          {
+            "x": 176.53,
+            "y": 88.9
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "Net-(IR_CUT1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 172.72,
+            "y": 86.36
+          },
+          {
+            "x": 176.53,
+            "y": 86.36
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "Net-(IR_CUT1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 172.72,
+            "y": 81.28
+          },
+          {
+            "x": 172.72,
+            "y": 86.36
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "Net-(Q1-PadB)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 162.56,
+            "y": 81.28
+          },
+          {
+            "x": 162.56,
+            "y": 80.01
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "Net-(Q1-PadB)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 162.56,
+            "y": 80.01
+          },
+          {
+            "x": 161.29,
+            "y": 78.74
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "Net-(Q1-PadB)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 161.29,
+            "y": 78.74
+          },
+          {
+            "x": 151.13,
+            "y": 78.74
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "Net-(Q1-PadB)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 151.13,
+            "y": 78.74
+          },
+          {
+            "x": 151.13,
+            "y": 96.52
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "Net-(Q1-PadC)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 153.67,
+            "y": 96.52
+          },
+          {
+            "x": 157.48,
+            "y": 96.52
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "Net-(Q2-PadB)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 160.02,
+            "y": 81.28
+          },
+          {
+            "x": 160.02,
+            "y": 99.06
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "Net-(Q2-PadB)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 160.02,
+            "y": 99.06
+          },
+          {
+            "x": 163.83,
+            "y": 102.87
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "Net-(Q2-PadB)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 163.83,
+            "y": 102.87
+          },
+          {
+            "x": 168.91,
+            "y": 102.87
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "Net-(Q2-PadB)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 102.87
+          },
+          {
+            "x": 168.91,
+            "y": 100.33
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "Net-(Q2-PadC)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 162.56,
+            "y": 93.98
+          },
+          {
+            "x": 162.56,
+            "y": 97.79
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "Net-(Q2-PadC)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 162.56,
+            "y": 97.79
+          },
+          {
+            "x": 165.1,
+            "y": 100.33
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "Net-(Q2-PadC)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 165.1,
+            "y": 100.33
+          },
+          {
+            "x": 166.37,
+            "y": 100.33
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "Net-(R3-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 165.1,
+            "y": 93.98
+          },
+          {
+            "x": 165.1,
+            "y": 96.52
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "Net-(R4-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 165.1,
+            "y": 81.28
+          },
+          {
+            "x": 165.1,
+            "y": 82.55
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "Net-(R4-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 165.1,
+            "y": 82.55
+          },
+          {
+            "x": 162.56,
+            "y": 85.09
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "Net-(R4-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 162.56,
+            "y": 85.09
+          },
+          {
+            "x": 162.56,
+            "y": 86.36
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "Net-(U1-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 165.1,
+            "y": 88.9
+          },
+          {
+            "x": 165.1,
+            "y": 91.44
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "Net-(U2-Pad2)",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 165.1,
+            "y": 76.2
+          },
+          {
+            "x": 165.1,
+            "y": 78.74
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "/SDA",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 158.75,
+            "y": 68.58
+          },
+          {
+            "x": 158.75,
+            "y": 69.85
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "/SDA",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 158.75,
+            "y": 69.85
+          },
+          {
+            "x": 157.48,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "/SDA",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 157.48,
+            "y": 71.12
+          },
+          {
+            "x": 154.94,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "/SDA",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 154.94,
+            "y": 71.12
+          },
+          {
+            "x": 153.67,
+            "y": 72.39
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "/SDA",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 153.67,
+            "y": 72.39
+          },
+          {
+            "x": 153.67,
+            "y": 73.66
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "/SCL",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 156.21,
+            "y": 68.58
+          },
+          {
+            "x": 151.13,
+            "y": 73.66
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "/3.3V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 151.13,
+            "y": 68.58
+          },
+          {
+            "x": 149.86,
+            "y": 68.58
+          }
+        ]
+      },
+      {
+        "id": "trace-32",
+        "net": "/3.3V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 149.86,
+            "y": 68.58
+          },
+          {
+            "x": 146.05,
+            "y": 72.39
+          }
+        ]
+      },
+      {
+        "id": "trace-33",
+        "net": "/3.3V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 146.05,
+            "y": 72.39
+          },
+          {
+            "x": 146.05,
+            "y": 73.66
+          }
+        ]
+      },
+      {
+        "id": "trace-34",
+        "net": "/GPIO2",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 161.29,
+            "y": 68.58
+          },
+          {
+            "x": 161.29,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-35",
+        "net": "/GPIO2",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 161.29,
+            "y": 71.12
+          },
+          {
+            "x": 160.02,
+            "y": 72.39
+          }
+        ]
+      },
+      {
+        "id": "trace-36",
+        "net": "/GPIO2",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 160.02,
+            "y": 72.39
+          },
+          {
+            "x": 160.02,
+            "y": 73.66
+          }
+        ]
+      },
+      {
+        "id": "trace-37",
+        "net": "/GPIO1",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 163.83,
+            "y": 68.58
+          },
+          {
+            "x": 163.83,
+            "y": 71.12
+          }
+        ]
+      },
+      {
+        "id": "trace-38",
+        "net": "/GPIO1",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 163.83,
+            "y": 71.12
+          },
+          {
+            "x": 162.56,
+            "y": 72.39
+          }
+        ]
+      },
+      {
+        "id": "trace-39",
+        "net": "/GPIO1",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 162.56,
+            "y": 72.39
+          },
+          {
+            "x": 162.56,
+            "y": 73.66
+          }
+        ]
+      },
+      {
+        "id": "trace-40",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 78.74
+          },
+          {
+            "x": 168.91,
+            "y": 82.55
+          }
+        ]
+      },
+      {
+        "id": "trace-41",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 82.55
+          },
+          {
+            "x": 165.1,
+            "y": 86.36
+          }
+        ]
+      },
+      {
+        "id": "trace-42",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 73.66
+          },
+          {
+            "x": 168.91,
+            "y": 74.93
+          }
+        ]
+      },
+      {
+        "id": "trace-43",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 74.93
+          },
+          {
+            "x": 168.91,
+            "y": 78.74
+          }
+        ]
+      },
+      {
+        "id": "trace-44",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 168.91,
+            "y": 78.74
+          },
+          {
+            "x": 172.72,
+            "y": 78.74
+          }
+        ]
+      },
+      {
+        "id": "trace-45",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 165.1,
+            "y": 73.66
+          },
+          {
+            "x": 168.91,
+            "y": 73.66
+          }
+        ]
+      },
+      {
+        "id": "trace-46",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 166.37,
+            "y": 72.39
+          },
+          {
+            "x": 165.1,
+            "y": 73.66
+          }
+        ]
+      },
+      {
+        "id": "trace-47",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 166.37,
+            "y": 68.58
+          },
+          {
+            "x": 166.37,
+            "y": 72.39
+          }
+        ]
+      },
+      {
+        "id": "trace-48",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 166.37,
+            "y": 67.31
+          },
+          {
+            "x": 167.64,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-49",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 167.64,
+            "y": 66.04
+          },
+          {
+            "x": 180.34,
+            "y": 66.04
+          }
+        ]
+      },
+      {
+        "id": "trace-50",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 180.34,
+            "y": 66.04
+          },
+          {
+            "x": 180.34,
+            "y": 91.44
+          }
+        ]
+      },
+      {
+        "id": "trace-51",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 180.34,
+            "y": 91.44
+          },
+          {
+            "x": 177.8,
+            "y": 93.98
+          }
+        ]
+      },
+      {
+        "id": "trace-52",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 177.8,
+            "y": 93.98
+          },
+          {
+            "x": 172.72,
+            "y": 93.98
+          }
+        ]
+      },
+      {
+        "id": "trace-53",
+        "net": "/5V",
+        "layer": "B.Cu",
+        "width": 0.254,
+        "points": [
+          {
+            "x": 166.37,
+            "y": 68.58
+          },
+          {
+            "x": 166.37,
+            "y": 67.31
+          }
+        ]
+      }
+    ],
+    "vias": [],
+    "zones": [
+      {
+        "id": "zone-0",
+        "net": "GND",
+        "layer": "B.Cu",
+        "points": [
+          {
+            "x": 181.61,
+            "y": 105.41
+          },
+          {
+            "x": 143.51,
+            "y": 105.41
+          },
+          {
+            "x": 143.51,
+            "y": 64.77
+          },
+          {
+            "x": 181.61,
+            "y": 64.77
+          }
+        ],
+        "priority": 0
+      }
+    ],
+    "nets": [
+      {
+        "name": "Net-(IR_CUT1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IR_CUT1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "GND",
+        "class": "ground"
+      },
+      {
+        "name": "Net-(Q1-PadB)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(Q1-PadC)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(Q2-PadB)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(Q2-PadC)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R3-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(R4-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(U2-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "/SDA",
+        "class": "signal"
+      },
+      {
+        "name": "/SCL",
+        "class": "signal"
+      },
+      {
+        "name": "/3.3V",
+        "class": "signal"
+      },
+      {
+        "name": "/GPIO2",
+        "class": "signal"
+      },
+      {
+        "name": "/GPIO1",
+        "class": "signal"
+      },
+      {
+        "name": "/5V",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "ir-switcher",
+      "description": "",
+      "revision": "",
+      "author": "nenadalm",
+      "date": "2026-03-20T08:42:11.438Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996131438,
+  "updatedAt": 1773996131438
+}

@@ -1,0 +1,2156 @@
+{
+  "egb": 1,
+  "name": "ummtss",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 100,
+      "height": 91,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 130,
+          "y": 30
+        },
+        {
+          "x": 30,
+          "y": 30
+        },
+        {
+          "x": 30,
+          "y": 121
+        },
+        {
+          "x": 130,
+          "y": 121
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/CON1",
+        "type": "capacitor",
+        "designator": "CON1",
+        "value": "BARREL_JACK",
+        "package": "BARREL_JACK",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 126.365,
+        "y": 101.981,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(CON1-Pad1)",
+            "x": 6.20014,
+            "y": 0,
+            "width": 3.50012,
+            "height": 3.50012,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(CON1-Pad2)",
+            "x": 0.20066,
+            "y": 0,
+            "width": 3.50012,
+            "height": 3.50012,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(CON1-Pad3)",
+            "x": 3.2004,
+            "y": 4.699,
+            "width": 3.50012,
+            "height": 3.50012,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 15.9,
+        "bodyHeight": 12.898,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/J1",
+        "type": "connector",
+        "designator": "J1",
+        "value": "JACK_2P",
+        "package": "jack-PJ301M",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 43.688,
+        "y": 98.171,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J1-Pad1)",
+            "x": 0,
+            "y": -4.92,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J1-Pad2)",
+            "x": 0,
+            "y": 3.38,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J1-Pad3)",
+            "x": 0,
+            "y": 6.48,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.5,
+        "bodyHeight": 13.96,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/J2",
+        "type": "connector",
+        "designator": "J2",
+        "value": "JACK_2P",
+        "package": "jack-PJ301M",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 74.041,
+        "y": 98.806,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J2-Pad1)",
+            "x": 0,
+            "y": -4.92,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J2-Pad2)",
+            "x": 0,
+            "y": 3.38,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J2-Pad3)",
+            "x": 0,
+            "y": 6.48,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.5,
+        "bodyHeight": 13.96,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/J3",
+        "type": "connector",
+        "designator": "J3",
+        "value": "JACK_2P",
+        "package": "jack-PJ301M",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 100.965,
+        "y": 53.467,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J3-Pad1)",
+            "x": 0,
+            "y": -4.92,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J3-Pad2)",
+            "x": 0,
+            "y": 3.38,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J3-Pad3)",
+            "x": 0,
+            "y": 6.48,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.5,
+        "bodyHeight": 13.96,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/J4",
+        "type": "connector",
+        "designator": "J4",
+        "value": "JACK_2P",
+        "package": "jack-PJ301M",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 123.952,
+        "y": 53.086,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J4-Pad1)",
+            "x": 0,
+            "y": -4.92,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J4-Pad2)",
+            "x": 0,
+            "y": 3.38,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J4-Pad3)",
+            "x": 0,
+            "y": 6.48,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.5,
+        "bodyHeight": 13.96,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/J5",
+        "type": "connector",
+        "designator": "J5",
+        "value": "JACK_2P",
+        "package": "jack-PJ301M",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 60.96,
+        "y": 50.546,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J5-Pad1)",
+            "x": 0,
+            "y": -4.92,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J5-Pad2)",
+            "x": 0,
+            "y": 3.38,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J5-Pad3)",
+            "x": 0,
+            "y": 6.48,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.5,
+        "bodyHeight": 13.96,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/J6",
+        "type": "connector",
+        "designator": "J6",
+        "value": "JACK_2P",
+        "package": "jack-PJ301M",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 80.645,
+        "y": 51.562,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J6-Pad1)",
+            "x": 0,
+            "y": -4.92,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J6-Pad2)",
+            "x": 0,
+            "y": 3.38,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J6-Pad3)",
+            "x": 0,
+            "y": 6.48,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.5,
+        "bodyHeight": 13.96,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/P1",
+        "type": "connector",
+        "designator": "P1",
+        "value": "PWR",
+        "package": "Pin_Header_Straight_1x04",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 118.872,
+        "y": 110.744,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(CON1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(CON1-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P1-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(P1-Pad4)",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 16.967,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/P2",
+        "type": "connector",
+        "designator": "P2",
+        "value": "HiHat",
+        "package": "Pin_Header_Straight_1x12",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 48.768,
+        "y": 110.744,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J1-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J1-Pad3)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P2-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(P2-Pad4)",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(P2-Pad5)",
+            "x": 0,
+            "y": 10.16,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(P2-Pad6)",
+            "x": 0,
+            "y": 12.7,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(P2-Pad7)",
+            "x": 0,
+            "y": 15.24,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(P2-Pad8)",
+            "x": 0,
+            "y": 17.78,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(P2-Pad9)",
+            "x": 0,
+            "y": 20.32,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "Net-(J2-Pad1)",
+            "x": 0,
+            "y": 22.86,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "Net-(J2-Pad3)",
+            "x": 0,
+            "y": 25.4,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "Net-(J2-Pad2)",
+            "x": 0,
+            "y": 27.94,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 57.607,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/P3",
+        "type": "connector",
+        "designator": "P3",
+        "value": "Bassdrum",
+        "package": "Pin_Header_Straight_1x12",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 99.06,
+        "y": 33.655,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J3-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J3-Pad3)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P3-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(P3-Pad4)",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(P3-Pad5)",
+            "x": 0,
+            "y": 10.16,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(P3-Pad6)",
+            "x": 0,
+            "y": 12.7,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(P3-Pad7)",
+            "x": 0,
+            "y": 15.24,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(P3-Pad8)",
+            "x": 0,
+            "y": 17.78,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(P3-Pad9)",
+            "x": 0,
+            "y": 20.32,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "Net-(J4-Pad1)",
+            "x": 0,
+            "y": 22.86,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "Net-(J4-Pad3)",
+            "x": 0,
+            "y": 25.4,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "12",
+            "signalName": "12",
+            "netName": "Net-(J4-Pad2)",
+            "x": 0,
+            "y": 27.94,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 57.607,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/P4",
+        "type": "connector",
+        "designator": "P4",
+        "value": "Snare",
+        "package": "Pin_Header_Straight_1x10",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 60.325,
+        "y": 33.655,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J5-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J5-Pad3)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P4-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(P4-Pad4)",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(P4-Pad5)",
+            "x": 0,
+            "y": 10.16,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(P4-Pad6)",
+            "x": 0,
+            "y": 12.7,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(P4-Pad7)",
+            "x": 0,
+            "y": 15.24,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(J6-Pad1)",
+            "x": 0,
+            "y": 17.78,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(J6-Pad3)",
+            "x": 0,
+            "y": 20.32,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "10",
+            "signalName": "10",
+            "netName": "Net-(J6-Pad2)",
+            "x": 0,
+            "y": 22.86,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 47.447,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV1",
+        "type": "resistor",
+        "designator": "RV1",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 57.15,
+        "y": 96.266,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P2-Pad3)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P2-Pad3)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P2-Pad4)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV2",
+        "type": "resistor",
+        "designator": "RV2",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 67.31,
+        "y": 96.139,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P2-Pad5)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P2-Pad5)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P2-Pad6)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV3",
+        "type": "resistor",
+        "designator": "RV3",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 51.689,
+        "y": 95.885,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P2-Pad7)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P2-Pad8)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P2-Pad9)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV4",
+        "type": "resistor",
+        "designator": "RV4",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 109.982,
+        "y": 53.467,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P3-Pad3)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P3-Pad3)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P3-Pad4)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV5",
+        "type": "resistor",
+        "designator": "RV5",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 118.11,
+        "y": 52.832,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P3-Pad5)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P3-Pad5)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P3-Pad6)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV6",
+        "type": "resistor",
+        "designator": "RV6",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 121.539,
+        "y": 54.102,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P3-Pad7)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P3-Pad8)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P3-Pad9)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV7",
+        "type": "resistor",
+        "designator": "RV7",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 42.926,
+        "y": 36.576,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P4-Pad3)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P4-Pad3)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P4-Pad4)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV8",
+        "type": "resistor",
+        "designator": "RV8",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 71.755,
+        "y": 50.165,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P4-Pad5)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P4-Pad6)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P4-Pad7)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/SW1",
+        "type": "switch",
+        "designator": "SW1",
+        "value": "SPST",
+        "package": "SW_Micro_SPST",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 124.206,
+        "y": 91.821,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P1-Pad3)",
+            "x": -2.54,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P1-Pad4)",
+            "x": 0,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "",
+            "x": 2.54,
+            "y": 0,
+            "width": 1.397,
+            "height": 1.397,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.8128
+          }
+        ],
+        "bodyWidth": 6.477,
+        "bodyHeight": 1.397,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/P5",
+        "type": "connector",
+        "designator": "P5",
+        "value": "OUTPUT",
+        "package": "Pin_Header_Straight_1x05",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 88.9,
+        "y": 110.744,
+        "rotation": 90,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P5-Pad1)",
+            "x": 0,
+            "y": 0,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P5-Pad2)",
+            "x": 0,
+            "y": 2.54,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P5-Pad3)",
+            "x": 0,
+            "y": 5.08,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(J7-Pad1)",
+            "x": 0,
+            "y": 7.62,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(J7-Pad3)",
+            "x": 0,
+            "y": 10.16,
+            "width": 2.032,
+            "height": 1.7272,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.016
+          }
+        ],
+        "bodyWidth": 2.032,
+        "bodyHeight": 22.047,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/J7",
+        "type": "connector",
+        "designator": "J7",
+        "value": "JACK_2P",
+        "package": "jack-PJ301M",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 98.806,
+        "y": 99.187,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(J7-Pad1)",
+            "x": 0,
+            "y": -4.92,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(J7-Pad2)",
+            "x": 0,
+            "y": 3.38,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(J7-Pad3)",
+            "x": 0,
+            "y": 6.48,
+            "width": 2.5,
+            "height": 1,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top"
+          }
+        ],
+        "bodyWidth": 2.5,
+        "bodyHeight": 13.96,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "cmos-droner/UM-TSS/ummtss/RV9",
+        "type": "resistor",
+        "designator": "RV9",
+        "value": "POT",
+        "package": "pot_alpha-9mm--vertical",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 91.313,
+        "y": 97.282,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": 4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(P5-Pad1)",
+            "x": -2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P5-Pad2)",
+            "x": 0,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(P5-Pad3)",
+            "x": 2.5,
+            "y": 6.65,
+            "width": 1.824,
+            "height": 1.524,
+            "shape": "oval",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1
+          },
+          {
+            "id": "",
+            "signalName": "",
+            "netName": "",
+            "x": -4.65,
+            "y": -0.1,
+            "width": 2.524,
+            "height": 2.524,
+            "shape": "rect",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.8
+          }
+        ],
+        "bodyWidth": 11.824,
+        "bodyHeight": 14.824,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "Net-(P3-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(CON1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(CON1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(CON1-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J1-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J2-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J2-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J2-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J3-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J3-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J3-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J4-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J4-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J4-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J5-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J5-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J5-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J6-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J6-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J6-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P1-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P1-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P2-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P2-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P2-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P2-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P2-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P2-Pad8)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P2-Pad9)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P3-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P3-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P3-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P3-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P3-Pad8)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P3-Pad9)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P4-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P5-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P5-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P5-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J7-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J7-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(J7-Pad3)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "ummtss",
+      "description": "",
+      "revision": "",
+      "author": "cmos-droner",
+      "date": "2026-03-20T08:42:11.442Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996131441,
+  "updatedAt": 1773996131441
+}

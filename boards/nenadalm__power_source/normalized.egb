@@ -1,0 +1,1162 @@
+{
+  "egb": 1,
+  "name": "power_source",
+  "intent": null,
+  "design": {
+    "board": {
+      "width": 54.610000000000014,
+      "height": 46.99,
+      "layers": 2,
+      "thickness": 1.6,
+      "shape": [
+        {
+          "x": 208.28,
+          "y": 107.95
+        },
+        {
+          "x": 153.67,
+          "y": 107.95
+        },
+        {
+          "x": 153.67,
+          "y": 60.96
+        },
+        {
+          "x": 208.28,
+          "y": 60.96
+        }
+      ],
+      "cornerRadius": 0
+    },
+    "parts": [
+      {
+        "id": "nenadalm/diy/power_source/IN1",
+        "type": "other",
+        "designator": "IN1",
+        "value": "CONN_01X08",
+        "package": "USB2AW",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 199.39,
+        "y": 90.17,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(IN1-Pad1)",
+            "x": -3.5,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(IN1-Pad2)",
+            "x": -1,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(IN1-Pad3)",
+            "x": 1,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(IN1-Pad4)",
+            "x": 3.5,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "Net-(IN1-Pad5)",
+            "x": -3.5,
+            "y": 2.65,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(IN1-Pad6)",
+            "x": -1,
+            "y": 2.65,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "7",
+            "signalName": "7",
+            "netName": "Net-(IN1-Pad7)",
+            "x": 1,
+            "y": 2.65,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(IN1-Pad8)",
+            "x": 3.5,
+            "y": 2.65,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "14",
+            "signalName": "14",
+            "netName": "",
+            "x": -6.5,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "15",
+            "signalName": "15",
+            "netName": "",
+            "x": 6.5,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "",
+            "x": -6.5,
+            "y": 5.7,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "17",
+            "signalName": "17",
+            "netName": "",
+            "x": 6.5,
+            "y": 5.7,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          }
+        ],
+        "bodyWidth": 14.524,
+        "bodyHeight": 12.924,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/power_source/K1",
+        "type": "relay",
+        "designator": "K1",
+        "value": "RELAY_G5V-2",
+        "package": "RELAY",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 181.61,
+        "y": 80.01,
+        "rotation": 0,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(K1-Pad1)",
+            "x": -3.75,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "16",
+            "signalName": "16",
+            "netName": "Net-(K1-Pad16)",
+            "x": 3.75,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "Net-(IN1-Pad1)",
+            "x": -3.75,
+            "y": 15.26,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(K1-Pad4)",
+            "x": -3.75,
+            "y": 20.3,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "8",
+            "signalName": "8",
+            "netName": "Net-(IN1-Pad5)",
+            "x": -3.75,
+            "y": 25.34,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "11",
+            "signalName": "11",
+            "netName": "Net-(IN1-Pad4)",
+            "x": 3.75,
+            "y": 15.26,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "13",
+            "signalName": "13",
+            "netName": "Net-(K1-Pad13)",
+            "x": 3.75,
+            "y": 20.3,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "9",
+            "signalName": "9",
+            "netName": "Net-(IN1-Pad8)",
+            "x": 3.75,
+            "y": 25.34,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          }
+        ],
+        "bodyWidth": 9.024,
+        "bodyHeight": 52.204,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/power_source/OUT1",
+        "type": "other",
+        "designator": "OUT1",
+        "value": "CONN_01X04",
+        "package": "USB_A",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 163.83,
+        "y": 93.98,
+        "rotation": 270,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "4",
+            "signalName": "4",
+            "netName": "Net-(K1-Pad13)",
+            "x": 0,
+            "y": -3.556,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(OUT1-Pad3)",
+            "x": 0,
+            "y": -1.016,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(OUT1-Pad2)",
+            "x": 0,
+            "y": 1.016,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(K1-Pad4)",
+            "x": 0,
+            "y": 3.556,
+            "width": 1.50114,
+            "height": 1.50114,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 1.00076
+          },
+          {
+            "id": "5",
+            "signalName": "5",
+            "netName": "",
+            "x": 2.667,
+            "y": -6.604,
+            "width": 2.99974,
+            "height": 2.99974,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 2.30124
+          },
+          {
+            "id": "6",
+            "signalName": "6",
+            "netName": "",
+            "x": 2.667,
+            "y": 7.112,
+            "width": 2.99974,
+            "height": 2.99974,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 2.30124
+          }
+        ],
+        "bodyWidth": 8.334,
+        "bodyHeight": 17.224,
+        "bodyHeight3D": 1
+      },
+      {
+        "id": "nenadalm/diy/power_source/P1",
+        "type": "connector",
+        "designator": "P1",
+        "value": "CONN_01X03",
+        "package": "CMM_53SQ",
+        "description": "",
+        "mpn": "",
+        "manufacturer": "",
+        "x": 181.61,
+        "y": 71.12,
+        "rotation": 180,
+        "layer": "top",
+        "pads": [
+          {
+            "id": "2",
+            "signalName": "2",
+            "netName": "Net-(P1-Pad2)",
+            "x": 0,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "1",
+            "signalName": "1",
+            "netName": "Net-(K1-Pad16)",
+            "x": -5,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          },
+          {
+            "id": "3",
+            "signalName": "3",
+            "netName": "Net-(K1-Pad1)",
+            "x": 5,
+            "y": 0,
+            "width": 1.524,
+            "height": 1.524,
+            "shape": "circle",
+            "type": "through_hole",
+            "layer": "top",
+            "drillSize": 0.762
+          }
+        ],
+        "bodyWidth": 11.524,
+        "bodyHeight": 1.524,
+        "bodyHeight3D": 1
+      }
+    ],
+    "traces": [
+      {
+        "id": "trace-0",
+        "net": "Net-(IN1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 195.89,
+            "y": 90.17
+          },
+          {
+            "x": 195.89,
+            "y": 87.94
+          }
+        ]
+      },
+      {
+        "id": "trace-1",
+        "net": "Net-(IN1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 185.5,
+            "y": 87.63
+          },
+          {
+            "x": 177.86,
+            "y": 95.27
+          }
+        ]
+      },
+      {
+        "id": "trace-2",
+        "net": "Net-(IN1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 195.58,
+            "y": 87.63
+          },
+          {
+            "x": 185.5,
+            "y": 87.63
+          }
+        ]
+      },
+      {
+        "id": "trace-3",
+        "net": "Net-(IN1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 195.89,
+            "y": 87.94
+          },
+          {
+            "x": 195.58,
+            "y": 87.63
+          }
+        ]
+      },
+      {
+        "id": "trace-4",
+        "net": "Net-(IN1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 202.89,
+            "y": 90.17
+          },
+          {
+            "x": 202.89,
+            "y": 87.32
+          }
+        ]
+      },
+      {
+        "id": "trace-5",
+        "net": "Net-(IN1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 182.84,
+            "y": 97.79
+          },
+          {
+            "x": 185.36,
+            "y": 95.27
+          }
+        ]
+      },
+      {
+        "id": "trace-6",
+        "net": "Net-(IN1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 176.53,
+            "y": 97.79
+          },
+          {
+            "x": 182.84,
+            "y": 97.79
+          }
+        ]
+      },
+      {
+        "id": "trace-7",
+        "net": "Net-(IN1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 175.26,
+            "y": 96.52
+          },
+          {
+            "x": 176.53,
+            "y": 97.79
+          }
+        ]
+      },
+      {
+        "id": "trace-8",
+        "net": "Net-(IN1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 175.26,
+            "y": 93.98
+          },
+          {
+            "x": 175.26,
+            "y": 96.52
+          }
+        ]
+      },
+      {
+        "id": "trace-9",
+        "net": "Net-(IN1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 184.15,
+            "y": 85.09
+          },
+          {
+            "x": 175.26,
+            "y": 93.98
+          }
+        ]
+      },
+      {
+        "id": "trace-10",
+        "net": "Net-(IN1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 200.66,
+            "y": 85.09
+          },
+          {
+            "x": 184.15,
+            "y": 85.09
+          }
+        ]
+      },
+      {
+        "id": "trace-11",
+        "net": "Net-(IN1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 202.89,
+            "y": 87.32
+          },
+          {
+            "x": 200.66,
+            "y": 85.09
+          }
+        ]
+      },
+      {
+        "id": "trace-12",
+        "net": "Net-(IN1-Pad5)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 195.89,
+            "y": 92.82
+          },
+          {
+            "x": 195.89,
+            "y": 98.75
+          }
+        ]
+      },
+      {
+        "id": "trace-13",
+        "net": "Net-(IN1-Pad5)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 180.34,
+            "y": 102.87
+          },
+          {
+            "x": 177.86,
+            "y": 105.35
+          }
+        ]
+      },
+      {
+        "id": "trace-14",
+        "net": "Net-(IN1-Pad5)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 191.77,
+            "y": 102.87
+          },
+          {
+            "x": 180.34,
+            "y": 102.87
+          }
+        ]
+      },
+      {
+        "id": "trace-15",
+        "net": "Net-(IN1-Pad5)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 195.89,
+            "y": 98.75
+          },
+          {
+            "x": 191.77,
+            "y": 102.87
+          }
+        ]
+      },
+      {
+        "id": "trace-16",
+        "net": "Net-(IN1-Pad8)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 185.36,
+            "y": 105.35
+          },
+          {
+            "x": 192.98,
+            "y": 105.35
+          }
+        ]
+      },
+      {
+        "id": "trace-17",
+        "net": "Net-(IN1-Pad8)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 202.89,
+            "y": 95.44
+          },
+          {
+            "x": 202.89,
+            "y": 92.82
+          }
+        ]
+      },
+      {
+        "id": "trace-18",
+        "net": "Net-(IN1-Pad8)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 192.98,
+            "y": 105.35
+          },
+          {
+            "x": 202.89,
+            "y": 95.44
+          }
+        ]
+      },
+      {
+        "id": "trace-19",
+        "net": "Net-(K1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 176.61,
+            "y": 71.12
+          },
+          {
+            "x": 176.61,
+            "y": 78.76
+          }
+        ]
+      },
+      {
+        "id": "trace-20",
+        "net": "Net-(K1-Pad1)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 176.61,
+            "y": 78.76
+          },
+          {
+            "x": 177.86,
+            "y": 80.01
+          }
+        ]
+      },
+      {
+        "id": "trace-21",
+        "net": "Net-(K1-Pad16)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 186.61,
+            "y": 71.12
+          },
+          {
+            "x": 186.61,
+            "y": 78.76
+          }
+        ]
+      },
+      {
+        "id": "trace-22",
+        "net": "Net-(K1-Pad16)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 186.61,
+            "y": 78.76
+          },
+          {
+            "x": 185.36,
+            "y": 80.01
+          }
+        ]
+      },
+      {
+        "id": "trace-23",
+        "net": "Net-(K1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 160.274,
+            "y": 93.98
+          },
+          {
+            "x": 160.274,
+            "y": 92.456
+          }
+        ]
+      },
+      {
+        "id": "trace-24",
+        "net": "Net-(K1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 175.24,
+            "y": 100.31
+          },
+          {
+            "x": 177.86,
+            "y": 100.31
+          }
+        ]
+      },
+      {
+        "id": "trace-25",
+        "net": "Net-(K1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.72,
+            "y": 97.79
+          },
+          {
+            "x": 175.24,
+            "y": 100.31
+          }
+        ]
+      },
+      {
+        "id": "trace-26",
+        "net": "Net-(K1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 172.72,
+            "y": 92.71
+          },
+          {
+            "x": 172.72,
+            "y": 97.79
+          }
+        ]
+      },
+      {
+        "id": "trace-27",
+        "net": "Net-(K1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 171.45,
+            "y": 91.44
+          },
+          {
+            "x": 172.72,
+            "y": 92.71
+          }
+        ]
+      },
+      {
+        "id": "trace-28",
+        "net": "Net-(K1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 161.29,
+            "y": 91.44
+          },
+          {
+            "x": 171.45,
+            "y": 91.44
+          }
+        ]
+      },
+      {
+        "id": "trace-29",
+        "net": "Net-(K1-Pad4)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 160.274,
+            "y": 92.456
+          },
+          {
+            "x": 161.29,
+            "y": 91.44
+          }
+        ]
+      },
+      {
+        "id": "trace-30",
+        "net": "Net-(K1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 167.386,
+            "y": 93.98
+          },
+          {
+            "x": 167.386,
+            "y": 102.616
+          }
+        ]
+      },
+      {
+        "id": "trace-31",
+        "net": "Net-(K1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 181.63,
+            "y": 100.31
+          },
+          {
+            "x": 185.36,
+            "y": 100.31
+          }
+        ]
+      },
+      {
+        "id": "trace-32",
+        "net": "Net-(K1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 180.34,
+            "y": 101.6
+          },
+          {
+            "x": 181.63,
+            "y": 100.31
+          }
+        ]
+      },
+      {
+        "id": "trace-33",
+        "net": "Net-(K1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 179.07,
+            "y": 101.6
+          },
+          {
+            "x": 180.34,
+            "y": 101.6
+          }
+        ]
+      },
+      {
+        "id": "trace-34",
+        "net": "Net-(K1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 177.8,
+            "y": 102.87
+          },
+          {
+            "x": 179.07,
+            "y": 101.6
+          }
+        ]
+      },
+      {
+        "id": "trace-35",
+        "net": "Net-(K1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 167.64,
+            "y": 102.87
+          },
+          {
+            "x": 177.8,
+            "y": 102.87
+          }
+        ]
+      },
+      {
+        "id": "trace-36",
+        "net": "Net-(K1-Pad13)",
+        "layer": "B.Cu",
+        "width": 0.25,
+        "points": [
+          {
+            "x": 167.386,
+            "y": 102.616
+          },
+          {
+            "x": 167.64,
+            "y": 102.87
+          }
+        ]
+      }
+    ],
+    "vias": [],
+    "zones": [],
+    "nets": [
+      {
+        "name": "Net-(IN1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IN1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IN1-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IN1-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IN1-Pad5)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IN1-Pad6)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IN1-Pad7)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(IN1-Pad8)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(K1-Pad1)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(K1-Pad16)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(K1-Pad4)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(K1-Pad13)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(OUT1-Pad3)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(OUT1-Pad2)",
+        "class": "signal"
+      },
+      {
+        "name": "Net-(P1-Pad2)",
+        "class": "signal"
+      }
+    ],
+    "designRules": {
+      "minTraceWidth": 0.15,
+      "minClearance": 0.15,
+      "minViaDrill": 0.3,
+      "minViaAnnular": 0.125,
+      "copperWeight": "1oz"
+    },
+    "metadata": {
+      "name": "power_source",
+      "description": "",
+      "revision": "",
+      "author": "nenadalm",
+      "date": "2026-03-20T08:42:11.438Z"
+    }
+  },
+  "messages": [],
+  "createdAt": 1773996131438,
+  "updatedAt": 1773996131438
+}
